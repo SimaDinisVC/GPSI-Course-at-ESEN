@@ -1,4 +1,4 @@
-Português (Portugal):
+Português (Portugal):<br>
 Num prédio, com 50 moradores, há três elevadores denominados A, B e C. 
 
 Para otimizar o sistema de controlo dos elevadores, foi realizado um levantamento no qual cada utilizador respondia:
@@ -19,7 +19,7 @@ Construa um programa em Python que calcule e imprima:
 
  * Qual a percentagem sobre o total de serviços prestados do elevador de média utilização
  
- English:
+ English:<br>
  In a building with 50 residents, there are three elevators called A, B and C.
 
 To optimize the elevators' control system, a survey was carried out in which each user answered:
