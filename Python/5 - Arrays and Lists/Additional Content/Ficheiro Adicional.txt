@@ -1,0 +1,42 @@
+#Criar uma lista vazia
+lista1 =[]
+#Criar uma lista com elementos
+lista2 = [2, 10, 15, 18, 1]
+#Criar uma lista com varios tipos de dados
+lista3 = [1,"AFonso","Sousa",16]
+#Criar uma lista que tenha outra lista
+lista4 = [1, 2,[5, 6, 7]]
+#EXEMPLO
+list = ["p","r","o","b","e"]
+print(list[2])
+#A contagem é feita da direita para a esquerda começando no indice -1
+print(list[-2])
+print(list[3])
+#inserir um novo elemento na lista
+#append coloca automaticamente o elemento no fim da lista
+list.append("w") 
+#Imprimir a lista completa
+print(list)
+#inserir varios elementos na lista
+list.extend(["y","z","a"])
+print(list)
+#Inserir um elemeto numa posição especifica
+list.insert(4,"a")
+print(list)
+#eliminar um elemento de uma posição específica
+del list[-1]
+print(list)
+#limpar a lista
+list.clear()
+print(list)
+lista = ["Pêssego","Morango","Lanraja","Banana","Manga"]
+#Forma mais facil de imprimir todos os elememtos de uma lista 
+for Fruta in lista:
+    print(Fruta)
+
+#Tamanho da lista
+
+print(len(lista))
+#Forma mais complexa de imprimir todos os elementos de uma lista
+for i in range(0, len(lista)):
+    print(lista[i])
