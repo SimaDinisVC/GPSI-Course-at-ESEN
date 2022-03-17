@@ -1,5 +1,22 @@
-autor = {"php":"Rasmus Lerdorf","perl":"Larry Wall","tcl":"John Ousterhout", "awk":"Brian Kernighan","java":"James osling","parrot":"Simon Cozens", "python":"Guido van Rossum"}
-
-linguagem = input('Introduza o nome da linguagem para ver o autor: ')
-
-print(autor.get(linguagem, 'O autor não existe!'))
+dados = {
+    'Pedro': ['php', 'html', 'JavaScript'],
+    'Carlos': ['C#', 'Python', 'Java']
+}
+###Menú###
+while True:
+    print('|Menú|\n0 - Sair\n1 - Ver dados\n2 - Add linguagem de programação')
+    menu = int(input('- '))
+    if menu == 0:
+        exit()
+    elif menu == 1:
+        print(dados)
+    elif menu == 2:
+        nomeProg = input('Introduza o nome do programador a escolher:')
+        dados.setdefault(nomeProg,[])
+        lingua = list(input('Introduza os nomes das linguagems a escolher separados por espaços:').split())
+        dados[nomeProg] + lingua
+    else:
+        while menu < 0 and menu > 2:
+            print('O número introduzido tem de estar compreendido entre 0 e 2')
+            print('|Menú|\n0 - Sair\n1 - Ver dados\n2 - Add linguagem de programação')
+            menu = int(input('- '))
