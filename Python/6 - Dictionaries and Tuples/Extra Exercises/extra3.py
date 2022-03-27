@@ -11,9 +11,18 @@ while True:
     elif menu == 1:
         print(dados)
     elif menu == 2:
-        nomeProg = input('Introduza o nome do programador a escolher:')
-        dados.setdefault(nomeProg,[])
-        lingua = input('Introduza os nomes das linguagems a escolher separados por espaços:').split()
+        loop = True
+        while loop:
+            nomeProg = input('Introduza o nome do programador a escolher:')
+            dados.setdefault(nomeProg,[])
+            lingua = input('Introduza os nomes das linguagems a escolher separados por espaços:').split()
+            for i in range(len(lingua)):
+                if lingua[i] in dados[nomeProg]:
+                    print('Nomes existentes foram introduzidos, por favor introduza novamente.')
+                    loop=True
+                    break
+                else:
+                    loop=False
         dados[nomeProg] = dados[nomeProg] + lingua
     else:
         while menu < 0 or menu > 2:
