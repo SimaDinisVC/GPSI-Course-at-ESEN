@@ -7,23 +7,24 @@ while email == "":
 
 password = input('Introduza a password: ')
 
-num = ['1', '2', '4', '5', '6', '7', '8', '9']
-
-if len(password) < 8:
-    print('Não segura')
-    exit()
-
+numeros = '1234567890'
+letras = str(string.ascii_lowercase)
 veri = 0
 veri2 = 0
+
 for c in password:
-    if c.lower() in list(string.ascii_lowercase):
+    if c.lower() in letras:
         veri = 1
-    if c in num:
-        veri = 1
+    if c in numeros:
+        veri2 = 1
 if veri == 0:
     print('Não segura')
     exit()
 if veri2 == 0:
+    print('Não segura')
+    exit()
+        
+if len(password) < 8:
     print('Não segura')
     exit()
 
