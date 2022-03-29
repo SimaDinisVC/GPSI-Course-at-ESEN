@@ -24,5 +24,7 @@ while True:
     elif acao == 4:
         for p in produtos:
             print('************')
-            print('Código {0}:\n   Preço - {1}\n   IVA - {2}\n   Descrição - {3}'.format(p,produtos[p]['Preço'],produtos[p]['IVA'], produtos[p]['Descrição']))
+            print('Código {0}:\n   Preço - {1}\n   IVA - {2}%\n   Descrição - {3}'.format(p,produtos[p]['Preço'],produtos[p]['IVA'], produtos[p]['Descrição']))
             print('************')
+    else:
+        print('Tem que introduzir um nº que esteja entre 0e4.')

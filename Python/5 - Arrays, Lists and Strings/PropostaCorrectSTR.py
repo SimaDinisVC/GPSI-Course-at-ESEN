@@ -8,37 +8,27 @@ while email == "":
 password = input('Introduza a password: ')
 
 num = ['1', '2', '4', '5', '6', '7', '8', '9']
-verificacao = []
 
 if len(password) < 8:
-    verificacao.append(0)
-else:
-    verificacao.append(1)
+    print('Não segura')
+    exit()
 
 veri = 0
+veri2 = 0
 for c in password:
     if c.lower() in list(string.ascii_lowercase):
         veri = 1
-        verificacao.append(1)
-        break
-if veri == 0:
-    verificacao.append(0)
-
-veri = 0
-for c in password:
     if c in num:
         veri = 1
-        verificacao.append(1)
-        break
 if veri == 0:
-    verificacao.append(0)
+    print('Não segura')
+    exit()
+if veri2 == 0:
+    print('Não segura')
+    exit()
 
 if email[:email.index('@'):].lower() in password.lower():
-    verificacao.append(0)
-else:
-    verificacao.append(1)
+    print('Não segura')
+    exit()
 
-if 0 in verificacao:
-    print('Não Segura')
-else:
-    print('Segura')
+print('Segura')

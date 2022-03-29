@@ -1,0 +1,1 @@
+In that folder/module we don't have proposed exercises so I was only put the extra exercises based on exercises invented by the teacher and the PPT (PowerPoint).
