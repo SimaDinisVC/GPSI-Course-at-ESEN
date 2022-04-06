@@ -9,7 +9,7 @@ from datetime import datetime
 def menu():
     print('0 - Sair')
     print('1 - Nova Entrada')
-    print('2 - Lista ordenada dos nome das localidades por total de compras')
+    print('2 - Lista ordenada dos nome das localidades por volume de compras')
     print('3 - Mostrar o periodo do dia com mais volume de compras')
 
 # Zona Principal
@@ -18,10 +18,9 @@ lista_Dict = [
     {'postal':'3510-070', 'valorCompra':80, 'hora':'11:25', 'data':'04-04-2022'}
 ]
 
-localidades = {[1000,1999]:'Lisboa', [2000,2399]:'Santarém', [2400,2599]:'Leiria', [2600,2699]:'Vila Franca de Xira', [2700,2799]:'Amadora', [2800,2899]:'Almada', [2900,2999]:'Setúbal', [3000,3099]:'Coimbra', [3100,3199]:'Pombal', [3200,3299]:'Lousã', [3300,3399]:'Arganil', [3400,3499]:'Oliveira do Hospital', [3500,3599]:'Viseu', [3600,3699]:'Castro Daire', [3700,3799]:'São João da Madeira', [3800,3899]:'Aveiro', [4000,4399]:'Porto', [4400,4499]:'Vila Nova de Gaia', [4500,4599]:'Espinho', [4600,4699]:'Amarante', [4700,4799]:'Braga', [4800,4899]:'Guimarães', [4900,4999]:'Viana do Castelo', [5000,5099]:'Vila Real', [5100,5199]:'Lamego', [5200,5299]:'Mogadouro', [5300,5399]:'Bragança', [5400,5499]:'Chaves', [6000,6099]:'Castelo Branco', [6000,6099]:'Castelo Branco', [6100,6199]:'Sertã', [6200,6299]:'Covilhã', [6300,6399]:'Guarda', [6400,6499]:'Pinhel', [7000,7099]:'Évora', [7100,7199]:'Estremoz', [7200,7299]:'Reguengos de Monsaraz', [7300,7399]:'Portalegre', [7400,7499]:'Ponte de Sôr', [7500,7599]:'Vila Nova de Santo André', [7600,7699]:'Aljustrel', [7700,7799]:'Almodôvar', [7800,7899]:'Beja', [7900,7999]:'Ferreira do Alentejo', [8000,8099]:'Faro', [8100,8199]:'Loulé', [8200,8299]:'Albufeira', [8300,8399]:'Silves', [8400,8499]:'Lagoa', [8500,8599]:'Portimão', [8600,8699]:'Lagos', [8700,8799]:'Olhão', [8800,8899]:'Tavira', 
-[8900,8999]:'Vila Real de Santo António',[9000,9099]:'Funchal',[9100,9199]:'Santa Cruz',[9200,9299]:'Machico',[9300,9399]:'Câmara de Lobos',[9400,9499]:'Porto Santo',[9500,9599]:'Ponta Delgada',[9600,9699]:'Ribeira Grande',[9700,9799]:'Angra do Heroísmo',[9800,9899]:'Velas',[9900,9999]:'Horta'}
+localidades = {(10,11,12,13,14,15,16,17,18,19,26,27):['Lisboa'], (20,22,23):['Santarém'], (24,25,31):['Leiria'], (28,29,75):['Setúbal'], (30,32,33,34):['Coimbra'], (35,36,51):['Viseu'], (37,38,45):['Aveiro'], (40,41,42,43,44,46):['Porto'], (47,48):['Braga'], (49):['Viana do Castelo'], (0,54):['Vila Real'], (52,53):['Bragança'], (60,61,62):['Castelo Branco'], (63,64):['Guarda'], (70,71,72):['Évora'], (73,74):['Portalegre'], (76,77,78,79):['Beja'], (80,81,82,83,84,85,86,87,88,89):['Faro'], (90,91,92,93,94):['Madeira'], (95,96,97,98,99):['Açores']}
 
-periodos = {[6,11]:'Manhã', [12,14]:'Meio-Dia', [15,18]:'Tarde', [19,23]:'Noite', [0,5]:'Madrugada'}
+periodos = {(6,11):'Manhã', (12,14):'Meio-Dia', (15,18):'Tarde', (19,23):'Noite', (0,5):'Madrugada'}
 
 while True:
     menu()
@@ -49,9 +48,15 @@ while True:
         elif len(data) != 10:
             print('Tem de introduzir o : hifen e tudo pegado na data.')
             data = input('Introduza o dia o mês e o ano (DD-MM-AAAA): ')
-        print(postal,valorCompra,hora,data)
+        lista_Dict.append(dict([['posta',postal],['valorCompra',valorCompra],['hora',hora],['data',data]]))
+        postal2 = int(postal[0]+postal[1])
+        for i in localidades.keys():
+            if postal2 in i:
+                localidades[i][1] = localidades.get([i][1], 0) + 1
+        print(localidades)
     elif acao == 2:
-        continue
+        lista_ordenada_localVC = sorted(localidades,key = lambda x: x[1])
+        print(lista_ordenada_localVC)
     elif acao == 3:
         continue
     else:
