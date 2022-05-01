@@ -4,7 +4,7 @@ from ast import Index
 def menu():
     print("----- PILHA -----")
     print("1 - Remover um elemento da pilha")
-    print("2 - Insere um elemento na pilha.")
+    print("2 - Insere um elemento na pilha")
     print("3 - Devolve o último elemento da pilha sem o retirar")
     print("4 - Devolve o total de elementos na pilha")
     print("----- FILA  -----")
@@ -16,21 +16,20 @@ def menu():
             #####Pilhas#####
 def pilha_Pop(pilha):
     try:
-        print("O valor removido da fila foi {}.".format(pilha.pop()))
+        r = pilha.pop()
+        return r
     except IndexError:
-        raise NameError('Não existe mais valores na pilha')
-    return pilha
+        print('Não existe mais valores na pilha.')
 
 def pilha_Push(pilha, valor):
     pilha.append(valor)
-    return pilha
 
 def pilha_Seek(pilha):
     try:
         u = pilha[-1]
         return u 
     except IndexError:
-        raise NameError('Não existe mais valores na pilha')
+        print('Não existe mais valores na pilha.')
 
 def pilha_Count(pilha):
     return len(pilha)
@@ -38,21 +37,20 @@ def pilha_Count(pilha):
             #####Filas#####
 def fila_DeQueue(fila):
     try:
-        print("O valor removido da fila foi {}.".format(fila.pop(0)))
+        r = fila.pop(0)
+        return r
     except IndexError:
-        raise NameError('Não existe mais valores na pilha')
-    return fila
+        print('Não existe mais valores na pilha.')
 
 def fila_EnQueue(fila, valor):
     fila.append(valor)
-    return fila
 
 def fila_Seek(fila):
     try:
         u = fila[0]
         return u
     except IndexError:
-        raise NameError('Não existe mais valores na pilha')
+        print('Não existe mais valores na pilha.')
 
 def fila_Count(fila):
     return len(fila)
@@ -67,10 +65,12 @@ while True:
     acao = int(input("- "))
     print("------------------")
     if acao == 1:
-        pilha = pilha_Pop(pilha)
+        r = pilha_Pop(pilha)
+        if r != None:
+            print("O valor removido da fila foi {}.".format(r))
     elif acao == 2:
         v = input("Introduza o elemento a adicionar: ")
-        pilha = pilha_Push(pilha, v)
+        pilha_Push(pilha, v)
     elif acao == 3:
         u = pilha_Seek(pilha)
         if u != None:
@@ -79,10 +79,12 @@ while True:
         l = pilha_Count(pilha)
         print("A pilha tem {} elementos.".format(l))
     elif acao == 5:
-        fila = fila_DeQueue(fila)
+        r = fila_DeQueue(fila)
+        if r != None:
+            print("O valor removido da fila foi {}.".format(fila.pop(0)))
     elif acao == 6:
         v = input("Introduza o elemento a adicionar: ")
-        fila = fila_EnQueue(fila, v)
+        fila_EnQueue(fila, v)
     elif acao == 7:
         u = fila_Seek(fila)
         if u != None:
