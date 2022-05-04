@@ -1,6 +1,3 @@
-from ast import Index
-
-
 def menu():
     print("----- PILHA -----")
     print("1 - Remover um elemento da pilha")
