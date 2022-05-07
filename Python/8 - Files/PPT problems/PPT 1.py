@@ -1,6 +1,6 @@
 def reader(path):
     try:
-        f = open("path")
+        f = open(path)
         r = f.read()
         f.close()
         return r
