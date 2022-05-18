@@ -108,9 +108,9 @@ while True:
                 dict[k].pop(dict[k].index(s)) # retira a disciplina caso ela exista em nos nºs de processos do dict
                 if dict[k] == []: # se ficar uma lista vazia adiciona numa lista a chave para depois ser removida visto que não podemos remover elementos enquanto estiver em iteração
                     rm.append(k)
-                print('Disciplina de {} removido com sucesso!'.format(s))
         for i in rm:
             dict.pop(i) # remove os nºs de processos com lista vazia
+        print('Disciplina de {} removido com sucesso!'.format(s))
     elif acao == 7:
         print('Formato do Ficheiro: "Nºprocesso : Disci1; Disci2"') # modelo do ficheiro
         c = input('Introduza o caminho absoluto do ficheiro: ')
