@@ -1,39 +1,29 @@
 # Developing
 import os
-def search(path): # verifica se o ficheiro existe
+def search(path): # verifica se o ficheiro existe e retorna boll para ciclos
     if os.path.isfile(path):
         return False
     else:
         return True
+
 def menu():
     print("0 - Sair")
     print("1 - Inserir novo aluno")
     print("2 - Consultar notas do aluno")
 
-print('Formato do ficherio: "Nome - Nº"')
-path_names = input('Introduza o caminho absuluto do ficheiro da turma:')
-while search(path_names):
+print("- Programa de acesso de notas -")
+
+print('Formato do ficherio: "Nº - Nome"')
+path_turmas = input('Introduza o caminho absuluto do ficheiro da turma:')
+while search(path_turmas):
     print('Ficheiro não encontrado!')
-    path_names = input('Introduza o caminho absuluto do ficheiro da turma: ')
+    path_turmas = input('Introduza o caminho absuluto do ficheiro da turma: ')
 
 print('Formato do ficherio: "Nº - Nota"')
-path_notes = input('Introduza o caminho absuluto do ficheiro da turma:')
-while search(path_notes):
+path_notas = input('Introduza o caminho absuluto do ficheiro da turma:')
+while search(path_notas):
     print('Ficheiro não encontrado!')
-    path_notes = input('Introduza o caminho absuluto do ficheiro da turma: ')
-
-n = {}
-with open(path_names) as f:
-    r = open(path_notes)
-    for l in f:
-        name, num = l.split(" - ")
-        num = int(num)
-        for ll in r:
-            num1, note = ll.split(" - ")
-            if num1 == num:
-                n[num] = list(name, note)
-                break
-
+    path_notas = input('Introduza o caminho absuluto do ficheiro da turma: ')
 
 while True:
     print('----------')
@@ -43,3 +33,32 @@ while True:
         print('----------')
         exit()
     elif acao == 1:
+        nome, num, nota = input('Introduza o "nome numero nota": ')
+        f_turmas = open(path_turmas, "a+") # a+ = ler e acrescentar
+        notinfile = True
+        for l in f_turmas:
+            n, name = l.split(" - ")
+            if n == num:
+                notinfile = False
+                print('Nº já existente.')
+                break
+        if notinfile: # se não estiver no ficheiro adiciona em turmas.txt
+            f_turmas.write("{0} - {1}".format(num, nome))
+        f_turmas.close()
+        if notinfile: # se não estiver no ficheiro adiciona em notas.txt
+            f_notas =  open(path_turmas, "a")
+            f_notas.write("{0} - {1}".format(num, nota))
+    elif acao == 2:
+        n = input("Introduza o nº ou o nome do aluno: ")
+        if n.isnumeric():
+            f_turmas = open(path_turmas)
+            for l in f_turmas:
+                num, name = l.split(" - ")
+                if n == num:
+                    n = nome
+            if n.isnumeric():
+                print("Nome não encontrado")
+        f_notas = open(path_notas)
+        for l in f_turmas:
+            n, name = l.split(" - ")
+            if n == num:
