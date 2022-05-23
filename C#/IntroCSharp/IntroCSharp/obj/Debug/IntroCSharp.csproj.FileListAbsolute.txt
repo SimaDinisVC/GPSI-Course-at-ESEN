@@ -1,0 +1,8 @@
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\IntroCSharp\IntroCSharp\obj\Debug\IntroCSharp.csproj.AssemblyReference.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\IntroCSharp\IntroCSharp\obj\Debug\IntroCSharp.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\IntroCSharp\IntroCSharp\obj\Debug\IntroCSharp.csproj.CoreCompileInputs.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\IntroCSharp\IntroCSharp\bin\Debug\IntroCSharp.exe.config
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\IntroCSharp\IntroCSharp\bin\Debug\IntroCSharp.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\IntroCSharp\IntroCSharp\bin\Debug\IntroCSharp.pdb
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\IntroCSharp\IntroCSharp\obj\Debug\IntroCSharp.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\IntroCSharp\IntroCSharp\obj\Debug\IntroCSharp.pdb

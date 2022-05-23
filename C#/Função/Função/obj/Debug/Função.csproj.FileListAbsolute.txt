@@ -1,0 +1,8 @@
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Função\Função\bin\Debug\Função.exe.config
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Função\Função\bin\Debug\Função.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Função\Função\bin\Debug\Função.pdb
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Função\Função\obj\Debug\Função.csproj.AssemblyReference.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Função\Função\obj\Debug\Função.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Função\Função\obj\Debug\Função.csproj.CoreCompileInputs.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Função\Função\obj\Debug\Função.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Função\Função\obj\Debug\Função.pdb

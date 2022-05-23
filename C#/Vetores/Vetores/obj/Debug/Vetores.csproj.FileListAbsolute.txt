@@ -1,0 +1,8 @@
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Vetores\Vetores\obj\Debug\Vetores.csproj.AssemblyReference.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Vetores\Vetores\obj\Debug\Vetores.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Vetores\Vetores\obj\Debug\Vetores.csproj.CoreCompileInputs.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Vetores\Vetores\bin\Debug\Vetores.exe.config
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Vetores\Vetores\bin\Debug\Vetores.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Vetores\Vetores\bin\Debug\Vetores.pdb
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Vetores\Vetores\obj\Debug\Vetores.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Vetores\Vetores\obj\Debug\Vetores.pdb
