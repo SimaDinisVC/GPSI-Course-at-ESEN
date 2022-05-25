@@ -23,7 +23,7 @@ while loop:
                 print("A equipa somou 7 faltas.")
                 avisos7 *= 2 # Aqui faz o * 2 pois assim muda a variável para próxima vez que a equipa fizer mais 7 faltas e assim a mesa é notificada novamente.
             else: # Questões de português.
-                print("A equipa somou mais 7 faltas.")
+                    
                 avisos7 *= 2
 
 if len(faltas) != 0: 

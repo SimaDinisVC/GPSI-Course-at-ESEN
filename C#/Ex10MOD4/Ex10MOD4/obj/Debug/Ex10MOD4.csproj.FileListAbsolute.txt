@@ -1,0 +1,8 @@
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Ex10MOD4\Ex10MOD4\obj\Debug\Ex10MOD4.csproj.AssemblyReference.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Ex10MOD4\Ex10MOD4\obj\Debug\Ex10MOD4.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Ex10MOD4\Ex10MOD4\obj\Debug\Ex10MOD4.csproj.CoreCompileInputs.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Ex10MOD4\Ex10MOD4\bin\Debug\Ex10MOD4.exe.config
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Ex10MOD4\Ex10MOD4\bin\Debug\Ex10MOD4.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Ex10MOD4\Ex10MOD4\bin\Debug\Ex10MOD4.pdb
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Ex10MOD4\Ex10MOD4\obj\Debug\Ex10MOD4.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Ex10MOD4\Ex10MOD4\obj\Debug\Ex10MOD4.pdb

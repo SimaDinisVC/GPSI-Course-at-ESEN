@@ -33,9 +33,9 @@ namespace Função
                 switch (op)
                 {
                     case '1':
-                        Console.Write("Número: ")
+                        Console.Write("Número: ");
                         int.TryParse(Console.ReadLine(), out num1);
-                        Console.Write("Número: ")
+                        Console.Write("Número: ");
                         int.TryParse(Console.ReadLine(), out num2);
                         break;
                     case '2':
