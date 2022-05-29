@@ -9,11 +9,11 @@ elementos para fazer o CRUD da informação.
 Deve listar os dados armazenados mostrando todos os dados e permitir fazer algumas consultas.
 
 Fatores obrigatórios:
-	-Utilização de um ficheiro de Texto
+	-Utilização de um ficheiro de Texto ✔
 	-Utilização de coleções (dicionário, lista) ✔
 	-Manipulação dos ficheiros com:
-	-Abertura no modo escrita/append
-	-Abertura no modo leitura
+		-Abertura no modo escrita/append
+		-Abertura no modo leitura
 Fatores valorativos:
 	-Utilização de outras coleções (set, tupla) ✔
 	-Validação de dados
@@ -21,18 +21,3 @@ Fatores valorativos:
 	-Depuração do código com utilização de comentários
 	-Utilização de funções para organização do código
 	-Apresentação e interface amigável
-
-### Organização ###
-
-Projeto: 
-
-Tema: Gestão de Autocarros
-
-Menu: Adicionar e atualizar Autocarro(nº de autrocarros e o seu trajeto defenido), 
-paragens(nºs e nomes), trajetos(os nºs de paragem e a respetiva linha de autocarro); 
-
-Estruturas de dados: Dicionários
-
-Coleções usadas: 
-
-Notas: GUI?
