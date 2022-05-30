@@ -156,5 +156,5 @@ while True:
         acao = int(input("- "))
         if acao == 0:
             continue
-        elif acao == 1:
+        #elif acao == 1:
             

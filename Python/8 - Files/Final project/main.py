@@ -1,5 +1,7 @@
 # Projeto para uma loja/supermercado etc...
 import random
+import datetime
+import openpyxl # importar 
 import filemanagement as f # TRATAMENTO DE DADOS
 
 def listar(l,w): # lista os dados list de forma sequencial
@@ -23,7 +25,7 @@ produtos = {} # int(CódigoProduto) : list("NomeProduto", dict("Preço":int(pre�
 categorias = {} # "Categoria" : list(int(CódigoProduto1), int(CódigoProduto2))
 fornecedores = {} # "NomeFornecedor" : list(int(Tel), 'Email')
 vendas_diarias = {} # int(CódigoProduto1): int(q_v)
-caixaRegis = [] # list(int(CódigoProduto1), Quant, Preço*Quant), list(int(CódigoProduto1), Quant, Preço*Quant) estrutura TEMP para caso a pessoa deixe a compra pendente
+caixaRegis = [[5432112351232, 2, 9.99]] # list(int(CódigoProduto1), Quant, Preço*Quant), list(int(CódigoProduto1), Quant, Preço*Quant) estrutura TEMP para caso a pessoa deixe a compra pendente
 
 f.downloadProdutos(produtos)
 f.downloadCategorias(categorias)
@@ -31,12 +33,12 @@ f.downloadFornecedores(fornecedores) # TRATA TODOS OS DADOS e BAIXA PARA A MEMÓ
 f.downloadVendas(vendas_diarias)
 
 sep = '----------'
+print(produtos)
+print(categorias)
+print(fornecedores) # mudar para baixo do while TRABALHO UPLOUD
+print(vendas_diarias)
+print(sep)
 while True:
-    print(produtos)
-    print(categorias)
-    print(fornecedores)
-    print(vendas_diarias)
-    print(sep)
     menu()
     acao = int(input('- '))
     print(sep)
@@ -370,7 +372,7 @@ while True:
                 acao = int(input('- '))
             if acao == 0:
                 break
-            if acao == 1:
+            elif acao == 1:
                 code = int(input('Introduza o código EAN-13 do item: '))
                 while len(str(code)) != 13:
                     print('O código EAN-13 tem de ter 13 digitos')
@@ -378,7 +380,7 @@ while True:
                 if code in produtos:
                     v = False
                     for i in range(len(caixaRegis)):
-                        if code in caixaRegis[i]: 
+                        if code in caixaRegis[i]:  ############################RETIRAR EXPOSTOS
                             caixaRegis[i][1] += 1 # Dá mais 1 à quantidade
                             caixaRegis[i][2] += produtos[code][1]['Preço'] # Dá mais um preço
                             v = True
@@ -386,7 +388,7 @@ while True:
                         caixaRegis.append([code, 1, produtos[code][1]['Preço']])
                 else:
                     print('Código introduzido não consta na base de dados.')
-            if acao == 2:
+            elif acao == 2:
                 total = 0
                 for i in caixaRegis:
                     total += i[2]
@@ -397,8 +399,23 @@ while True:
             else:
                 caixaRegis.clear()
     elif acao == 5:
-        #A fazer
-        a = 0
+        # Relatório Encomendas a Fornecederes
+        book = openpyxl.Workbook()
+        book.create_sheet('Encomendas')
+        book.remove(book['Sheet'])
+        book['Encomendas'].column_dimensions['A'].width = 20
+        book['Encomendas'].column_dimensions['B'].width = 15
+        book['Encomendas'].column_dimensions['C'].width = 35
+        book['Encomendas'].column_dimensions['D'].width = 20
+        book['Encomendas'].column_dimensions['E'].width = 30
+        book['Encomendas'].column_dimensions['F'].width = 12
+        book['Encomendas'].append(['Fornecedor', 'Tel.', 'Email', 'Código EAN-13', 'Nome do Produto', 'Quantidade'])
+        for code in produtos:
+            dadosProduto = produtos[code]
+            if produtos[code][1]['Q_Armazém'] + produtos[code][1]['Q_Exposto'] < dadosProduto[1]['DEFReposição'][0]:
+                book['Encomendas'].append([produtos[code][1]['Fornecedor'], fornecedores[produtos[code][1]['Fornecedor']][0], fornecedores[produtos[code][1]['Fornecedor']][1], str(code), produtos[code][0],  dadosProduto[1]['DEFReposição'][0]])
+        book.save('Encomendas.xlsx')
+        # Relatório Vendas Diárias
     elif acao == 6:
         f.uploudProdutos(produtos)
         f.uploudCategorias(categorias)
