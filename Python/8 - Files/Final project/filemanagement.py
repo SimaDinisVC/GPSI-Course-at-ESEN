@@ -38,7 +38,7 @@ def downloadFornecedores(fornecedores):
         nome, rest = l.split(' - ')
         info = rest.split('; ')
         info[0] = int(info[0])
-        if info[1][-1::] == "/n":
+        if info[1][-1::] == "\n":
             info[1] = info[1][:-1:]
         fornecedores[nome] = info
     f.close()
@@ -46,12 +46,18 @@ def downloadFornecedores(fornecedores):
 def downloadVendas(vendas_diarias):
     f = open('data/dataVendas.txt')
     for l in f.readlines():
-        code, quantidade = l.split(' - ')
-        code = int(code)
-        if quantidade[-1::] == "/n":
-            quantidade = quantidade[:-1:]
-        quantidade = int(quantidade)
-        vendas_diarias[code] = quantidade
+        if l.count('-') == 2:
+            data = l[:-1:]
+            vendas_diarias[data] = {}
+        else:
+            code, rest = l.split(' - ')
+            code = int(code)
+            quantidade, preço_t = rest.split('; ')
+            quantidade = int(quantidade)
+            if preço_t[-1::] == "\n":
+                preço_t = preço_t[:-1:]
+            preço_t = int(preço_t)
+            vendas_diarias[data][code] = [quantidade,preço_t]
     f.close()
 
 def uploudProdutos(produtos):
@@ -65,7 +71,7 @@ def uploudCategorias(categorias):
     f = open('data/dataCategorias.txt', 'w')
     for cat in categorias:
         f.write('{0} - '.format(cat))
-        f.write("; ".join(categorias[cat]))
+        f.write("; ".join(map(str, categorias[cat])))
         f.write('\n')
     f.close()
 
@@ -73,12 +79,16 @@ def uploudFornecedores(fornecedores):
     f = open('data/dataFornecedores.txt', 'w')
     for forn in fornecedores:
         f.write('{0} - '.format(forn))
-        f.write("; ".join(fornecedores[forn]))
+        f.write("; ".join(map(str, fornecedores[forn])))
         f.write('\n')
     f.close()
 
 def uploudVendas(vendas_diarias):
     f = open('data/dataVendas.txt', 'w')
-    for v in vendas_diarias:
-        f.write('{0} - {1}\n'.format(v, vendas_diarias[v]))
+    data = list(vendas_diarias.keys())
+    data = data[0]
+    dadosVendas = vendas_diarias[data]
+    f.write(data+'\n')
+    for v in dadosVendas:
+        f.write('{0} - {1}; {2}\n'.format(v, dadosVendas[v][0], dadosVendas[v][1]))
     f.close()

@@ -1,8 +1,9 @@
 # Projeto para uma loja/supermercado etc...
-import random
-import datetime
 import openpyxl # importar 
-import filemanagement as f # TRATAMENTO DE DADOS
+import random
+from datetime import date
+ddmmyy = date.today().strftime('%d-%m-%Y')
+import filemanagement as f # TRATAMENTO DE FICHEIROS
 
 def listar(l,w): # lista os dados list de forma sequencial
     if l != []:
@@ -11,6 +12,39 @@ def listar(l,w): # lista os dados list de forma sequencial
         print('')
     else:
         print('Sem dados de',w.lower())
+
+def RelatórioVendas(data):
+    book = openpyxl.Workbook()
+    book.create_sheet('Vendas')
+    book.remove(book['Sheet'])
+    book['Vendas'].column_dimensions['A'].width = 17
+    book['Vendas'].column_dimensions['B'].width = 22
+    book['Vendas'].column_dimensions['C'].width = 13
+    book['Vendas'].column_dimensions['D'].width = 17
+    book['Vendas'].append(['Código EAN-13', 'Nome do Produto', 'Quantidade', 'Preço', ])
+    for code in vendas_diarias[data]:
+        dadosVenda = vendas_diarias[data][code]
+        dadosProduto = produtos[code]
+        book['Vendas'].append([str(code), dadosProduto[0], dadosVenda[0], str(dadosVenda[1])+'€'])
+    Name = 'Vendas_'+data+'.xlsx'
+    book.save(Name)
+
+def RelatórioEncomendas():
+    book = openpyxl.Workbook()
+    book.create_sheet('Encomendas')
+    book.remove(book['Sheet'])
+    book['Encomendas'].column_dimensions['A'].width = 20
+    book['Encomendas'].column_dimensions['B'].width = 15
+    book['Encomendas'].column_dimensions['C'].width = 35
+    book['Encomendas'].column_dimensions['D'].width = 20
+    book['Encomendas'].column_dimensions['E'].width = 30
+    book['Encomendas'].column_dimensions['F'].width = 12
+    book['Encomendas'].append(['Fornecedor', 'Tel.', 'Email', 'Código EAN-13', 'Nome do Produto', 'Quantidade'])
+    for code in produtos:
+        dadosProduto = produtos[code]
+        if dadosProduto[1]['Q_Armazém'] + dadosProduto[1]['Q_Exposto'] < dadosProduto[1]['DEFReposição'][0]:
+            book['Encomendas'].append([dadosProduto[1]['Fornecedor'], fornecedores[dadosProduto[1]['Fornecedor']][0], fornecedores[dadosProduto[1]['Fornecedor']][1], str(code), dadosProduto[0],  dadosProduto[1]['DEFReposição'][0]])
+    book.save('Encomendas.xlsx')
 
 def menu():
     print('0 - Sair')
@@ -24,21 +58,21 @@ def menu():
 produtos = {} # int(CódigoProduto) : list("NomeProduto", dict("Preço":int(preço), "Categoria":'categoria', "Q_Armazém": int(q_a), "Q_Exposto"): int(q_e), "Fornecedor":'NomeFornecedor')
 categorias = {} # "Categoria" : list(int(CódigoProduto1), int(CódigoProduto2))
 fornecedores = {} # "NomeFornecedor" : list(int(Tel), 'Email')
-vendas_diarias = {} # int(CódigoProduto1): int(q_v)
-caixaRegis = [[5432112351232, 2, 9.99]] # list(int(CódigoProduto1), Quant, Preço*Quant), list(int(CódigoProduto1), Quant, Preço*Quant) estrutura TEMP para caso a pessoa deixe a compra pendente
+vendas_diarias = {} # data : {int(CódigoProduto1): [int(quantidade), int(preço*quantidade]}
+caixaRegis = [] # list(int(CódigoProduto1), Quant, Preço*Quant), list(int(CódigoProduto1), Quant, Preço*Quant) estrutura TEMP para caso a pessoa deixe a compra pendente
 
 f.downloadProdutos(produtos)
 f.downloadCategorias(categorias)
 f.downloadFornecedores(fornecedores) # TRATA TODOS OS DADOS e BAIXA PARA A MEMÓRIA
 f.downloadVendas(vendas_diarias)
 
+for data in vendas_diarias:
+    if data != ddmmyy:
+        RelatórioVendas(data)
+
 sep = '----------'
-print(produtos)
-print(categorias)
-print(fornecedores) # mudar para baixo do while TRABALHO UPLOUD
-print(vendas_diarias)
-print(sep)
 while True:
+    print(sep)
     menu()
     acao = int(input('- '))
     print(sep)
@@ -109,9 +143,9 @@ while True:
         else:
             vendas = 0
             saldo = 0
-            for code in vendas_diarias:
-                vendas+= vendas_diarias[code]
-                saldo+= produtos[code][1]['Preço']*vendas_diarias[code]
+            for code in vendas_diarias[ddmmyy]:
+                vendas += vendas_diarias[ddmmyy][code][0]
+                saldo += produtos[code][1]['Preço']*vendas_diarias[ddmmyy][code][1]
             print('Totais de vendas (Hoje):',vendas)
             print('Saldo Total (Hoje): {}€'.format(round(saldo,2)))
         acao == -1
@@ -209,7 +243,7 @@ while True:
                     print('Produto atualizado com sucesso.')
                 else:
                     listar(list(fornecedores), 'Fornecedores')
-                    fornecedor = input('Introduza o nome do fornecedor:')
+                    fornecedor = input('Introduza o nome do fornecedor: ')
                     produtos[code][1]['Fornecedor'] = fornecedor
                     print('Produto atualizado com sucesso.')
             else:   ########################ADIÇÃO########################
@@ -316,8 +350,8 @@ while True:
                 code = int(input('Introduza o código do produto a remover: '))
             if code in produtos:
                 caixaRegis.clear()
-                if code in vendas_diarias:
-                    vendas_diarias.pop(code)
+                if code in vendas_diarias[ddmmyy]:
+                    vendas_diarias[ddmmyy].pop(code)
                 for cat in categorias:
                     if code in categorias[cat]:
                         categorias[cat].pop(categorias[cat].index(code))
@@ -392,33 +426,21 @@ while True:
                 total = 0
                 for i in caixaRegis:
                     total += i[2]
-                    if total != 0:
-                        vendas_diarias[i[0]] = i[1]
+                    if total != 0: 
+                        d = vendas_diarias[ddmmyy].get(i[0],[0,0])
+                        vendas_diarias[ddmmyy][i[0]] = [d[0]+i[1],d[1]+i[2]]
+                print(vendas_diarias)
                 caixaRegis.clear()
                 break
             else:
                 caixaRegis.clear()
     elif acao == 5:
         # Relatório Encomendas a Fornecederes
-        book = openpyxl.Workbook()
-        book.create_sheet('Encomendas')
-        book.remove(book['Sheet'])
-        book['Encomendas'].column_dimensions['A'].width = 20
-        book['Encomendas'].column_dimensions['B'].width = 15
-        book['Encomendas'].column_dimensions['C'].width = 35
-        book['Encomendas'].column_dimensions['D'].width = 20
-        book['Encomendas'].column_dimensions['E'].width = 30
-        book['Encomendas'].column_dimensions['F'].width = 12
-        book['Encomendas'].append(['Fornecedor', 'Tel.', 'Email', 'Código EAN-13', 'Nome do Produto', 'Quantidade'])
-        for code in produtos:
-            dadosProduto = produtos[code]
-            if produtos[code][1]['Q_Armazém'] + produtos[code][1]['Q_Exposto'] < dadosProduto[1]['DEFReposição'][0]:
-                book['Encomendas'].append([produtos[code][1]['Fornecedor'], fornecedores[produtos[code][1]['Fornecedor']][0], fornecedores[produtos[code][1]['Fornecedor']][1], str(code), produtos[code][0],  dadosProduto[1]['DEFReposição'][0]])
-        book.save('Encomendas.xlsx')
+        RelatórioEncomendas()
         # Relatório Vendas Diárias
+        RelatórioVendas(ddmmyy)
     elif acao == 6:
         f.uploudProdutos(produtos)
         f.uploudCategorias(categorias)
         f.uploudFornecedores(fornecedores)
         f.uploudVendas(vendas_diarias)
-    # VERIFICAR SISTEMA DE COMPRAS E SISTEMAS DE UPLOUDS
