@@ -1,0 +1,48 @@
+Projeto:
+    Gerenciamento de um loja/supermercado etc... (Propósito Abrangente)
+
+Tratamento de Ficheiros num ficheiro .py diferente (filemanagement.py)
+Instalação e Importações de Livrarias Necessárias.
+
+Estruturas de Dados:
+1ª - Produtos : Suporta os dados referentes aos produtos tendo como base
+                o Código de Barras do Produto (Formal: EAN-13 digitos);
+                Nome do Produto; Preço p/u.; Categoria; Quantidade em
+                Armazém; Quantidade em Exposição; Mínimo de uni. para
+                repor; Quantidade da Encomenda Padrão; Fornecedor;
+2º - Categorias : Organiza os Códigos EAN-13 categorizando-os;
+                Exemplo: Talho, Vestuário para Homem;
+3º - Fornecedores : Suporta os dados referentes aos fornecedores tendo
+                    como base o nome do Fornecedor/Companhia;
+                    Contacto Telefónico; Email;
+4º - vendas_diarias : Suporta os dados referentes às vendas tendo como
+                    base a data quando os dados foram recolhidos;
+                    Códigos EAN-13; Quantidade vendida; Valor Faturado
+                    sobre aquele produto;
+5º - caixaRegis : É uma estrutura TEMP guardada em memória, cleaned
+                várias vezes; Suporta os dados referentes a uma compra 
+                de produtos tendo como base os códigos EAN-13;
+                Quantidade; Subtotal;
+
+Em 1º lugar, descarrega todos os dados salvos para a memória.
+O programa permite Consultar todas estas informações por filtragem de 
+categoria ou Código EAN-13 bem como Alterar-las, Remove-las e Adicionar 
+mais.
+Permite realizar Compras na interface dai a CaixaRegistadora.
+Permite Gerar Relatórios em Excel apartir dos dados recolhidos.
+    Relatório de Encomendas: Quando um produto está abaixo do Mínimo 
+                            de uni. para repor, ele cria uma linha  
+                            a indicar: Fornecedor; Tel; Email; Código 
+                            EAN-13; Nome do Produto; Quantidade da 
+                            Encomenda Padrão;
+    Relatório de Vendas: Apartir da estrutura vendas_diarias lista os
+                        dados de vendas em excel por dias, e indica:
+                        Código EAN-13; Nome do Produto; Quantidade 
+                        Vendida; Valor Faturado sobre aquele produto; 
+                        Total Faturado;
+    Estes relatórios podem ser gerados a qualquer momento, mas apenas um
+    Relatório de Vendas é gerado no próximo dia em que for aberto o
+    programa para garantir a integridade dos dados. Podem ser atualizados.
+    Vendas - Relatórios para diferentes dias
+    Encomendas - Apenas um ficheiro.
+Permite Salvar todas estas informações em ficheiros .txt).
