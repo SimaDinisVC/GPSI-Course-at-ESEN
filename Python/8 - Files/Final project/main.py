@@ -60,9 +60,9 @@ def menu():
     print('5 - Gerar Relatórios')
     print('6 - Salvar dados')
 
-produtos = {} # int(CódigoProduto) : list("NomeProduto", dict("Preço":int(preço), "Categoria":'categoria', "Q_Armazém": int(q_a), "Q_Exposto"): int(q_e), "DEFReposição":list(Q_MINrepor, Q_Encomenda), "Fornecedor":'NomeFornecedor')
-categorias = {} # "Categoria" : list(int(CódigoProduto1), int(CódigoProduto2))
-fornecedores = {} # "NomeFornecedor" : list(int(Tel), 'Email')
+produtos = {1234567891234:["Gomas", {"Preço":0.99, "Categoria":"Snacks", "Q_Armazém":1, "Q_Exposto":1, "DEFReposição":[3,15], "Fornecedor":"Haribo"}]} # int(CódigoProduto) : list("NomeProduto", dict("Preço":int(preço), "Categoria":'categoria', "Q_Armazém": int(q_a), "Q_Exposto"): int(q_e), "DEFReposição":list(Q_MINrepor, Q_Encomenda), "Fornecedor":'NomeFornecedor')
+categorias = {"Snacks":[1234567891234]} # "Categoria" : list(int(CódigoProduto1), int(CódigoProduto2))
+fornecedores = {"Haribo":[951984129, "haribo@gmail.com"]} # "NomeFornecedor" : list(int(Tel), 'Email')
 vendas_diarias = {ddmmyy:{}} # data : {int(CódigoProduto1): [int(quantidade), int(preço*quantidade]}
 caixaRegis = [] # list(int(CódigoProduto1), Quant, Preço*Quant), list(int(CódigoProduto1), Quant, Preço*Quant) estrutura TEMP para caso a pessoa deixe a compra pendente
 

@@ -1,0 +1,17 @@
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\FirstApp\FirstApp\bin\Debug\net6.0-windows\FirstApp.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\FirstApp\FirstApp\bin\Debug\net6.0-windows\FirstApp.deps.json
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\FirstApp\FirstApp\bin\Debug\net6.0-windows\FirstApp.runtimeconfig.json
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\FirstApp\FirstApp\bin\Debug\net6.0-windows\FirstApp.dll
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\FirstApp\FirstApp\bin\Debug\net6.0-windows\FirstApp.pdb
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\FirstApp\FirstApp\obj\Debug\net6.0-windows\FirstApp.csproj.AssemblyReference.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\FirstApp\FirstApp\obj\Debug\net6.0-windows\FirstApp.Form1.resources
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\FirstApp\FirstApp\obj\Debug\net6.0-windows\FirstApp.csproj.GenerateResource.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\FirstApp\FirstApp\obj\Debug\net6.0-windows\FirstApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\FirstApp\FirstApp\obj\Debug\net6.0-windows\FirstApp.AssemblyInfoInputs.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\FirstApp\FirstApp\obj\Debug\net6.0-windows\FirstApp.AssemblyInfo.cs
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\FirstApp\FirstApp\obj\Debug\net6.0-windows\FirstApp.csproj.CoreCompileInputs.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\FirstApp\FirstApp\obj\Debug\net6.0-windows\FirstApp.dll
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\FirstApp\FirstApp\obj\Debug\net6.0-windows\refint\FirstApp.dll
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\FirstApp\FirstApp\obj\Debug\net6.0-windows\FirstApp.pdb
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\FirstApp\FirstApp\obj\Debug\net6.0-windows\FirstApp.genruntimeconfig.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\FirstApp\FirstApp\obj\Debug\net6.0-windows\ref\FirstApp.dll
