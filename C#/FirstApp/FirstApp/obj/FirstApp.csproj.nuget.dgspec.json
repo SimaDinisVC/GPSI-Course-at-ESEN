@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ESEN\\Repositório Local\\GPSI-Course-at-ESEN\\C#\\FirstApp\\FirstApp\\FirstApp.csproj": {}
+    "C:\\Users\\ESEN\\Repositório Local\\GPSI-Course-at-ESEN\\C#\\FirstAPP\\FirstAPP\\FirstAPP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ESEN\\Repositório Local\\GPSI-Course-at-ESEN\\C#\\FirstApp\\FirstApp\\FirstApp.csproj": {
+    "C:\\Users\\ESEN\\Repositório Local\\GPSI-Course-at-ESEN\\C#\\FirstAPP\\FirstAPP\\FirstAPP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ESEN\\Repositório Local\\GPSI-Course-at-ESEN\\C#\\FirstApp\\FirstApp\\FirstApp.csproj",
-        "projectName": "FirstApp",
-        "projectPath": "C:\\Users\\ESEN\\Repositório Local\\GPSI-Course-at-ESEN\\C#\\FirstApp\\FirstApp\\FirstApp.csproj",
+        "projectUniqueName": "C:\\Users\\ESEN\\Repositório Local\\GPSI-Course-at-ESEN\\C#\\FirstAPP\\FirstAPP\\FirstAPP.csproj",
+        "projectName": "FirstAPP",
+        "projectPath": "C:\\Users\\ESEN\\Repositório Local\\GPSI-Course-at-ESEN\\C#\\FirstAPP\\FirstAPP\\FirstAPP.csproj",
         "packagesPath": "C:\\Users\\ESEN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ESEN\\Repositório Local\\GPSI-Course-at-ESEN\\C#\\FirstApp\\FirstApp\\obj\\",
+        "outputPath": "C:\\Users\\ESEN\\Repositório Local\\GPSI-Course-at-ESEN\\C#\\FirstAPP\\FirstAPP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
