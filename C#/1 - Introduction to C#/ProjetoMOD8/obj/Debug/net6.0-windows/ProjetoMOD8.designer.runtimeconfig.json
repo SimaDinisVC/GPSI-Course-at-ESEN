@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\ESEN\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\ESEN\\.nuget\\packages",
+      "C:\\Users\\simao\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\simao\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {
