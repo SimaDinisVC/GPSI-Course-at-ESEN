@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eI7MI6qa2GwJBVI1E48dB0Z9P0izpbPljyffWhdO5mqRgyrwUO4spyEO4gjsInY2eYpfx0fC76uqZuLhcCtciA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\esen2020\\source\\repos\\WinFormsApp\\WinFormsApp\\WinFormsApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\esen2020\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}

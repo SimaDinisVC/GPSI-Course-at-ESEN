@@ -1,0 +1,17 @@
+C:\Users\esen2020\source\repos\WinFormsApp\WinFormsApp\bin\Debug\netcoreapp3.1\WinFormsApp.exe
+C:\Users\esen2020\source\repos\WinFormsApp\WinFormsApp\bin\Debug\netcoreapp3.1\WinFormsApp.deps.json
+C:\Users\esen2020\source\repos\WinFormsApp\WinFormsApp\bin\Debug\netcoreapp3.1\WinFormsApp.runtimeconfig.json
+C:\Users\esen2020\source\repos\WinFormsApp\WinFormsApp\bin\Debug\netcoreapp3.1\WinFormsApp.runtimeconfig.dev.json
+C:\Users\esen2020\source\repos\WinFormsApp\WinFormsApp\bin\Debug\netcoreapp3.1\WinFormsApp.dll
+C:\Users\esen2020\source\repos\WinFormsApp\WinFormsApp\bin\Debug\netcoreapp3.1\WinFormsApp.pdb
+C:\Users\esen2020\source\repos\WinFormsApp\WinFormsApp\obj\Debug\netcoreapp3.1\WinFormsApp.frmPrincipal.resources
+C:\Users\esen2020\source\repos\WinFormsApp\WinFormsApp\obj\Debug\netcoreapp3.1\WinFormsApp.csproj.GenerateResource.cache
+C:\Users\esen2020\source\repos\WinFormsApp\WinFormsApp\obj\Debug\netcoreapp3.1\WinFormsApp.AssemblyInfoInputs.cache
+C:\Users\esen2020\source\repos\WinFormsApp\WinFormsApp\obj\Debug\netcoreapp3.1\WinFormsApp.AssemblyInfo.cs
+C:\Users\esen2020\source\repos\WinFormsApp\WinFormsApp\obj\Debug\netcoreapp3.1\WinFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\esen2020\source\repos\WinFormsApp\WinFormsApp\obj\Debug\netcoreapp3.1\WinFormsApp.dll
+C:\Users\esen2020\source\repos\WinFormsApp\WinFormsApp\obj\Debug\netcoreapp3.1\WinFormsApp.pdb
+C:\Users\esen2020\source\repos\WinFormsApp\WinFormsApp\obj\Debug\netcoreapp3.1\WinFormsApp.genruntimeconfig.cache
+C:\Users\esen2020\source\repos\WinFormsApp\WinFormsApp\obj\Debug\netcoreapp3.1\WinFormsApp.frmAcerca.resources
+C:\Users\esen2020\source\repos\WinFormsApp\WinFormsApp\obj\Debug\netcoreapp3.1\WinFormsApp.frmAjuda.resources
+C:\Users\esen2020\source\repos\WinFormsApp\WinFormsApp\obj\Debug\netcoreapp3.1\WinFormsApp.csproj.AssemblyReference.cache
