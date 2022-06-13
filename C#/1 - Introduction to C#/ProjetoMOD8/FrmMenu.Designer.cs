@@ -31,18 +31,19 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMenu));
             this.lblNome = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
-            this.lblDataNascimento = new System.Windows.Forms.Label();
-            this.dtpNascimento = new System.Windows.Forms.DateTimePicker();
+            this.lblCarreira = new System.Windows.Forms.Label();
+            this.dtpCarreira = new System.Windows.Forms.DateTimePicker();
             this.lblCidade = new System.Windows.Forms.Label();
             this.cbxCidade = new System.Windows.Forms.ComboBox();
             this.lblSalário = new System.Windows.Forms.Label();
-            this.txtSalário = new System.Windows.Forms.TextBox();
             this.btnAvaliar = new System.Windows.Forms.Button();
             this.btnCalculadora = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
             this.lblWelcome = new System.Windows.Forms.Label();
             this.rdbMasculino = new System.Windows.Forms.RadioButton();
             this.rdbFeminino = new System.Windows.Forms.RadioButton();
+            this.nud_SalárioM = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.nud_SalárioM)).BeginInit();
             this.SuspendLayout();
             // 
             // lblNome
@@ -62,22 +63,25 @@
             this.txtNome.TabIndex = 1;
             this.txtNome.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
             // 
-            // lblDataNascimento
+            // lblCarreira
             // 
-            this.lblDataNascimento.AutoSize = true;
-            this.lblDataNascimento.Location = new System.Drawing.Point(39, 108);
-            this.lblDataNascimento.Name = "lblDataNascimento";
-            this.lblDataNascimento.Size = new System.Drawing.Size(114, 15);
-            this.lblDataNascimento.TabIndex = 2;
-            this.lblDataNascimento.Text = "Data de Nascimento";
+            this.lblCarreira.AutoSize = true;
+            this.lblCarreira.Location = new System.Drawing.Point(39, 108);
+            this.lblCarreira.Name = "lblCarreira";
+            this.lblCarreira.Size = new System.Drawing.Size(112, 15);
+            this.lblCarreira.TabIndex = 2;
+            this.lblCarreira.Text = "Começo de Carreira";
             // 
-            // dtpNascimento
+            // dtpCarreira
             // 
-            this.dtpNascimento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpNascimento.Location = new System.Drawing.Point(159, 102);
-            this.dtpNascimento.Name = "dtpNascimento";
-            this.dtpNascimento.Size = new System.Drawing.Size(116, 23);
-            this.dtpNascimento.TabIndex = 3;
+            this.dtpCarreira.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpCarreira.Location = new System.Drawing.Point(159, 102);
+            this.dtpCarreira.MaxDate = new System.DateTime(2022, 6, 13, 0, 0, 0, 0);
+            this.dtpCarreira.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
+            this.dtpCarreira.Name = "dtpCarreira";
+            this.dtpCarreira.Size = new System.Drawing.Size(116, 23);
+            this.dtpCarreira.TabIndex = 3;
+            this.dtpCarreira.Value = new System.DateTime(2022, 6, 13, 0, 0, 0, 0);
             // 
             // lblCidade
             // 
@@ -90,7 +94,6 @@
             // 
             // cbxCidade
             // 
-            this.cbxCidade.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxCidade.FormattingEnabled = true;
             this.cbxCidade.Items.AddRange(new object[] {
             "Lisboa",
@@ -111,44 +114,37 @@
             this.lblSalário.TabIndex = 6;
             this.lblSalário.Text = "Salário Mensal";
             // 
-            // txtSalário
-            // 
-            this.txtSalário.Location = new System.Drawing.Point(128, 185);
-            this.txtSalário.Name = "txtSalário";
-            this.txtSalário.PlaceholderText = "€";
-            this.txtSalário.Size = new System.Drawing.Size(147, 23);
-            this.txtSalário.TabIndex = 7;
-            this.txtSalário.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtSalário.WordWrap = false;
-            this.txtSalário.TextChanged += new System.EventHandler(this.txtSalário_TextChanged);
-            // 
             // btnAvaliar
             // 
+            this.btnAvaliar.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnAvaliar.Location = new System.Drawing.Point(331, 62);
             this.btnAvaliar.Name = "btnAvaliar";
             this.btnAvaliar.Size = new System.Drawing.Size(85, 23);
             this.btnAvaliar.TabIndex = 8;
             this.btnAvaliar.Text = "&Avaliar";
-            this.btnAvaliar.UseVisualStyleBackColor = true;
+            this.btnAvaliar.UseVisualStyleBackColor = false;
+            this.btnAvaliar.Click += new System.EventHandler(this.btnAvaliar_Click);
             // 
             // btnCalculadora
             // 
+            this.btnCalculadora.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnCalculadora.Location = new System.Drawing.Point(331, 123);
             this.btnCalculadora.Name = "btnCalculadora";
             this.btnCalculadora.Size = new System.Drawing.Size(85, 23);
             this.btnCalculadora.TabIndex = 9;
             this.btnCalculadora.Text = "&Calculadora";
-            this.btnCalculadora.UseVisualStyleBackColor = true;
+            this.btnCalculadora.UseVisualStyleBackColor = false;
             this.btnCalculadora.Click += new System.EventHandler(this.btnCalculadora_Click);
             // 
             // btnSair
             // 
+            this.btnSair.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSair.Location = new System.Drawing.Point(331, 186);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(85, 23);
             this.btnSair.TabIndex = 10;
             this.btnSair.Text = "&Sair";
-            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.UseVisualStyleBackColor = false;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // lblWelcome
@@ -186,23 +182,38 @@
             this.rdbFeminino.UseVisualStyleBackColor = true;
             this.rdbFeminino.CheckedChanged += new System.EventHandler(this.rdbFeminino_CheckedChanged);
             // 
+            // nud_SalárioM
+            // 
+            this.nud_SalárioM.Location = new System.Drawing.Point(124, 186);
+            this.nud_SalárioM.Maximum = new decimal(new int[] {
+            1000000000,
+            0,
+            0,
+            0});
+            this.nud_SalárioM.Name = "nud_SalárioM";
+            this.nud_SalárioM.Size = new System.Drawing.Size(151, 23);
+            this.nud_SalárioM.TabIndex = 14;
+            this.nud_SalárioM.Tag = "";
+            this.nud_SalárioM.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
             // FrmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(464, 252);
+            this.Controls.Add(this.nud_SalárioM);
             this.Controls.Add(this.rdbFeminino);
             this.Controls.Add(this.rdbMasculino);
             this.Controls.Add(this.lblWelcome);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnCalculadora);
             this.Controls.Add(this.btnAvaliar);
-            this.Controls.Add(this.txtSalário);
             this.Controls.Add(this.lblSalário);
             this.Controls.Add(this.cbxCidade);
             this.Controls.Add(this.lblCidade);
-            this.Controls.Add(this.dtpNascimento);
-            this.Controls.Add(this.lblDataNascimento);
+            this.Controls.Add(this.dtpCarreira);
+            this.Controls.Add(this.lblCarreira);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.lblNome);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -211,6 +222,7 @@
             this.Name = "FrmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Avalidador de Salário do Programador";
+            ((System.ComponentModel.ISupportInitialize)(this.nud_SalárioM)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -220,17 +232,17 @@
 
         private Label lblNome;
         private TextBox txtNome;
-        private Label lblDataNascimento;
-        private DateTimePicker dtpNascimento;
+        private Label lblCarreira;
+        private DateTimePicker dtpCarreira;
         private Label lblCidade;
         private ComboBox cbxCidade;
         private Label lblSalário;
-        private TextBox txtSalário;
         private Button btnAvaliar;
         private Button btnCalculadora;
         private Button btnSair;
         private Label lblWelcome;
         private RadioButton rdbMasculino;
         private RadioButton rdbFeminino;
+        private NumericUpDown nud_SalárioM;
     }
 }

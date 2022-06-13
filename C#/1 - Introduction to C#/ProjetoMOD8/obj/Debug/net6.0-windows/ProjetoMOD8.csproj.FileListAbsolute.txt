@@ -51,3 +51,5 @@ C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\1 - Introduction to C#\
 C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\1 - Introduction to C#\ProjetoMOD8\obj\Debug\net6.0-windows\ref\ProjetoMOD8.dll
 C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\1 - Introduction to C#\ProjetoMOD8\obj\Debug\net6.0-windows\ProjetoMOD8.FrmCalculadora.resources
 C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\1 - Introduction to C#\ProjetoMOD8\obj\Debug\net6.0-windows\ProjetoMOD8.Avaliação.resources
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\1 - Introduction to C#\ProjetoMOD8\obj\Debug\net6.0-windows\ProjetoMOD8.FrmCalculadora.resources
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\1 - Introduction to C#\ProjetoMOD8\obj\Debug\net6.0-windows\ProjetoMOD8.lblAvaliação.resources

@@ -44,22 +44,22 @@ namespace ProjetoMOD8
                 lblWelcome.Text += "!";
         }
 
-        private void txtSalário_TextChanged(object sender, EventArgs e)
-        {
-            bool vSalM = true; //  validação de dados
-            int salM;
-            int.TryParse(txtSalário.Text, out salM);
-            if (salM == 0)
-            {
-                vSalM = false;
-            }
-        }
-
         private void btnCalculadora_Click(object sender, EventArgs e)
         {
             FrmCalculadora formCalc = new FrmCalculadora();
             formCalc.Show();
             formCalc.Focus();
+        }
+
+        private void btnAvaliar_Click(object sender, EventArgs e)
+        {
+            // dados
+            string nome = txtNome.Text;
+            int carreira = int.Parse(DateTime.Now.ToString("yyyy")) - int.Parse(dtpCarreira.Text.Split("/")[2]);
+            string cidade = cbxCidade.Text;
+            int salário = int.Parse(nud_SalárioM.Text);
+            lblAvaliação frm = new lblAvaliação(carreira, cidade, salário);
+            frm.ShowDialog();
         }
     }
 }

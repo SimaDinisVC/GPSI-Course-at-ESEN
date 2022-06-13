@@ -8,23 +8,23 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\simao\\.nuget\\packages\\": {},
+    "C:\\Users\\ESEN\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\simao\\Repositório Local\\GPSI-Course-at-ESEN\\C#\\1 - Introduction to C#\\ProjetoMOD8\\ProjetoMOD8.csproj",
+      "projectUniqueName": "C:\\Users\\ESEN\\Repositório Local\\GPSI-Course-at-ESEN\\C#\\1 - Introduction to C#\\ProjetoMOD8\\ProjetoMOD8.csproj",
       "projectName": "ProjetoMOD8",
-      "projectPath": "C:\\Users\\simao\\Repositório Local\\GPSI-Course-at-ESEN\\C#\\1 - Introduction to C#\\ProjetoMOD8\\ProjetoMOD8.csproj",
-      "packagesPath": "C:\\Users\\simao\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\simao\\Repositório Local\\GPSI-Course-at-ESEN\\C#\\1 - Introduction to C#\\ProjetoMOD8\\obj\\",
+      "projectPath": "C:\\Users\\ESEN\\Repositório Local\\GPSI-Course-at-ESEN\\C#\\1 - Introduction to C#\\ProjetoMOD8\\ProjetoMOD8.csproj",
+      "packagesPath": "C:\\Users\\ESEN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ESEN\\Repositório Local\\GPSI-Course-at-ESEN\\C#\\1 - Introduction to C#\\ProjetoMOD8\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\simao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ESEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
