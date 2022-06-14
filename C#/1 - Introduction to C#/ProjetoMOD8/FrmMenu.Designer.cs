@@ -49,6 +49,7 @@
             // lblNome
             // 
             this.lblNome.AutoSize = true;
+            this.lblNome.BackColor = System.Drawing.Color.Transparent;
             this.lblNome.Location = new System.Drawing.Point(39, 66);
             this.lblNome.Name = "lblNome";
             this.lblNome.Size = new System.Drawing.Size(40, 15);
@@ -66,6 +67,7 @@
             // lblCarreira
             // 
             this.lblCarreira.AutoSize = true;
+            this.lblCarreira.BackColor = System.Drawing.Color.Transparent;
             this.lblCarreira.Location = new System.Drawing.Point(39, 108);
             this.lblCarreira.Name = "lblCarreira";
             this.lblCarreira.Size = new System.Drawing.Size(112, 15);
@@ -86,6 +88,7 @@
             // lblCidade
             // 
             this.lblCidade.AutoSize = true;
+            this.lblCidade.BackColor = System.Drawing.Color.Transparent;
             this.lblCidade.Location = new System.Drawing.Point(39, 149);
             this.lblCidade.Name = "lblCidade";
             this.lblCidade.Size = new System.Drawing.Size(44, 15);
@@ -94,6 +97,7 @@
             // 
             // cbxCidade
             // 
+            this.cbxCidade.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxCidade.FormattingEnabled = true;
             this.cbxCidade.Items.AddRange(new object[] {
             "Lisboa",
@@ -108,6 +112,7 @@
             // lblSalário
             // 
             this.lblSalário.AutoSize = true;
+            this.lblSalário.BackColor = System.Drawing.Color.Transparent;
             this.lblSalário.Location = new System.Drawing.Point(39, 188);
             this.lblSalário.Name = "lblSalário";
             this.lblSalário.Size = new System.Drawing.Size(83, 15);
@@ -149,6 +154,7 @@
             // 
             // lblWelcome
             // 
+            this.lblWelcome.BackColor = System.Drawing.Color.Transparent;
             this.lblWelcome.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblWelcome.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lblWelcome.Location = new System.Drawing.Point(39, 9);
@@ -161,25 +167,27 @@
             // rdbMasculino
             // 
             this.rdbMasculino.AutoSize = true;
+            this.rdbMasculino.BackColor = System.Drawing.Color.Transparent;
             this.rdbMasculino.Location = new System.Drawing.Point(60, 221);
             this.rdbMasculino.Name = "rdbMasculino";
             this.rdbMasculino.Size = new System.Drawing.Size(80, 19);
             this.rdbMasculino.TabIndex = 12;
             this.rdbMasculino.TabStop = true;
             this.rdbMasculino.Text = "Masculino";
-            this.rdbMasculino.UseVisualStyleBackColor = true;
+            this.rdbMasculino.UseVisualStyleBackColor = false;
             this.rdbMasculino.CheckedChanged += new System.EventHandler(this.rdbMasculino_CheckedChanged);
             // 
             // rdbFeminino
             // 
             this.rdbFeminino.AutoSize = true;
+            this.rdbFeminino.BackColor = System.Drawing.Color.Transparent;
             this.rdbFeminino.Location = new System.Drawing.Point(169, 221);
             this.rdbFeminino.Name = "rdbFeminino";
             this.rdbFeminino.Size = new System.Drawing.Size(75, 19);
             this.rdbFeminino.TabIndex = 13;
             this.rdbFeminino.TabStop = true;
             this.rdbFeminino.Text = "Feminino";
-            this.rdbFeminino.UseVisualStyleBackColor = true;
+            this.rdbFeminino.UseVisualStyleBackColor = false;
             this.rdbFeminino.CheckedChanged += new System.EventHandler(this.rdbFeminino_CheckedChanged);
             // 
             // nud_SalárioM

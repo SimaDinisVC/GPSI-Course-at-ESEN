@@ -58,7 +58,7 @@ namespace ProjetoMOD8
             int carreira = int.Parse(DateTime.Now.ToString("yyyy")) - int.Parse(dtpCarreira.Text.Split("/")[2]);
             string cidade = cbxCidade.Text;
             int salário = int.Parse(nud_SalárioM.Text);
-            lblAvaliação frm = new lblAvaliação(carreira, cidade, salário);
+            FrmAvaliação frm = new FrmAvaliação(carreira, cidade, salário);
             frm.ShowDialog();
         }
     }
