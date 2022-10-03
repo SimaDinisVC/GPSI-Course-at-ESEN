@@ -6,3 +6,11 @@ C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\1º_exercise\obj
 C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\1º_exercise\obj\Debug\1º_exercise.csproj.CoreCompileInputs.cache
 C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\1º_exercise\obj\Debug\1º_exercise.exe
 C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\1º_exercise\obj\Debug\1º_exercise.pdb
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\1º_exercise\bin\Debug\1º_exercise.exe.config
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\1º_exercise\bin\Debug\1º_exercise.exe
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\1º_exercise\bin\Debug\1º_exercise.pdb
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\1º_exercise\obj\Debug\1º_exercise.csproj.AssemblyReference.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\1º_exercise\obj\Debug\1º_exercise.csproj.SuggestedBindingRedirects.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\1º_exercise\obj\Debug\1º_exercise.csproj.CoreCompileInputs.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\1º_exercise\obj\Debug\1º_exercise.exe
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\1º_exercise\obj\Debug\1º_exercise.pdb

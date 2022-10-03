@@ -13,29 +13,22 @@ namespace _1º_exercise
 
         public Quadrado(double lado)
         {
-            if (lado >= 0.0 && lado <= 20.0)
-            {
-                this.lado = lado;
-            }
-            else
-            {
-                this.lado = 1.0; // Decidi colocar o valor do primerio construtor
-            }
+            this.lado = lado;
         }
 
-        public double area()
+        public double area() // Area
         {
             double area = 2 * lado;
             return area;
         }
 
-        public double diagonal()
+        public double diagonal() // Diagonal
         {
             double diagonal = Math.Sqrt(2 * lado);
             return diagonal;
         }
 
-        public double perimetro()
+        public double perimetro() // Perimetro
         {
             double perimetro = 4 * lado;
             return perimetro;

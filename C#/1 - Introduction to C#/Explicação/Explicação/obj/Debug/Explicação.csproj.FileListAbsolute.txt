@@ -6,3 +6,11 @@ C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Explicação\Explicaçã
 C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Explicação\Explicação\obj\Debug\Explicação.csproj.CoreCompileInputs.cache
 C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Explicação\Explicação\obj\Debug\Explicação.exe
 C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\Explicação\Explicação\obj\Debug\Explicação.pdb
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\1 - Introduction to C#\Explicação\Explicação\bin\Debug\Explicação.exe.config
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\1 - Introduction to C#\Explicação\Explicação\bin\Debug\Explicação.exe
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\1 - Introduction to C#\Explicação\Explicação\bin\Debug\Explicação.pdb
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\1 - Introduction to C#\Explicação\Explicação\obj\Debug\Explicação.csproj.AssemblyReference.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\1 - Introduction to C#\Explicação\Explicação\obj\Debug\Explicação.csproj.SuggestedBindingRedirects.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\1 - Introduction to C#\Explicação\Explicação\obj\Debug\Explicação.csproj.CoreCompileInputs.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\1 - Introduction to C#\Explicação\Explicação\obj\Debug\Explicação.exe
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\1 - Introduction to C#\Explicação\Explicação\obj\Debug\Explicação.pdb
