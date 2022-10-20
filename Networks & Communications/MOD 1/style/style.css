@@ -6,41 +6,49 @@
 }
 
 body {
-    background-color: #78aebe;
+    background: linear-gradient(180deg, #78aebe, #201b2c);
     font-family: 'Poppins', sans-serif;
 }
 
 nav {
     width: auto;
-    height: 25vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .logo {
+    margin: 4px;
     width: 50%;
 }
 
 .profile {
-    border-radius: 47%;
+    border-radius: 50%;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.main-container{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-  
-li {
-    float: left;
-}
-  
-li > a {
-    display: block;
+
+ul > a:link, ul > a:visited {
+    background-color: #3386a1;
     color: white;
-    text-align: left;
-    padding: 14px 16px;
+    border-radius: 5%;
+    padding: 8px 20px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
+}
+  
+ul > a:hover, ul > a:active {
+    background-color: #201b2c;
+}
+
+.right-container {
+    justify-content: right;
 }
