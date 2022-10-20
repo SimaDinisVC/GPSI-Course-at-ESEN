@@ -1,0 +1,8 @@
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\Herança\bin\Debug\Herança.exe.config
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\Herança\bin\Debug\Herança.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\Herança\bin\Debug\Herança.pdb
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\Herança\obj\Debug\Herança.csproj.AssemblyReference.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\Herança\obj\Debug\Herança.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\Herança\obj\Debug\Herança.csproj.CoreCompileInputs.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\Herança\obj\Debug\Herança.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\Herança\obj\Debug\Herança.pdb
