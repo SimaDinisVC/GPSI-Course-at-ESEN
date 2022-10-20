@@ -8,19 +8,16 @@ namespace _3º_exercise
 {
     internal class Bilhete
     {
-        double valor;
+        public double valor;
 
         public Bilhete()
-        {}
-
-        public Bilhete(double valor)
         {
-            this.valor = valor;
+            valor = 5.99; // Valor do Bilhete
         }
 
-        public void ImprimirValor()
+        public void ImprimirValor() // Método que IMPRIME o Valor
         {
-            Console.WriteLine("O valor do Bilhete é {0}€", valor);
+            Console.WriteLine("O valor do Bilhete é {0} euros.", valor);
         }
     }
 }

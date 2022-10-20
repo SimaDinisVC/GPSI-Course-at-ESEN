@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F7CD84FC-EEC8-43A6-ACE1-D19C6224FBB2}</ProjectGuid>
+    <ProjectGuid>{760D1D40-18E2-43D8-A6F0-19AD96F5BD43}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_2º_exercise</RootNamespace>
     <AssemblyName>2º_exercise</AssemblyName>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Jogadores.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

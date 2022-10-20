@@ -27,6 +27,8 @@ namespace _1º_exercise
             {
                 Console.WriteLine("O lado tem de estar compreendido entre 0 e 20.");
             }
+            Console.Write("Pressione qualquer tecla...");
+            Console.ReadKey();
         }
     }
 }
