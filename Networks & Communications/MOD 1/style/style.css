@@ -10,12 +10,29 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+    /* Nav BAR */
+
 nav {
     width: auto;
     height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+ul > a:link, ul > a:visited {
+    background-color: #3386a1;
+    color: white;
+    border-radius: 5%;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Buttons Interactivity */
+ul > a:hover, ul > a:active {
+    background-color: #201b2c;
 }
 
 .logo {
@@ -35,20 +52,47 @@ nav {
     align-items: center;
 }
 
-ul > a:link, ul > a:visited {
-    background-color: #3386a1;
-    color: white;
-    border-radius: 5%;
-    padding: 8px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-  
-ul > a:hover, ul > a:active {
-    background-color: #201b2c;
+.left-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .right-container {
-    justify-content: right;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-container > img {
+    border-radius: 100px 0 100px 0;
+}
+
+.left-container > h1{
+    margin: 0.2rem 5rem 2.3rem 0;
+}
+
+.resume-box{
+    background-color: #19657e;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    padding: 3rem 3.5rem 3rem 3.5rem;
+    text-align: justify;
+    box-shadow: 0px 10px 40px #00000056;
+    border-radius: 20px;
+    width: 65%;
+    max-height: 50%;
+}
+.resume-box > h2{
+    margin-bottom: 0.3rem;
+    color: #0a0a0a;
+}
+
+.span {
+    text-align: right;
 }
