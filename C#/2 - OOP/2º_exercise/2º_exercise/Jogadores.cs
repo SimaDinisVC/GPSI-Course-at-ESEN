@@ -1,41 +1,90 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _2º_exercise
 {
     class Jogadores
     {
-        string nome, posição, nacionalidade, nascimento;
+        string nome, posicao, nacionalidade, nascimento;
         double altura, peso;
 
         public Jogadores()
         { }
 
-        public Jogadores(string nome, string posição, string nacionalidade, string nascimento, double altura, double peso)
+        public Jogadores(string nome, string posicao, string nacionalidade, string nascimento, double altura, double peso)
         {
             this.nome = nome;
             this.peso = peso;
             this.altura = altura;
             this.nacionalidade = nacionalidade;
-            this.posição = posição;
+            this.posicao = posicao;
             this.nascimento = nascimento;
         }
 
         public void Mostrar()
         {
-            Console.WriteLine("{0} mede {1}cm, nascido a {2} de nacionalidade {3} pensando {4}kg de posição {5}.", nome, altura, dataNascimento, nacionalidade, peso, posicao);
+            Console.WriteLine("{0} mede {1}cm, nascido a {2} de nacionalidade {3} pensando {4}kg de posição {5}.", nome, altura, nascimento, nacionalidade, peso, posicao);
+        }
+
+        public int Idade()
+        {
+            string[] Lista_Nascimento = nascimento.Split('/');
+
+            int ThisYear = DateTime.Now.Year;
+            int ThisMonth = DateTime.Now.Month;
+            int ThisDay = DateTime.Now.Day;
+
+            int idade = ThisYear - int.Parse(Lista_Nascimento[2]);
+
+            if (int.Parse(Lista_Nascimento[1]) == ThisMonth)
+            {
+                if (int.Parse(Lista_Nascimento[0]) >= ThisDay)
+                {
+                    idade++;
+                }
+            }
+
+            return idade;
+        }
+
+        public void Aposentar()
+        {
+            if (posicao == "defesa")
+            {
+                if (Idade() < 40)
+                {
+                    Console.WriteLine("O {0} tem ainda {1} ano(s) de carreira até se aposentar.", nome, (40-Idade()));
+                }
+                else
+                {
+                    Console.WriteLine("O {0} já deve estar aposentado!!!", nome);
+                }
+            }
+            else if (posicao == "meio-campo")
+            {
+                if (Idade() < 38)
+                {
+                    Console.WriteLine("O {0} tem ainda {1} ano(s) de carreira até se aposentar.", nome, (38 - Idade()));
+                }
+                else
+                {
+                    Console.WriteLine("O {0} já deve estar aposentado!!!", nome);
+                }
+            }
+            else if (posicao == "atacante")
+            {
+                if (Idade() < 35)
+                {
+                    Console.WriteLine("O {0} tem ainda {1} ano(s) de carreira até se aposentar.", nome, (35 - Idade()));
+                }
+                else
+                {
+                    Console.WriteLine("O {0} já deve estar aposentado!!!", nome);
+                }
+            }
+            else
+            {
+                Console.WriteLine("A posição do Jogador tem de estar compreendida entre 'defesa', 'meio-campo' e 'atacante'.");
+            }
         }
     }
 }
-
-/*
-    * Crie uma classe para representar um jogador de futebol
-    * atributos: nome, posição, data de  nascimento,  nacionalidade, altura  e  peso.
-    * métodos  públicos  necessários para leituras e escritas ?, imprimir todos os dados do jogador, calcular  a  idade  do  jogador  
-    * e mostrar  quanto  tempo  falta para  o  jogador  se  aposentar.  
-    * Para  isso,  considere  que  os  jogadores  da  posição  de  defesa  se  aposentam em média
-    * aos 40 anos, os jogadores de meio-campo aos 38 e os atacantes aos 35.
-*/
