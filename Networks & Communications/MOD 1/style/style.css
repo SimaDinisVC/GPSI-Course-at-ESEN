@@ -44,6 +44,8 @@ ul > a:hover, ul > a:active {
     border-radius: 50%;
 }
 
+    /* Divisions */
+
 .main-container{
     width: 100vw;
     height: 80vh;
@@ -69,16 +71,19 @@ ul > a:hover, ul > a:active {
     align-items: center;
 }
 
+    /* Styling */
+
 .right-container > img {
     border-radius: 100px 0 100px 0;
 }
 
 .left-container > h1{
     margin: 0.2rem 5rem 2.3rem 0;
+    text-shadow: 0px 10px 40px;
 }
 
 .resume-box{
-    background-color: #19657e;
+    background-color: #19657ecb;
     margin-left: 3rem;
     margin-bottom: 2rem;
     padding: 3rem 3.5rem 3rem 3.5rem;
