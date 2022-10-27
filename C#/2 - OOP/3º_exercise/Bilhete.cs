@@ -8,11 +8,11 @@ namespace _3º_exercise
 {
     internal class Bilhete
     {
-        public double valor;
+        double valor;
 
-        public Bilhete()
+        public Bilhete(double valor)
         {
-            valor = 5.99; // Valor do Bilhete
+            this.valor = valor; // Valor do Bilhete
         }
 
         public void ImprimirValor() // Método que IMPRIME o Valor

@@ -1,0 +1,8 @@
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\Polimorfismo\bin\Debug\Polimorfismo.exe.config
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\Polimorfismo\bin\Debug\Polimorfismo.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\Polimorfismo\bin\Debug\Polimorfismo.pdb
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\Polimorfismo\obj\Debug\Polimorfismo.csproj.AssemblyReference.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\Polimorfismo\obj\Debug\Polimorfismo.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\Polimorfismo\obj\Debug\Polimorfismo.csproj.CoreCompileInputs.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\Polimorfismo\obj\Debug\Polimorfismo.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\Polimorfismo\obj\Debug\Polimorfismo.pdb
