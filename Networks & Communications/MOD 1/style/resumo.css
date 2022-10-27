@@ -43,3 +43,76 @@ ul > a:hover, ul > a:active {
 .profile {
     border-radius: 50%;
 }
+
+    /* Divisions */
+
+.main-container{
+    width: 98vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-container{
+    width: 49%;
+    height: 100%;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-container{
+    width: 49%;
+    height: 100%;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+}
+
+    /* Left Container Style */
+
+.left-container > .text-box{
+    margin: 1rem 0rem 5rem 3rem;
+    padding: 3rem;
+    box-shadow: 0px 10px 40px #00000056;
+    border-radius: 20px;
+    text-align: left;
+    width: 75%;
+    background-color: #78aebeb4;
+}
+
+.left-container > .image{
+    width: 75%;
+    margin: 1rem 3rem 5rem 0rem;
+}
+
+.left-container > .image > .image-def{
+    border-radius: 50px 3px 50px 3px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+    /* Right Container Style */
+
+.right-container > .image{
+    width: 75%;
+    margin: 1rem 0rem 5rem 0rem;
+}
+
+.right-container > .image > .image-def{
+    border-radius: 3px 50px 3px 50px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.right-container > .text-box{
+    margin: 0.5rem 0rem 5rem 0rem;
+    padding: 3rem;
+    box-shadow: 0px 10px 40px #00000056;
+    border-radius: 20px;
+    text-align: left;
+    width: 65%;
+    color: #abf3d2;
+    background-color: #201b2cb4;
+}
