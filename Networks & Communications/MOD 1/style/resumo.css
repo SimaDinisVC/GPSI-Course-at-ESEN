@@ -47,8 +47,8 @@ ul > a:hover, ul > a:active {
     /* Divisions */
 
 .main-container{
-    width: 98vw;
-    height: 80vh;
+    width: 100%;
+    height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,6 +92,7 @@ ul > a:hover, ul > a:active {
 .left-container > .image > .image-def{
     border-radius: 50px 3px 50px 3px;
     box-shadow: 0px 10px 40px #00000056;
+    background-color: white;
 }
 
     /* Right Container Style */
@@ -104,15 +105,27 @@ ul > a:hover, ul > a:active {
 .right-container > .image > .image-def{
     border-radius: 3px 50px 3px 50px;
     box-shadow: 0px 10px 40px #00000056;
+    background-color: white;
 }
 
 .right-container > .text-box{
-    margin: 0.5rem 0rem 5rem 0rem;
+    margin: 1rem 0rem 5rem 5rem;
     padding: 3rem;
     box-shadow: 0px 10px 40px #00000056;
     border-radius: 20px;
     text-align: left;
-    width: 65%;
+    width: 70%;
     color: #abf3d2;
     background-color: #201b2cb4;
+}
+
+    /* Footer */
+
+footer {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #201b2c;
 }

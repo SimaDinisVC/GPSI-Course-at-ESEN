@@ -58,7 +58,7 @@ ul > a:hover, ul > a:active {
 
 .left-container {
     width: 600px;
-    height: 100%;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: top;
@@ -133,7 +133,6 @@ ul > a:hover, ul > a:active {
 
 .profile{
     border-radius: 50%;
-    margin: 0 auto 1rem 0;
 }
 
 .card-box > h1{
@@ -152,7 +151,7 @@ ul > a:hover, ul > a:active {
 }
 
 .social-media{
-    margin: 2rem 1rem 0 0;
+    margin:1.5rem 1rem 0 0;
     display: flex;
     justify-content: center;
 }
