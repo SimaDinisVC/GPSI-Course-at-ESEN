@@ -12,7 +12,6 @@ namespace _4º_exercise
         {
             Elevador e1 = new Elevador();
 
-            e1.Entrar();
             e1.Iniciar(5, 10);
             e1.Entrar();
             e1.Subir();

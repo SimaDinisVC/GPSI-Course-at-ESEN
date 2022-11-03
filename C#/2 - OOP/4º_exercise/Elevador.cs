@@ -9,7 +9,7 @@ namespace _4º_exercise
     internal class Elevador
     {
         private int piso, n_andares, capacidade_max, capacidade_atual;
-        private bool iniciado = false; // Para verificar se o elevador está iniado
+        private bool flag_iniciado = false; // Para verificar se o elevador está iniado
 
         public Elevador(){} // Construtor Vazio
 
@@ -21,21 +21,24 @@ namespace _4º_exercise
                 this.capacidade_max = capacidade_max;
                 piso = 0; // inicia a contagem de pisos
                 capacidade_atual = 0; // inicia contagem de pessoas dentro de elevador
-                iniciado = true;
+                flag_iniciado = true;
             }
             else
             {
                 Console.Error.WriteLine("ERRO: Os valores não podem ser <= 0.");
-                System.Environment.Exit(0); // Sai do Programa
+                Environment.Exit(0); // Sai do Programa
             }
         }
 
         public void Entrar()
         {
-            if (iniciado)
+            if (flag_iniciado)
             {
                 if (capacidade_atual < capacidade_max)
+                {
                     capacidade_atual++;
+                    Console.WriteLine("{0} / {1} pessoas",capacidade_atual,capacidade_max);
+                }
                 else
                     Console.WriteLine("Capacidade máxima atingida! Pedimos desculpa mas terá de ir pelas escadas.");
             }
@@ -45,10 +48,13 @@ namespace _4º_exercise
 
         public void Sair()
         {
-            if (iniciado)
+            if (flag_iniciado)
             {
                 if (capacidade_atual > 0)
+                {
                     capacidade_atual--;
+                    Console.WriteLine("{0} / {1} pessoas", capacidade_atual, capacidade_max);
+                }
                 else
                     Console.WriteLine("Não existe ninguém no elevador!");
             }
@@ -58,10 +64,13 @@ namespace _4º_exercise
 
         public void Subir()
         {
-            if (iniciado)
+            if (flag_iniciado)
             {
                 if (piso < n_andares)
+                { 
                     capacidade_atual++;
+                    Console.WriteLine("{0} / {1} andar", piso, n_andares);
+                }
                 else
                     Console.WriteLine("Já se encontra no último andar!");
             }
@@ -71,10 +80,13 @@ namespace _4º_exercise
 
         public void Descer()
         {
-            if (iniciado)
+            if (flag_iniciado)
             {
                 if (piso > 0)
+                {
                     capacidade_atual--;
+                    Console.WriteLine("{0} / {1} andar", piso, n_andares);
+                }
                 else
                     Console.WriteLine("Já se encontra no andar térreo!");
             }
