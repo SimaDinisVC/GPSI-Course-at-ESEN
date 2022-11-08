@@ -1,0 +1,8 @@
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\5º_exercise\bin\Debug\5º_exercise.exe.config
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\5º_exercise\bin\Debug\5º_exercise.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\5º_exercise\bin\Debug\5º_exercise.pdb
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\5º_exercise\obj\Debug\5º_exercise.csproj.AssemblyReference.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\5º_exercise\obj\Debug\5º_exercise.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\5º_exercise\obj\Debug\5º_exercise.csproj.CoreCompileInputs.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\5º_exercise\obj\Debug\5º_exercise.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\5º_exercise\obj\Debug\5º_exercise.pdb
