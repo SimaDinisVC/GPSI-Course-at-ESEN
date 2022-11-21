@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace _8º_exercise
 {
-    internal class Bebidas
+    internal class Entrada
     {
-
     }
 }
