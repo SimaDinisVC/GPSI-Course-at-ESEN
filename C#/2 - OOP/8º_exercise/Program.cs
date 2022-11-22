@@ -31,50 +31,40 @@ namespace _8º_exercise
 
         }
 
+        static double Bilhete(double valor_entradaP, double custos, int qnt_convites)
+        {
+            Console.WriteLine("Introduza o tipo de Bilhete: ");
+            string t = Console.ReadLine();
+            if (t == "P")
+            {
+                if (valor_entradaP == 0)
+                    valor_entradaP = custos / qnt_convites;
+                return valor_entradaP;
+            }
+            else if (t == "N")
+            {
+                double valor_entradaN = valor_entradaP + valor_entradaP * 0.1;
+                return valor_entradaN;
+            }
+            else
+            {
+                double valor_entradaN = valor_entradaP + valor_entradaP * 0.1;
+                double valor_entradaV = valor_entradaN + valor_entradaN * 0.15;
+                return valor_entradaV;
+            }
+            
+            return 0;
+        }
+
         static void Main(string[] args)
         {
-            List<int> ids = new List<int>(); // Apenas para não se repetir o mesmo ID
-
             for (int i = 0; i < 5; i++)
             {
                 int opcao = menu();
-                int id;
                 string descricao, local, data_prevista;
                 int qnt_convites;
-                double custos;
-                Entrada valor_entrada;
-
-                Console.Write("Introduza o Identificador do Evento (Enter para gerar um ID): ");
-                bool flag = int.TryParse(Console.ReadLine(), out id); // Caso a flag devolver True é então o utilizador introduziu um nª
-                if (flag) // Proteção
-                {
-                    while (ids.Contains(id))
-                    {
-                        Console.WriteLine("\n--> Identificador já existente! Tente outro!\n");
-                        Console.Write("Introduza o Identificador do Evento (Enter para gerar um ID): ");
-                        flag = int.TryParse(Console.ReadLine(), out id);
-                        if (!flag) // FUNCIONALIDADE APARTE (No caso de não introduzir um nº ele passa a gerar um id)
-                        {
-                            do
-                            {
-                                Random rd = new Random();
-                                id = rd.Next(10000, 99999);
-                            }
-                            while (ids.Contains(id));
-                            break; // Para quebrar o while da introdução do ID à mão
-                        }
-                    }
-                }
-                else // FUNCIONALIDADE APARTE (No caso de não introduzir um nº ele passa a gerar um id)
-                {
-                    do
-                    {
-                        Random rd = new Random();
-                        id = rd.Next(10000, 99999);
-                    }
-                    while (ids.Contains(id));
-                }
-                ids.Add(id);
+                double custos, valor_entradaP;
+                List<Bebida> bebidas = new List<Bebida>();
 
                 Console.Write("\nIntroduza uma breve descrição do Evento: ");
                 descricao = Console.ReadLine();
@@ -100,13 +90,27 @@ namespace _8º_exercise
                 Console.Write("\nIntroduza os Custos da Organização: ");
                 custos = double.Parse(Console.ReadLine());
 
-                if (opcao == 1)
+                Console.Write("\nIntroduza o Valor de Entrada Popular (0 para não introduzir): ");
+                valor_entradaP = double.Parse(Console.ReadLine());
+
+
+                if (opcao == 1) // Evento Normal
                 {
                     
                 }
-                else
+                else // Evento Bar Aberto
                 {
-
+                    for (int j = 0; j < 4; j++)
+                    {
+                        Console.WriteLine("Introduza o nome da {}ª bebida",j);
+                        string nome = Console.ReadLine();
+                        Console.WriteLine("Introduza o teor alcoolico da {}ª bebida", j);
+                        double teor_alcoolico = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Introduza o valor/uni. da {}ª bebida", j);
+                        double valor = double.Parse(Console.ReadLine());
+                        bebidas.Add(new Bebida(nome, teor_alcoolico, valor));
+                    }
+                    Bar_Aberto eventoN = new Bar_Aberto(descricao, local, data_prevista, qnt_convites, custos, Bilhete(valor_entradaP, custos, qnt_convites), bebidas);
                 }
             }
         }

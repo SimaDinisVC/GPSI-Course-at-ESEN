@@ -9,10 +9,9 @@ namespace _8º_exercise
     internal class Bebida
     {
         string nome;
-        int teor_alcoolico;
-        double valor;
+        double teor_alcoolico, valor;
 
-        public Bebida(string nome, int teor_alcoolico, double valor)
+        public Bebida(string nome, double teor_alcoolico, double valor)
         {
             this.nome = nome;
             this.teor_alcoolico = teor_alcoolico;

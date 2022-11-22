@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace _8º_exercise
 {
-    internal class Bar_Aberto
+    internal class Bar_Aberto : Evento
     {
+        List<Bebida> bebidas = new List<Bebida>();
+
+        public Bar_Aberto(string descricao, string local, string data_prevista, int qnt_convites, double custos, double valor_entrada, List<Bebida> bebidas) : base(descricao, local, data_prevista, qnt_convites, custos, valor_entrada)
+        {
+            this.bebidas = bebidas;
+        }
     }
 }

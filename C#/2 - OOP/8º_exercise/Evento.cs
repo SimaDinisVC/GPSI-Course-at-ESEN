@@ -11,12 +11,11 @@ namespace _8º_exercise
         int id;
         string descricao, local, data_prevista;
         int qnt_convites;
-        double custos;
-        Entrada valor_entrada;
+        double custos, valor_entrada;
 
-        public Evento(int id, string descricao, string local, string data_prevista, int qnt_convites, double custos, Entrada valor_entrada)
+        public Evento(string descricao, string local, string data_prevista, int qnt_convites, double custos, double valor_entrada)
         {
-            this.id = id;
+            this.id = this.id+1;
             this.descricao = descricao;
             this.local = local;
             this.data_prevista = data_prevista;
