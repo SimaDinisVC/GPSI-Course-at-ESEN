@@ -28,12 +28,11 @@ namespace _8º_exercise
                 return 2;
 
             return 0;
-
         }
 
         static double Bilhete(double valor_entradaP, double custos, int qnt_convites)
         {
-            Console.WriteLine("Introduza o tipo de Bilhete: ");
+            Console.WriteLine("Introduza o tipo de Bilhete (P, N ou V : ");
             string t = Console.ReadLine();
             if (t == "P")
             {
@@ -52,8 +51,6 @@ namespace _8º_exercise
                 double valor_entradaV = valor_entradaN + valor_entradaN * 0.15;
                 return valor_entradaV;
             }
-            
-            return 0;
         }
 
         static void Main(string[] args)

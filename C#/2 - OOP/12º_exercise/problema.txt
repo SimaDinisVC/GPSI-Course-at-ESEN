@@ -1,0 +1,18 @@
+Programa que simula o fluxo de passageiros numa viagem de autocarro.
+
+A viagem de autocarro tem uma rota predefenida com paragens em certas cidades.
+
+Dos passageiros é apenas necessário saber a paragem origem e paragem destino.
+
+Os autocarros têm um determinado nº de lugares e uma rota defenida por uma lista de paragens,
+sendo a 1º o ponto de partida e a ultima o destino final.
+
+Deve ser possível, numa determinada paragem, saber: (vars)
+	- quantos passageiros estão dentro do autocarro
+	- qual a última paragem efetuada
+	- quantos passageiros vão sair
+
+A Simulação é executada com base num conjunto de passageiros (lista) com origem/destino e um
+autocarro com rota defenida. O autocarro segue em paragens onde os passageiros entram e saiem
+conforme a sua origem/destino. A simulação deverá emitir mensagens sobre cada paragem (STATUS)
+ou seja quantos passageiros saíram, quantos entraram, e quantos não tiveram lugar para viajar.
