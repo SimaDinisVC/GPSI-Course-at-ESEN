@@ -1,0 +1,8 @@
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\M9-11H-N22\bin\Debug\M9-11H-N22.exe.config
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\M9-11H-N22\bin\Debug\M9-11H-N22.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\M9-11H-N22\bin\Debug\M9-11H-N22.pdb
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\M9-11H-N22\obj\Debug\M9-11H-N22.csproj.AssemblyReference.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\M9-11H-N22\obj\Debug\M9-11H-N22.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\M9-11H-N22\obj\Debug\M9-11H-N22.csproj.CoreCompileInputs.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\M9-11H-N22\obj\Debug\M9-11H-N22.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\2 - OOP\Desafios de Aula\M9-11H-N22\obj\Debug\M9-11H-N22.pdb
