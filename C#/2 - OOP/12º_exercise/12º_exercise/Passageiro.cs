@@ -10,6 +10,16 @@ namespace _12º_exercise
     {
         string origem, destino;
 
+        public Passageiro(string origem, string destino)
+        {
+            this.origem = origem;
+            this.destino = destino;
+        }
 
+        // Encapsulamento
+
+        public string get_origem() { return origem; }
+
+        public string get_destino() { return destino; }
     }
 }
