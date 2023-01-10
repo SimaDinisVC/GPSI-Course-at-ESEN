@@ -1,0 +1,8 @@
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Dasafios de aula\Static\obj\Debug\Static.csproj.AssemblyReference.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Dasafios de aula\Static\obj\Debug\Static.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Dasafios de aula\Static\obj\Debug\Static.csproj.CoreCompileInputs.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Dasafios de aula\Static\bin\Debug\Static.exe.config
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Dasafios de aula\Static\bin\Debug\Static.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Dasafios de aula\Static\bin\Debug\Static.pdb
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Dasafios de aula\Static\obj\Debug\Static.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Dasafios de aula\Static\obj\Debug\Static.pdb
