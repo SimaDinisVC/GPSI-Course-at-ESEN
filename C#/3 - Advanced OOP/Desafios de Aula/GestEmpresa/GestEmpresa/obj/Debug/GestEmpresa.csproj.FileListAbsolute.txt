@@ -1,0 +1,58 @@
+C:\Users\esen2020\Desktop\GestEmpresa\GestEmpresa\bin\Debug\GestEmpresa.exe.config
+C:\Users\esen2020\Desktop\GestEmpresa\GestEmpresa\bin\Debug\GestEmpresa.exe
+C:\Users\esen2020\Desktop\GestEmpresa\GestEmpresa\bin\Debug\GestEmpresa.pdb
+C:\Users\esen2020\Desktop\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.csproj.AssemblyReference.cache
+C:\Users\esen2020\Desktop\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.frmEmpregado.resources
+C:\Users\esen2020\Desktop\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.frmPrincipal.resources
+C:\Users\esen2020\Desktop\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.Properties.Resources.resources
+C:\Users\esen2020\Desktop\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.csproj.GenerateResource.cache
+C:\Users\esen2020\Desktop\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.csproj.CoreCompileInputs.cache
+C:\Users\esen2020\Desktop\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.exe
+C:\Users\esen2020\Desktop\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.pdb
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2020-2023\2º Ano\MOD 10\Programas Aula\GestEmpresa\GestEmpresa\bin\Debug\GestEmpresa.exe.config
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2020-2023\2º Ano\MOD 10\Programas Aula\GestEmpresa\GestEmpresa\bin\Debug\GestEmpresa.exe
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2020-2023\2º Ano\MOD 10\Programas Aula\GestEmpresa\GestEmpresa\bin\Debug\GestEmpresa.pdb
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2020-2023\2º Ano\MOD 10\Programas Aula\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.frmEmpregado.resources
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2020-2023\2º Ano\MOD 10\Programas Aula\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.frmPrincipal.resources
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2020-2023\2º Ano\MOD 10\Programas Aula\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.Properties.Resources.resources
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2020-2023\2º Ano\MOD 10\Programas Aula\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.csproj.GenerateResource.cache
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2020-2023\2º Ano\MOD 10\Programas Aula\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2020-2023\2º Ano\MOD 10\Programas Aula\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.exe
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2020-2023\2º Ano\MOD 10\Programas Aula\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.pdb
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2020-2023\2º Ano\MOD 10\Programas Aula\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.csproj.AssemblyReference.cache
+C:\Users\esen2020\Downloads\GestEmpresa_v3\GestEmpresa\GestEmpresa\bin\Debug\GestEmpresa.exe.config
+C:\Users\esen2020\Downloads\GestEmpresa_v3\GestEmpresa\GestEmpresa\bin\Debug\GestEmpresa.exe
+C:\Users\esen2020\Downloads\GestEmpresa_v3\GestEmpresa\GestEmpresa\bin\Debug\GestEmpresa.pdb
+C:\Users\esen2020\Downloads\GestEmpresa_v3\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.csproj.AssemblyReference.cache
+C:\Users\esen2020\Downloads\GestEmpresa_v3\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.frmEmpregado.resources
+C:\Users\esen2020\Downloads\GestEmpresa_v3\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.frmPrincipal.resources
+C:\Users\esen2020\Downloads\GestEmpresa_v3\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.Properties.Resources.resources
+C:\Users\esen2020\Downloads\GestEmpresa_v3\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.csproj.GenerateResource.cache
+C:\Users\esen2020\Downloads\GestEmpresa_v3\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.csproj.CoreCompileInputs.cache
+C:\Users\esen2020\Downloads\GestEmpresa_v3\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.exe
+C:\Users\esen2020\Downloads\GestEmpresa_v3\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.pdb
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2020-2023\2º Ano\MOD 10\Programas Aula\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.csproj.SuggestedBindingRedirects.cache
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa 2021\GestEmpresa\bin\Debug\GestEmpresa.exe.config
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa 2021\GestEmpresa\bin\Debug\GestEmpresa.exe
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa 2021\GestEmpresa\bin\Debug\GestEmpresa.pdb
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa 2021\GestEmpresa\obj\Debug\GestEmpresa.csproj.AssemblyReference.cache
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa 2021\GestEmpresa\obj\Debug\GestEmpresa.csproj.SuggestedBindingRedirects.cache
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa 2021\GestEmpresa\obj\Debug\GestEmpresa.frmEmpregado.resources
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa 2021\GestEmpresa\obj\Debug\GestEmpresa.frmPrincipal.resources
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa 2021\GestEmpresa\obj\Debug\GestEmpresa.Properties.Resources.resources
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa 2021\GestEmpresa\obj\Debug\GestEmpresa.csproj.GenerateResource.cache
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa 2021\GestEmpresa\obj\Debug\GestEmpresa.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa 2021\GestEmpresa\obj\Debug\GestEmpresa.exe
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa 2021\GestEmpresa\obj\Debug\GestEmpresa.pdb
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa\GestEmpresa\bin\Debug\GestEmpresa.exe.config
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa\GestEmpresa\bin\Debug\GestEmpresa.exe
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa\GestEmpresa\bin\Debug\GestEmpresa.pdb
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.csproj.AssemblyReference.cache
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.csproj.SuggestedBindingRedirects.cache
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.frmEmpregado.resources
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.frmPrincipal.resources
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.Properties.Resources.resources
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.csproj.GenerateResource.cache
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.exe
+C:\Users\carlo\Escola Secundária de Emídio Navarro de Viseu\PSI Prof - Documentos\2021-2024\2º Ano\MOD 10\GestEmpresa\GestEmpresa\obj\Debug\GestEmpresa.pdb

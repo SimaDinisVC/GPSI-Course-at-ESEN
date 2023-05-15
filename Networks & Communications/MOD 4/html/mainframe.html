@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+        /* Default Reset*/
+
+        * {  
+            margin: 0; 
+            padding: 0;
+        }
+
+        body {
+            background: linear-gradient(180deg, #78aebe, #201b2c);
+            font-family: 'Poppins', sans-serif;
+        }
+
+            /* Divisions */
+
+        .main-container{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .left-container {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .right-container {
+            width: 50%;
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            /* Styling */
+
+        .right-container > img {
+            width: 125%;
+            height: 125%;
+        }
+
+        .left-container > h1{
+            margin: 0.2rem 5rem 2.3rem 0;
+            text-shadow: 0px 10px 40px;
+        }
+
+        .resume-box{
+            background-color: #3385a1e1;
+            margin-left: 3rem;
+            margin-bottom: 2rem;
+            padding: 3rem 3.5rem 3rem 3.5rem;
+            text-align: justify;
+            box-shadow: 0px 10px 40px #00000056;
+            border-radius: 20px;
+            width: 65%;
+            max-height: 50%;
+        }
+        .resume-box > h2{
+            margin-bottom: 0.3rem;
+            color: #0a0a0a;
+        }
+
+        .span {
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="left-container">
+            <h1>Redes de Comunicação</h1>
+            <div class="resume-box">
+                <h2>Olá amigo,</h2>
+                <p>estou a desenvolver este site no âmbito da disciplina de Redes de Comunicação que visa desempenhar um papel
+                infraestrutural que suporta os vários Sistemas de Informação, permitindo a interligação de uma vasta
+                gama de equipamentos, para isso conto com os meus professores Carlos Baptista & Adelino Amaral a quem presto agradecimento.</p>
+                <div class="span"><i>Simão Costa</i></div>
+            </div>
+        </div>
+        <div class="right-container">
+            <img src="../images/onlineWorld.svg" alt="Redes">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+        
+        /* Default Reset*/
+
+        * {  
+            margin: 0; 
+            padding: 0;
+        }
+
+        body {
+            background: linear-gradient(180deg, #201b2c, #78aebe);
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        /* Nav BAR */
+
+        nav {
+            width: auto;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ul > a:link, ul > a:visited {
+            background-color: #3386a1;
+            color: white;
+            border-radius: 5px;
+            padding: 8px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        /* Buttons Interactivity */
+
+        ul > a:hover, ul > a:active {
+            background-color: #201b2c;
+        }
+
+        select {
+            appearance: none;
+            border: 0;
+            height: 2.6rem;
+            background-color: #3386a1;
+            color: white;
+            border-radius: 5px;
+            padding: 8px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: medium;
+        }
+        
+        select:focus {
+            outline: none;
+        }
+
+        ul > select:hover, ul > select:active {
+            background-color: #201b2c;
+        }
+
+        .logo {
+            margin: 4px;
+            width: 50%;
+        }
+
+        .profile {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="https://github.com/SimaDinisVC"><image class="profile" height="100" width="100" src="https://avatars.githubusercontent.com/u/90974895?s=200" alt="GitHub-UserImage"></image></a>
+        </div>
+        <ul>
+            <a href="mainframe.html" target="mainFrame" onclick="resetSelect()">Início</a>
+            <select id="menuSelect" onchange="openMainFrame(this.value)">
+                <option value="default" disabled selected hidden>Módulo</option>
+                <option value="resumoM1.html">MOD 1</option>
+            </select>
+            <a href="sobre.html" target="mainFrame" onclick="resetSelect()">Sobre</a>
+        </ul>
+    </nav>
+</body>
+<script>
+    function openMainFrame(url) {
+      if (url !== "default") {
+        window.open(url, "mainFrame");
+      }
+    }
+    
+    function resetSelect() {
+        let select = document.getElementById("menuSelect")
+        select.value = "default"
+    }
+</script>
+</html>

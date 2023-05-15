@@ -1,0 +1,11 @@
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\trycatch\bin\Debug\trycatch.exe.config
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\trycatch\bin\Debug\trycatch.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\trycatch\bin\Debug\trycatch.pdb
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\trycatch\obj\Debug\trycatch.csproj.AssemblyReference.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\trycatch\obj\Debug\trycatch.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\trycatch\obj\Debug\trycatch.Form1.resources
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\trycatch\obj\Debug\trycatch.Properties.Resources.resources
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\trycatch\obj\Debug\trycatch.csproj.GenerateResource.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\trycatch\obj\Debug\trycatch.csproj.CoreCompileInputs.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\trycatch\obj\Debug\trycatch.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\trycatch\obj\Debug\trycatch.pdb
