@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "87pVf/dl36u7gbwTUU7RzRTE3PcGl+Ap770CAittNUsuM4cQDALTLixkw1HfKczIe1usCRthA0uUdU7LWqV+oQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\simao\\Repositório Local\\GPSI-Course-at-ESEN\\C#\\3 - Advanced OOP\\Estudos\\Console\\Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\simao\\.nuget\\packages\\openpop.net\\2.0.6.1120\\openpop.net.2.0.6.1120.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OpenPop.NET 2.0.6.1120' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "OpenPop.NET",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

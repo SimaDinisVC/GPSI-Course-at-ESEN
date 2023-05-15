@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-PT">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,6 +17,8 @@
         body {
             background: linear-gradient(180deg, #201b2c, #78aebe);
             font-family: 'Poppins', sans-serif;
+            height: 100vh;
+            width: 100vw;
         }
         
         /* Nav BAR */
@@ -32,7 +34,7 @@
         ul > a:link, ul > a:visited {
             background-color: #3386a1;
             color: white;
-            border-radius: 5px;
+            border-radius: 13px;
             padding: 8px 20px;
             text-align: center;
             text-decoration: none;
@@ -48,10 +50,10 @@
         select {
             appearance: none;
             border: 0;
-            height: 2.6rem;
+            height: 2.5rem;
             background-color: #3386a1;
             color: white;
-            border-radius: 5px;
+            border-radius: 13px;
             padding: 8px 20px;
             text-align: center;
             text-decoration: none;
@@ -82,13 +84,15 @@
 <body>
     <nav>
         <div class="logo">
-            <a href="https://github.com/SimaDinisVC"><image class="profile" height="100" width="100" src="https://avatars.githubusercontent.com/u/90974895?s=200" alt="GitHub-UserImage"></image></a>
+            <a href="https://github.com/SimaDinisVC" target="_blank"><image class="profile" height="100" width="100" src="https://avatars.githubusercontent.com/u/90974895?s=200" alt="GitHub-UserImage"></image></a>
         </div>
         <ul>
             <a href="mainframe.html" target="mainFrame" onclick="resetSelect()">Início</a>
             <select id="menuSelect" onchange="openMainFrame(this.value)">
-                <option value="default" disabled selected hidden>Módulo</option>
+                <option value="default" disabled selected hidden>Módulos</option>
                 <option value="resumoM1.html">MOD 1</option>
+                <option value="resumoM2.html">MOD 2</option>
+                <option value="resumoM3.html">MOD 3</option>
             </select>
             <a href="sobre.html" target="mainFrame" onclick="resetSelect()">Sobre</a>
         </ul>

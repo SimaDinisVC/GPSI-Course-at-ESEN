@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Mod10_Ex1
+{
+    internal static class Program
+    {
+        /// <summary>
+        /// Ponto de entrada principal para o aplicativo.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Frm_principal());
+
+            for (int i=0;i<Empresa.empList.Count;i++)
+            {
+                Console.WriteLine(Empresa.empList[i].Nome);
+            }
+        }
+    }
+}

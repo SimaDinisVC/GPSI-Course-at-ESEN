@@ -1,0 +1,35 @@
+C:\Users\Andreia Quintal\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Mod10_Ex1\Mod10_Ex1\bin\Debug\Mod10_Ex1.exe.config
+C:\Users\Andreia Quintal\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Mod10_Ex1\Mod10_Ex1\bin\Debug\Mod10_Ex1.exe
+C:\Users\Andreia Quintal\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Mod10_Ex1\Mod10_Ex1\bin\Debug\Mod10_Ex1.pdb
+C:\Users\Andreia Quintal\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.csproj.AssemblyReference.cache
+C:\Users\Andreia Quintal\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.Frm_Empregado.resources
+C:\Users\Andreia Quintal\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.Frm_principal.resources
+C:\Users\Andreia Quintal\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.Properties.Resources.resources
+C:\Users\Andreia Quintal\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.csproj.GenerateResource.cache
+C:\Users\Andreia Quintal\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.csproj.CoreCompileInputs.cache
+C:\Users\Andreia Quintal\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.exe
+C:\Users\Andreia Quintal\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.pdb
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Desafios de Aula\Mod10_Ex1\Mod10_Ex1\bin\Debug\Mod10_Ex1.exe.config
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Desafios de Aula\Mod10_Ex1\Mod10_Ex1\bin\Debug\Mod10_Ex1.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Desafios de Aula\Mod10_Ex1\Mod10_Ex1\bin\Debug\Mod10_Ex1.pdb
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Desafios de Aula\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.csproj.AssemblyReference.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Desafios de Aula\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Desafios de Aula\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.Frm_Empregado.resources
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Desafios de Aula\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.Frm_principal.resources
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Desafios de Aula\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.Properties.Resources.resources
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Desafios de Aula\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.csproj.GenerateResource.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Desafios de Aula\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.csproj.CoreCompileInputs.cache
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Desafios de Aula\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.exe
+C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Desafios de Aula\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.pdb
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Mod10_Ex1\Mod10_Ex1\bin\Debug\Mod10_Ex1.exe.config
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Mod10_Ex1\Mod10_Ex1\bin\Debug\Mod10_Ex1.exe
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Mod10_Ex1\Mod10_Ex1\bin\Debug\Mod10_Ex1.pdb
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.csproj.AssemblyReference.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.csproj.SuggestedBindingRedirects.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.Frm_Empregado.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.Frm_principal.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.Properties.Resources.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.csproj.GenerateResource.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.csproj.CoreCompileInputs.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.exe
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Mod10_Ex1\Mod10_Ex1\obj\Debug\Mod10_Ex1.pdb

@@ -11,14 +11,20 @@
     <div class="main-container">
         <div class="left-container">
             <div class="card-box">
-                <h1>FeedBack</h1>
-                <label for="email">Nome</label>
-                <input type="text" id="username" placeholder="Nome">
-                <label for="email">Email</label>
-                <input type="text" id="username" placeholder="Email">
-                <label for="email">Mensagem</label>
-                <input type="text" id="me" placeholder="Escreva aqui...">
-                <a>Submeter</a>
+                <h1>Feedback</h1>
+                <div class="textfield">
+                    <label for="username">Nome</label>
+                    <input type="text" id="username" placeholder="O seu nome" required>
+                </div>
+                <div class="textfield">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="O seu email" required>
+                </div>
+                <div class="textfield">
+                    <label for="text">Mensagem</label>
+                    <textarea id="mensagem" placeholder="Escreva a mensagem aqui..." required></textarea>
+                </div>
+                <button class="btn-submeter" onclick="submitForm()">Submeter</button>
             </div>
         </div>
         <div class="right-container">
@@ -35,5 +41,28 @@
             </div>
         </div>
     </div>
+    <script>
+        function submitForm()
+        {
+            const nome = document.querySelector('#username');
+            const email = document.querySelector('#email');
+            const mensagem = document.querySelector('#mensagem');
+
+            // Validar dados
+            
+            if (nome.value === '' || email.value === '' || mensagem.value === '') {
+                alert('Por favor, preencha todos os campos do formulário!');
+                return;
+            }
+
+            const re = /\S+@\S+\.\S+/;
+            if (!re.test(email.value)){
+                alert('Por favor, introduza um email válido.')
+                return;
+            }
+            
+            alert('Email enviado com sucesso!');
+        }
+    </script>
 </body>
 </html>

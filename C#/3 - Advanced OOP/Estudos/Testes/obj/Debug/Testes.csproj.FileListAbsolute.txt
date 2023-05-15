@@ -1,0 +1,14 @@
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Testes\bin\Debug\Testes.exe.config
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Testes\bin\Debug\Testes.exe
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Testes\bin\Debug\Testes.pdb
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Testes\obj\Debug\Testes.csproj.AssemblyReference.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Testes\obj\Debug\Testes.csproj.SuggestedBindingRedirects.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Testes\obj\Debug\Testes.Form1.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Testes\obj\Debug\Testes.Properties.Resources.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Testes\obj\Debug\Testes.csproj.GenerateResource.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Testes\obj\Debug\Testes.csproj.CoreCompileInputs.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Testes\obj\Debug\Testes.exe
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Testes\obj\Debug\Testes.pdb
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Testes\bin\Debug\icons8_settings.ico
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Testes\bin\Debug\OpenPop.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Testes\obj\Debug\Testes.csproj.CopyComplete

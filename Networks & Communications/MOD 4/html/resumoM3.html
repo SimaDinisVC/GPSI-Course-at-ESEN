@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+        * {  /* Default Reset*/
+            margin: 0; 
+            padding: 0;
+        }
+
+        body {
+            background: linear-gradient(180deg, #78aebe, #201b2c);
+            font-family: 'Poppins', sans-serif;
+            height: 100vh;
+            width: 100vw;
+        }
+        
+        .main{
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .title{
+            display: flex;
+            width: 100vw;
+            height: 10vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .imgs{
+            display: flex;
+            width: 100vw;
+            height: 70vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .imgs > img{
+            margin: 0.2rem;
+        }
+
+        .btn-download{
+            padding: 12px 0px;
+            margin-top: 10px;
+            width: 500px;
+            border: none;
+            border-radius: 8px;
+            outline: none;
+            text-transform: uppercase;
+            font-weight: 800;
+            letter-spacing: 3px;
+            color: #2b134b;
+            background: #abf3d2;
+            cursor: pointer;
+            box-shadow: 0px 10px 40px 5px #5A5A5A;
+        }
+
+        .btns{
+            width: 100vw;
+            height: 20vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .title-config{
+            text-shadow: 0px 5px 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- PACKET TRACER -->
+    <div class="main">
+        <div class="title">
+            <h1 class="title-config">Simulação da Rede Interna da ESEN</h1>
+        </div>
+        <div class="imgs">
+            <img width="450" src="../resource/logic.png" alt="Área Lógica do Packet Tracer">
+            <img width="450" src="../resource/main physical.png" alt="Área Física do Packet Tracer">
+            <img width="385" src="../resource/physical piso 0.png" alt="Piso 0 da Rede da Escola ESEN">
+        </div>
+        <div class="btns">
+            <button class="btn-download" onclick="window.location.href = '../resource/Projeto MOD3.pkt';">Descarregar</button>
+        </div>
+    </div>
+</body>
+</html>

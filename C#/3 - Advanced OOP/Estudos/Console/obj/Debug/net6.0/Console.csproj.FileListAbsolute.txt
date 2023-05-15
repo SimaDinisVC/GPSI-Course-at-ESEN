@@ -1,0 +1,17 @@
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Console\bin\Debug\net6.0\Console.exe
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Console\bin\Debug\net6.0\Console.deps.json
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Console\bin\Debug\net6.0\Console.runtimeconfig.json
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Console\bin\Debug\net6.0\Console.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Console\bin\Debug\net6.0\Console.pdb
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Console\bin\Debug\net6.0\OpenPop.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Console\obj\Debug\net6.0\Console.csproj.AssemblyReference.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Console\obj\Debug\net6.0\Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Console\obj\Debug\net6.0\Console.AssemblyInfoInputs.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Console\obj\Debug\net6.0\Console.AssemblyInfo.cs
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Console\obj\Debug\net6.0\Console.csproj.CoreCompileInputs.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Console\obj\Debug\net6.0\Console.csproj.CopyComplete
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Console\obj\Debug\net6.0\Console.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Console\obj\Debug\net6.0\refint\Console.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Console\obj\Debug\net6.0\Console.pdb
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Console\obj\Debug\net6.0\Console.genruntimeconfig.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Estudos\Console\obj\Debug\net6.0\ref\Console.dll
