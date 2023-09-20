@@ -21,6 +21,7 @@ namespace AnimalClinic.forms
 
         private void frmAdmin_Load(object sender, EventArgs e)
         {
+
             LoadTema();
 
             // Definições da datagridview Rececionistas
@@ -178,10 +179,15 @@ namespace AnimalClinic.forms
                 string NIC;
                 if (dgvRececionistas.CurrentRow != null)
                     NIC = ((Pessoa)dgvRececionistas.CurrentRow.DataBoundItem).NIC;
-                else
+                else if (dgvMedicos.CurrentRow != null)
                 {
                     index = 1;
                     NIC = ((Pessoa)dgvMedicos.CurrentRow.DataBoundItem).NIC;
+                }
+                else
+                {
+                    MessageBox.Show("Selecione uma pessoa.", Clinica.appname, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
                 }
                 frmEditAdmin frm = new frmEditAdmin(false, NIC, index);
                 frm.ShowDialog();

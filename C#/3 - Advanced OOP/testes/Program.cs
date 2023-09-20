@@ -10,6 +10,7 @@ using MailKit.Security;
 using MimeKit;
 using MailKit.Net.Smtp;
 using System.Xml.Linq;
+using System.Net.Http;
 
 namespace testes
 {
@@ -17,6 +18,18 @@ namespace testes
     {
         static void Main(string[] args)
         {
+            string r = Environment.NewLine + "";
+
+            Console.WriteLine(r.Replace(Environment.NewLine, "") == string.Empty);
+
+            /*
+            Console.Write("Insira o código postal: ");
+            string codigoPostal = Console.ReadLine();
+
+            string localidade = await ObterLocalidade(codigoPostal);
+
+            Console.WriteLine($"A localidade correspondente ao código postal {codigoPostal} é: {localidade}");
+
             // Configurações do servidor de e-mail
             bool useSsl = true;
 
@@ -44,9 +57,9 @@ namespace testes
                 client.Send(message);
                 client.Disconnect(true);
             }
-            Console.WriteLine("Enviado com sucesso!");/**/
+            Console.WriteLine("Enviado com sucesso!");
 
-            /* RECEBER EMAILs!
+             RECEBER EMAILs!
             using (var client = new ImapClient())
             {
                 // Conecta ao servidor de e-mail
@@ -119,7 +132,7 @@ namespace testes
                 }
 
                 // Desconecta do servidor de e-mail
-                client.Disconnect(true);*/
+                client.Disconnect(true);
 
 
             using (var client = new ImapClient())
@@ -174,7 +187,36 @@ namespace testes
 
                 // Desconecta do servidor de e-mail
                 client.Disconnect(true);
+        }
+
+        static async Task<string> ObterLocalidade(string codigoPostal)
+        {
+            using (HttpClient httpClient = new HttpClient())
+            {
+                string apiUrl = $"https://www.cttcodigopostal.pt/api/v1/4f493beaea324c2887ba33821ebe5cad/{codigoPostal}";
+
+                try
+                {
+                    HttpResponseMessage response = await httpClient.GetAsync(apiUrl);
+                    response.EnsureSuccessStatusCode();
+
+                    string jsonResponse = await response.Content.ReadAsStringAsync();
+                    // A resposta é retornada como uma string JSON, então você pode usar uma biblioteca JSON (como Newtonsoft.Json) para analisá-la
+                    // Neste exemplo, vamos simplificar e extrair apenas a localidade diretamente da string JSON
+                    string localidade = jsonResponse.Split(':')[5].Split(',')[0].Trim('"');
+
+                    return localidade;
+                }
+                catch (HttpRequestException)
+                {
+                    // Trate exceções de requisição HTTP aqui
+                    // Por exemplo, se ocorrer um erro de conexão ou o código postal não for válido
+                    Console.WriteLine("Ocorreu um erro na requisição HTTP.");
+                    return string.Empty;
+                }
             }
+        }*/
+
         }
     }
 }

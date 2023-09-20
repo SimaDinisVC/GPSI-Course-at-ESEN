@@ -6,3 +6,11 @@ C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\Ficheir
 C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\FicheirosBinarios\bin\Debug\FicheirosBinarios.pdb
 C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\FicheirosBinarios\obj\Debug\FicheirosBinarios.exe
 C:\Users\ESEN\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\FicheirosBinarios\obj\Debug\FicheirosBinarios.pdb
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\4 - Files\FicheirosBinarios\bin\Debug\FicheirosBinarios.exe.config
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\4 - Files\FicheirosBinarios\bin\Debug\FicheirosBinarios.exe
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\4 - Files\FicheirosBinarios\bin\Debug\FicheirosBinarios.pdb
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\4 - Files\FicheirosBinarios\obj\Debug\FicheirosBinarios.csproj.AssemblyReference.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\4 - Files\FicheirosBinarios\obj\Debug\FicheirosBinarios.csproj.SuggestedBindingRedirects.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\4 - Files\FicheirosBinarios\obj\Debug\FicheirosBinarios.csproj.CoreCompileInputs.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\4 - Files\FicheirosBinarios\obj\Debug\FicheirosBinarios.exe
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\4 - Files\FicheirosBinarios\obj\Debug\FicheirosBinarios.pdb

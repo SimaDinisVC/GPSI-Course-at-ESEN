@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace FicheirosBinarios
 {
@@ -9,39 +11,52 @@ namespace FicheirosBinarios
         static void Main(string[] args)
         {
             string caminho = @".\dados.dat";
-            List<Cliente> clientes = new List<Cliente>();
-            string nome, telefone;
-            Console.WriteLine("Novo cliente");
             Console.WriteLine("Nome: ");
-            nome = Console.ReadLine();
-            Console.Write("Telefone: ");
-            telefone = Console.ReadLine();
-            clientes.Add(new Cliente(nome, telefone));
+            string nome = Console.ReadLine();
+            Console.WriteLine("Telefone: ");
+            string telefone = Console.ReadLine();
 
-            BinaryWriter binOut = new BinaryWriter(new FileStream(caminho, FileMode.Append, FileAccess.Write));
-            
-            foreach (Cliente i in clientes)
+            Cliente cliente = new Cliente(nome, telefone);
+
+            using (FileStream fileStream = new FileStream(caminho, FileMode.Append, FileAccess.Write))
             {
-                binOut.Write(i.Nome);
-                binOut.Write(i.Telefone);
-            }
-            binOut.Close();
-
-            // ler dados do ficheiro binário
-
-            BinaryReader binIn = new BinaryReader(new FileStream(caminho, FileMode.Open, FileAccess.Read));
-
-            while (binIn.PeekChar() != -1) // enquanto o cursor não atingir o fim do ficheiro
-            {
-                nome = binIn.ReadString();
-                telefone = binIn.ReadString();
+                BinaryFormatter formatter = new BinaryFormatter();
+                formatter.Serialize(fileStream, cliente);
             }
 
-            binIn.Close();
+            Console.WriteLine("Cliente criado com sucesso!");
 
-            Console.WriteLine("O nome que veio do ficheiro: " + nome);
-            Console.WriteLine("O telefone que veio do ficherio: " + telefone);
+            if (!File.Exists(caminho)) // Verifica se o caminho existe
+            {
+                Console.WriteLine("O arquivo de dados não existe.");
+                return;
+            }
 
+            List<Cliente> clientes = new List<Cliente>();
+
+            using (FileStream fileStream = new FileStream(caminho, FileMode.Open, FileAccess.Read))
+            {
+                BinaryFormatter formatter = new BinaryFormatter();
+
+                while (fileStream.Position < fileStream.Length)
+                {
+                    cliente = (Cliente)formatter.Deserialize(fileStream);
+                    clientes.Add(cliente);
+                }
+            }
+
+            if (clientes.Count > 0)
+            {
+                Console.WriteLine("Lista de clientes:");
+                foreach (Cliente c in clientes)
+                {
+                    Console.WriteLine($"Nome: {c.Nome}, Telefone: {c.Telefone}");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Não há clientes para exibir.");
+            }
         }
     }
 }

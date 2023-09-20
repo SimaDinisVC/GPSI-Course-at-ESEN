@@ -33,3 +33,5 @@ C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\testes
 C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\testes\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\testes\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\testes\obj\Debug\testes.csproj.CopyComplete
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\testes\bin\Debug\Newtonsoft.Json.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\C#\3 - Advanced OOP\testes\bin\Debug\Newtonsoft.Json.xml

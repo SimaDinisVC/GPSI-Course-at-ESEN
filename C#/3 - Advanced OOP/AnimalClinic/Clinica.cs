@@ -38,7 +38,7 @@ namespace AnimalClinic
 
         public static BindingList<Medico> medicolist = new BindingList<Medico>()
         {
-            new Medico("Carlos Almeida", "almeidacarlos@gmail.com", "961237613", "12345678", new DateTime(1980,01,01), new Morada("Rua do Alfinete", "Viseu", "3500-012"), new List<string>() { "Cão", "Gato", "Tartaruga", "Furão", "Cobra" } ),
+            new Medico("Carlos Almeida", "almeidacarlos@gmail.com", "961237613", "12345678", new DateTime(1960,01,01), new Morada("Rua do Alfinete", "Viseu", "3500-012"), new List<string>() { "Cão", "Gato", "Tartaruga", "Furão", "Cobra" } ),
             new Medico("Simão Costa", "simadinisvc@gmail.com", "963656262", "23987412", new DateTime(2006,02,06), new Morada("Av. Infante D. Henrique", "Viseu", "3510-070"), new List<string>() { "Cão" })
         };
 

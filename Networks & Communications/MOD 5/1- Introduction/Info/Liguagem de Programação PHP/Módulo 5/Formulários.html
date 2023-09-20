@@ -1,0 +1,946 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Formulários</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-interactiveBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="3d2958ed-688c-4365-a94b-63956c8bbb28" class="page sans"><header><h1 class="page-title">Formulários</h1><p class="page-description"></p></header><div class="page-body"><p id="20b63bd6-3f60-45dc-956d-35388929a7d7" class="">Para consolidar a aplicação de formulários, utiliza pequenos algoritmos que demonstrem o seu funcionamento. Os exemplos apresentados a seguir serão criados dentro da pasta <strong>modulo_5</strong>. </p><p id="71c99006-89f9-43e4-81d6-efffd5124734" class="">
+</p><hr id="8a8676f2-8354-42f7-9d3b-0e544b2d38ea"/><p id="08f7004f-b255-4173-877e-248403f6c539" class="">
+</p><p id="88fa4f4f-9347-42d5-9100-5a94c102f1a8" class=""><mark class="highlight-orange"><strong>Algoritmo</strong></mark></p><ol type="1" id="21033e84-a20e-43d8-8619-3913b3748c4c" class="numbered-list" start="1"><li>Cria um formulário com os campos necessários.</li></ol><ol type="1" id="b71150cf-c5b0-43f2-bc15-14ca89c63fdc" class="numbered-list" start="2"><li>Envia os valores do formulário para <strong>outro ficheiro no servidor </strong>(submissão do formulário).</li></ol><ol type="1" id="e30095f8-36f3-416f-92fb-ea05d6b63198" class="numbered-list" start="3"><li>Os dados do formulário são recebidos num <strong>segundo ficheiros</strong> para posterior tratamento.</li></ol><p id="52ab1cf3-c1aa-4c21-aaef-50fe4d57807a" class="">
+</p><hr id="c3f6b4b6-c718-4d1f-8b78-1c8fc1bd64f6"/><p id="99090452-6d91-49c4-8be2-79bf32f86bd0" class="">
+</p><ol type="1" id="a4d6f828-f333-4bcc-8167-499bcc8f51ae" class="numbered-list" start="1"><li>Os passos 1 e 2 do algoritmo são apresentados no seguinte ficheiro, o seu nome será <strong>1-contact-form.php</strong></li></ol><pre id="f73ba28d-c5b4-4c2c-9817-61656ea197d1" class="code"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Contact Form&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h2&gt;Contact Us&lt;/h2&gt;
+    &lt;p&gt;Please fill in this form and send us.&lt;/p&gt;
+    &lt;!--
+        É importante que todos os inputs do formulário tenham o atributo
+        name com valor. Esse valor será reconhecido pelo PHP depois da
+        submissão do formulário.
+    --&gt;
+    &lt;form action=&quot;1-process-form.php&quot; method=&quot;post&quot;&gt;
+        &lt;p&gt;
+            &lt;label for=&quot;inputName&quot;&gt;Name:&lt;sup&gt;*&lt;/sup&gt;&lt;/label&gt;
+            &lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;inputName&quot;&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            &lt;label for=&quot;inputEmail&quot;&gt;Email:&lt;sup&gt;*&lt;/sup&gt;&lt;/label&gt;
+            &lt;input type=&quot;email&quot; name=&quot;email&quot; id=&quot;inputEmail&quot;&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            &lt;label for=&quot;inputSubject&quot;&gt;Subject:&lt;/label&gt;
+            &lt;input type=&quot;text&quot; name=&quot;subject&quot; id=&quot;inputSubject&quot;&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            &lt;label for=&quot;inputComment&quot;&gt;Message:&lt;sup&gt;*&lt;/sup&gt;&lt;/label&gt;
+            &lt;textarea name=&quot;message&quot; id=&quot;inputComment&quot; rows=&quot;5&quot; cols=&quot;30&quot;&gt;&lt;/textarea&gt;
+        &lt;/p&gt;
+        &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;
+        &lt;input type=&quot;reset&quot; value=&quot;Reset&quot;&gt;
+    &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p id="46a4ee2a-5db0-4e58-9fe8-7f7341e0ede1" class="">
+</p><ol type="1" id="c3ecfa92-3e26-4500-8c57-d0c77c129c9f" class="numbered-list" start="2"><li>O passo 3 do algoritmo consiste em receber os dados do formulário. Atribui o nome <strong>1-process-form.php</strong> a este ficheiro.</li></ol><pre id="0a9a0cc5-587d-4b22-837b-8ed3d1306858" class="code"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Contact Form&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Thank You&lt;/h1&gt;
+    &lt;p&gt;Here is the information you have submitted:&lt;/p&gt;
+    &lt;!--
+          
+    --&gt;
+    &lt;ol&gt;
+        &lt;li&gt;&lt;em&gt;Name:&lt;/em&gt; &lt;?php echo $_POST[&quot;name&quot;]?&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;em&gt;Email:&lt;/em&gt; &lt;?php echo $_POST[&quot;email&quot;]?&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;em&gt;Subject:&lt;/em&gt; &lt;?php echo $_POST[&quot;subject&quot;]?&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;em&gt;Message:&lt;/em&gt; &lt;?php echo $_POST[&quot;message&quot;]?&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p id="2c18baf1-8134-4fae-a651-7c18bf8675c7" class="">Depois de submetido o formulário, este ficheiro capta os valores enviados através dos atributos dos elementos do formulário. Relaciona o nome dos atributos do elemento HTML com a etiqueta do array <strong>$_POST</strong>.</p><p id="21361ef8-3844-41c0-814e-378e3016480e" class="">
+</p><hr id="a71baea8-e22e-4235-a7c3-c54144563d28"/><p id="8bac6856-19da-4726-942b-26ec2887a331" class="">
+</p><p id="e76aa524-e4ee-42bb-aa03-2cd84f2003d6" class=""><mark class="highlight-orange"><strong>Algoritmo</strong></mark></p><ol type="1" id="ae69b259-e0a7-4c34-8e92-e0edfef62189" class="numbered-list" start="1"><li>Cria um formulário com os campos necessários.</li></ol><ol type="1" id="7d253058-055b-4f5c-8d23-34e51776ef3b" class="numbered-list" start="2"><li>Envia os valores do formulário para o servidor (submissão do formulário).</li></ol><ol type="1" id="c678feeb-8055-4ce0-9afd-47813c1fc469" class="numbered-list" start="3"><li>Os dados do formulário são recebidos no mesmo ficheiros para posterior tratamento.</li></ol><p id="b6ac7eba-3850-432b-9ab7-039e8106789f" class="">
+</p><hr id="4cd44614-dde2-4358-902d-090678e7db55"/><p id="ead7c273-a331-4840-bdb9-110de231deb7" class="">
+</p><ol type="1" id="2c9d8b6e-a5a9-434d-a055-fb91fd264b83" class="numbered-list" start="1"><li>Cria o ficheiro com o nome handle1_form.php e digita o seguinte conteúdo.</li></ol><pre id="c526984b-a4f3-4718-a3bd-dc6885d97e93" class="code"><code>&lt;!doctype html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;Form Feedback&lt;/title&gt;
+    &lt;style&gt;
+        #container{width: 600px; margin:0 auto; margin-bottom:10px;}
+        #caixa {text-align: center; width: 600px; margin:0 auto;}
+        .erro {font-weight: bold; color: #C00;}
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;?php   
+        // permite verificar se o formulário foi submetido
+        if (isset($_POST[&#x27;enviado&#x27;]))
+        {
+            // obtém os valores dos inputs do formulário (os dados do formulário)
+            $nome       = $_POST[&#x27;nome&#x27;];
+            $email      = $_POST[&#x27;email&#x27;];
+            $idade      = $_POST[&#x27;idade&#x27;];
+            $comentario = $_POST[&#x27;comentario&#x27;];
+
+            // verifica se foi selecionada uma opção na tag radio
+            if(isset($_POST[&#x27;sexo&#x27;]))
+            {
+                // obtém o valor do sexo selecionado (M/F)
+                $sexo = $_POST[&#x27;sexo&#x27;];
+
+                // verifica o sexo da opção selecionada
+                if($sexo == &#x27;M&#x27;) {
+                    echo &#x27;&lt;p&gt;&lt;b&gt;Bom dia Sr. &lt;/b&gt; &#x27;;
+                }
+                elseif($sexo == &#x27;F&#x27;) {
+                    echo &#x27;&lt;p&gt;&lt;b&gt;Bom dia Sra. &lt;/b&gt; &#x27;;
+                }
+            }
+            else
+            {
+                // se não selecionou uma opção então a variável sexo tomará o valor NULL
+                $sexo = NULL;
+                echo &quot;Não selecionou o sexo.&quot;;
+            }
+
+            // apresenta um resumo da informação recolhida.
+            if($sexo == &#x27;M&#x27; || $sexo == &#x27;F&#x27;) {
+                echo $nome . &quot; pelo comentário &quot; . $comentario . &quot;&lt;br /&gt;&quot;;
+                echo &quot;Envieremos informação para o endereço &quot; . $email;
+            }
+        }
+    ?&gt;
+    
+    
+    &lt;form action=&quot;&lt;?php echo $_SERVER[&quot;PHP_SELF&quot;]; ?&gt;&quot; method=&quot;post&quot;&gt;
+        
+        &lt;!-- fieldset - coloca um limite à volta dos elementos nele inserido --&gt;
+        &lt;fieldset id=&quot;container&quot;&gt;
+            
+            &lt;!-- insere um cabeçalho no fieldset --&gt;
+            &lt;legend&gt;Insira a informação no formulário&lt;/legend&gt;
+
+            &lt;p&gt;&lt;b&gt;Nome:   &lt;/b&gt;&lt;input type=&quot;text&quot; name=&quot;nome&quot; size=&quot;20&quot; maxlength=&quot;40&quot; /&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Email: &lt;/b&gt; &lt;input type=&quot;email&quot; name=&quot;email&quot; size=&quot;40&quot; maxlength=&quot;60&quot;&gt;&lt;/p&gt;
+            
+            &lt;p&gt;&lt;b&gt;Sexo:&lt;/b&gt;   &lt;input type=&quot;radio&quot; name=&quot;sexo&quot; value=&quot;M&quot;&gt;Masculino
+                              &lt;input type=&quot;radio&quot; name=&quot;sexo&quot; value=&quot;F&quot;&gt;Feminino
+            &lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Atividade&lt;/b&gt;
+            &lt;select name=&quot;idade&quot;&gt;
+                &lt;option value=&quot;0-17&quot;&gt;Menor&lt;/option&gt;
+                &lt;option value=&quot;18-65&quot; selected&gt;Produtor&lt;/option&gt;
+                &lt;option value=&quot;60+&quot;&gt;Reformado&lt;/option&gt;
+            &lt;/select&gt;
+            &lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Comentário:&lt;/b&gt;
+                &lt;textarea name=&quot;comentario&quot; rows=&quot;3&quot; cols=&quot;40&quot;&gt;&lt;/textarea&gt;
+            &lt;/p&gt;
+            
+        &lt;/fieldset&gt;
+        
+        &lt;div id=&quot;caixa&quot;&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;enviado&quot; value=&quot;TRUE&quot; /&gt;
+            &lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;Enviar&quot;&gt;
+        &lt;/div&gt;
+     &lt;/form&gt;
+    
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><p id="37dff622-7ba9-436f-a661-c73bfec79786" class="">
+</p><p id="7c888008-01d6-44ae-a3b1-677094274008" class=""> O exemplo que se apresenta usa um formulário e o correspondente tratamento.
+</p><p id="a9808dbd-ccd4-4e06-a1cb-e2fba985f4e0" class=""><strong>Explicação das funções utilizadas:</strong>
+<strong>isset()</strong> - determina se a variável existe ou não é NULL. Devolve <strong>true</strong>  se tomar o valor 0, ou outro valor ou devolve f<strong>alse</strong> se não existir ou tomar o valor NULL (null).</p><p id="aae39d7e-c614-42a3-9a80-dfbfa5c41e39" class="">
+</p><ol type="1" id="3d2eb086-bda7-4d3e-bdae-5b207c628ac7" class="numbered-list" start="2"><li>Altera o programa de forma a que os campos nome e idade sejam de preenchimento obrigatório.</li></ol><ol type="1" id="2d9d90d7-7edd-468f-a71e-18feef922539" class="numbered-list" start="3"><li>No campo sexo, pretende-se que o valor Masculino esteja selecionado por defeito.</li></ol><ol type="1" id="4dce8d01-9a57-45d8-874b-9bb46603cae6" class="numbered-list" start="4"><li>Para que serve o atributo <strong>hidden </strong>no elemento <strong>input</strong>?</li></ol><ol type="1" id="1299c85a-2a8c-45e6-8af9-860b67117748" class="numbered-list" start="5"><li>O atributo <strong><strong><strong><strong><strong><strong>action</strong></strong></strong></strong></strong></strong> do elemento <strong><strong><strong><strong>form</strong></strong></strong></strong> que valor armazena?</li></ol><ol type="1" id="93edeb6f-deb2-45f6-9adb-201f31795dca" class="numbered-list" start="6"><li>Qual o objetivo do array <strong>$_POST</strong>?</li></ol><ol type="1" id="448a819d-1081-4fbc-9fe9-796e782b4a63" class="numbered-list" start="7"><li>Explica por palavras tuas o funcionamento do programa.</li></ol><ol type="1" id="5463a4ef-eca2-4ba5-9578-c5d205b785c3" class="numbered-list" start="8"><li>No único “<strong>if</strong>” existente no programa, adiciona a condição $_SERVER[&quot;REQUEST_METHOD&quot;] == &quot;POST” e aplica o operador &amp;&amp; entre as condições do if.</li></ol><ol type="1" id="b8a0fc21-6539-4f6f-8b71-539b922362dd" class="numbered-list" start="9"><li>Altera o programa de forma a visualizar os possíveis erros ou falhas cometidos pelo utilizador.</li></ol><ol type="1" id="3d3e3313-ca93-4966-8363-05be192a04b6" class="numbered-list" start="10"><li>Altera o valor da propriedade ation de forma a não utilizar a função echo.</li></ol><p id="a540cef1-660d-4de6-918b-704967af5545" class="">
+</p><hr id="3551a226-0af7-4651-a5dc-bb1082290809"/><p id="606d3ffb-4834-4cdf-b5ea-7658ecc8ae4d" class=""><mark class="highlight-orange"><strong>Algoritmo</strong></mark></p><ol type="1" id="921c3bd7-20d6-48e5-bb7d-29ccaf998142" class="numbered-list" start="1"><li>Cria um formulário com os campos email, password, confirma password, e a data de nascimento recorrendo ao elemento select.</li></ol><ol type="1" id="4b9b678a-4bc9-43e1-b721-05adfeb03670" class="numbered-list" start="2"><li>Envia os valores do formulário para <strong>outro ficheiro no servidor </strong>(submissão do formulário).</li></ol><ol type="1" id="ce6e070b-60a8-487f-b5d0-1e8e40f9d6c0" class="numbered-list" start="3"><li>Os dados do formulário são recebidos num <strong>segundo ficheiros</strong> para posterior tratamento.</li></ol><p id="be8dbb3e-2d1a-4b8d-8277-ff246c3c28fb" class="">
+</p><hr id="91440661-0805-44b3-b922-c6eaa18a821d"/><p id="628996a8-ef76-45cc-97bd-6a154bdd9eb2" class="">
+</p><ol type="1" id="8b659db6-87db-445d-ae37-3d5b0a943b39" class="numbered-list" start="1"><li>Cria um ficheiro com o nome <strong>form_data.php</strong> com o seguinte código.</li></ol><pre id="092a99c8-cc30-4b66-9040-d96977794b6a" class="code"><code>&lt;?php
+    // Define a constante NUM_DIAS
+    define(&quot;NUM_DIAS&quot;, 31);
+?&gt;
+&lt;!doctype html&gt;
+&lt;html lang=&quot;pt-pt&quot;&gt;
+    &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;Datas&lt;/title&gt;
+	&lt;style&gt;
+		.container {
+			margin: 120px auto;
+			width:500px;
+			border: 1px dotted #ccc;
+			background-color: #eee;
+		}
+		form {
+			margin-left: 20px;
+			padding: 20px 0;
+		}
+		.aviso{
+			color:red;
+		}
+	&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div class=&quot;container&quot;&gt;
+		&lt;form action=&quot;resp.php&quot; method=&quot;post&quot;&gt;
+			&lt;p&gt;Complete o registo:&lt;/p&gt;
+            &lt;p&gt;Email: &lt;input type=&quot;email&quot; name=&quot;email&quot; size=&quot;30&quot; required /&gt;
+            &lt;span class=&quot;aviso&quot;&gt;&amp;nbsp;&amp;nbsp;*&lt;/span&gt;&lt;/p&gt;
+
+            &lt;p&gt;Password: &lt;input type=&quot;password&quot; name=&quot;password&quot; size=&quot;20&quot; required /&gt;
+            &lt;span class=&quot;aviso&quot;&gt;&amp;nbsp;&amp;nbsp;*&lt;/span&gt;&lt;/p&gt;
+
+            &lt;p&gt;Confirma Password: &lt;input type=&quot;password&quot; name=&quot;confirma&quot; size=&quot;20&quot; required /&gt;
+            &lt;span class=&quot;aviso&quot;&gt;&amp;nbsp;&amp;nbsp;*&lt;/span&gt;&lt;/p&gt;
+            
+            &lt;p&gt;Data de Nascimento:
+            &lt;select name=&quot;dia&quot;&gt;
+                &lt;option value=&quot;&quot;&gt;Dia&lt;/option&gt;
+                &lt;?php // Imprime 31 dias:
+                    for ($i = 1; $i &lt;= NUM_DIAS; $i++) {
+                        echo &quot;&lt;option value=\&quot;$i\&quot;&gt;$i&lt;/option&gt;\n&quot;;
+                    }
+                ?&gt;
+            &lt;/select&gt;
+
+            &lt;select name=&quot;mes&quot;&gt;
+                &lt;option value=&quot;&quot;&gt;Mês&lt;/option&gt;
+                &lt;option value=&quot;1&quot;&gt;Janeiro&lt;/option&gt;
+                &lt;option value=&quot;2&quot;&gt;Fevereiro&lt;/option&gt;
+                &lt;option value=&quot;3&quot;&gt;Março&lt;/option&gt;
+                &lt;option value=&quot;4&quot;&gt;Abril&lt;/option&gt;
+                &lt;option value=&quot;5&quot;&gt;Maio&lt;/option&gt;
+                &lt;option value=&quot;6&quot;&gt;Junho&lt;/option&gt;
+                &lt;option value=&quot;7&quot;&gt;Julho&lt;/option&gt;
+                &lt;option value=&quot;8&quot;&gt;Agosto&lt;/option&gt;
+                &lt;option value=&quot;9&quot;&gt;Setembro&lt;/option&gt;
+                &lt;option value=&quot;10&quot;&gt;Outubro&lt;/option&gt;
+                &lt;option value=&quot;11&quot;&gt;Novembro&lt;/option&gt;
+                &lt;option value=&quot;12&quot;&gt;Dezembro&lt;/option&gt;
+            &lt;/select&gt;
+
+            &lt;input type=&quot;text&quot; name=&quot;ano&quot; value=&quot;AAAA&quot; size=&quot;4&quot; /&gt;
+			&lt;span class=&quot;aviso&quot;&gt;&amp;nbsp;&amp;nbsp;*&lt;/span&gt;
+            &lt;!--  --&gt;
+            &lt;/p&gt; 
+
+            &lt;p&gt;Cor Favorita:
+            &lt;select name=&quot;cor&quot;&gt;
+                &lt;option value=&quot;&quot;&gt;Escolha uma&lt;/option&gt;
+                &lt;option value=&quot;vermelho&quot;&gt;Vermelho&lt;/option&gt;
+                &lt;option value=&quot;amarelo&quot;&gt;Amarelo&lt;/option&gt;
+                &lt;option value=&quot;verde&quot;&gt;Verde&lt;/option&gt;
+                &lt;option value=&quot;azul&quot;&gt;Azul&lt;/option&gt;
+            &lt;/select&gt;
+			&lt;span class=&quot;aviso&quot;&gt;&amp;nbsp;&amp;nbsp;*&lt;/span&gt;
+            &lt;/p&gt;
+
+            &lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;termo&quot; value=&quot;Sim&quot; /&gt; Aceitação do termo.
+            &lt;span class=&quot;aviso&quot;&gt;&amp;nbsp;&amp;nbsp;*&lt;/span&gt;&lt;/p&gt;
+            &lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;Registar&quot; /&gt;
+
+						&lt;input type=&quot;hidden&quot; name=&quot;enviou&quot; value=&quot;TRUE&quot; /&gt;
+        &lt;/form&gt;
+		&lt;p&gt;&lt;span class=&quot;aviso&quot;&gt;&amp;nbsp;&amp;nbsp;*&lt;/span&gt;&amp;nbsp; Campo de preenchimento obrigatório&lt;/p&gt;
+		
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><ol type="1" id="c4087891-9b51-4a6a-934d-f4ca4c100eda" class="numbered-list" start="2"><li>Interpreta o código apresentado.</li></ol><ol type="1" id="7cbd8cb6-3c69-4048-aaf6-b7d7d147312f" class="numbered-list" start="2"><li>cria um ficheiro com o nome <strong>resp.php</strong> com o conteúdo:</li></ol><pre id="47458070-cb83-4a4a-a746-048efb57ee0c" class="code"><code>&lt;?php
+if(empty($_POST[&#x27;dia&#x27;]))
+{
+    echo &quot;&lt;p&gt;Não preencheu o campo dia&lt;/p&gt;&quot;;
+}
+if(empty($_POST[&#x27;mes&#x27;]))
+{
+    echo &quot;&lt;p&gt;Não preencheu o campo mes&lt;/p&gt;&quot;;
+}
+if(empty($_POST[&#x27;ano&#x27;]))
+{
+    echo &quot;&lt;p&gt;Não preencheu o campo ano&lt;/p&gt;&quot;;
+}
+?&gt;</code></pre><ol type="1" id="fd3f06b3-c70a-4f7c-9ca1-d5e8a9ebd45f" class="numbered-list" start="4"><li>Valida a data com a função <strong>checkdate($month, $dia, $year)</strong>.</li></ol><ol type="1" id="7ae29fd4-4892-4ac9-ab09-dcb1bfb400c8" class="numbered-list" start="5"><li>Interpreta o código apresentado.</li></ol><ol type="1" id="7136a2ab-ab3e-4e8c-9edd-578b2b4bf748" class="numbered-list" start="6"><li>Apresenta uma mensagem que ilustre a informação inserida no formulário.</li></ol><ol type="1" id="697162fc-15f5-4101-b9af-94fa8b71451f" class="numbered-list" start="7"><li>Cria um link para voltares para a página anterior.</li></ol><ol type="1" id="1b03bf82-1301-4802-b8d6-98602acf4011" class="numbered-list" start="8"><li>Qual a utilidade do elemento com a propriedade name igual a enviou?</li></ol><p id="3d8f3719-b9c9-4427-ac5a-a3fb612242b2" class="">
+</p><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="383d5e6e-a8ec-46ce-914f-114c0d077d92"><div style="font-size:1.5em"><span class="icon">💡</span></div><div style="width:100%">É importante eliminar os caracteres em branco dos inputs dos elementos, para tal, podes fazer uso das funções <strong>trim()</strong>, <strong>ltrim() </strong>e <strong>rtrim()</strong>. <strong>Sabes porquê?</strong></div></figure><ol type="1" id="a6b3b190-c684-408f-b577-1dacba6bfcaa" class="numbered-list" start="9"><li>Elimina os espaços no início e fim dos inputs do formulário.</li></ol><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="365609a9-c130-4a0b-be0e-01d0d33161fd"><div style="font-size:1.5em"><span class="icon">💡</span></div><div style="width:100%">As estruturas de decisão e de repetição são iguais às do javascript.</div></figure><h1 id="43192857-6be2-4900-8d53-99ca59de2ec7" class="">Exercícios de Aplicação</h1><ol type="1" id="91eb9ecc-9047-4374-a4a9-90b736558047" class="numbered-list" start="1"><li>Altera os programas anteriores aplicando uma das <em>framworks: tailwind ou bootstrap</em>. Esta alteração fica como trabalho de casa.</li></ol><ol type="1" id="04a92fce-2c6d-49fa-9510-afd86ca2febc" class="numbered-list" start="2"><li>Cria uma pasta com o nome <strong>ficha_2</strong> na pastamodulo_5 que se encontra na raiz do servidor web. Dentro desta pasta cria diferentes ficheiros que permitam criar os programas abaixo solicitados. A utilização de formulários é obrigatória.</li></ol><ul id="5d26b384-a617-4b87-b30b-fea2f31cbeaf" class="bulleted-list"><li style="list-style-type:disc">Permita determinar, em função da idade, se um determinado individuo é criança, adolescente, adulto ou idoso. O campo da idade é de preenchimento obrigatório. Considere a seguinte tabela:</li></ul><table id="e535e74a-e3bf-4b97-9cc9-b51291fdc435" class="simple-table"><tbody><tr id="74f27c81-ce88-434b-ba82-34f6aac4b169"><td id="kTKa" class="" style="width:170px"><strong>Intervalo Idades</strong></td><td id="R\z{" class="" style="width:280px"><strong>Designação a apresentar no </strong><em><strong>browser</strong></em></td></tr><tr id="9bcfe9a6-13f2-44fa-981b-9e60dadd51f8"><td id="kTKa" class="" style="width:170px">0 &lt;= idade &lt; 14</td><td id="R\z{" class="" style="width:280px">Criança</td></tr><tr id="7d290777-1e9e-42c1-9330-f95bac5b80a5"><td id="kTKa" class="" style="width:170px">14 &lt;= idade &lt; 18</td><td id="R\z{" class="" style="width:280px">Adolescente</td></tr><tr id="d973e6cf-702b-4dd4-9cef-776601b2c3be"><td id="kTKa" class="" style="width:170px">18 &lt;= idade &lt; 65</td><td id="R\z{" class="" style="width:280px">Adulto</td></tr><tr id="2505678a-b44e-450f-8fe3-4515ef37d53a"><td id="kTKa" class="" style="width:170px">idade &gt;= 65</td><td id="R\z{" class="" style="width:280px">Idoso</td></tr></tbody></table><p id="d3fb5736-31f0-447f-bc84-cc6f4f8a9856" class="">O formulário poderá ter o seguinte aspeto gráfico:</p><figure id="42b343f9-d94c-4f49-91e0-7d773dd90c63" class="image"><a href="Formulários/Untitled.png"><img style="width:432px" src="Formulários/Untitled.png"/></a></figure><p id="cf0a11b6-5154-465d-aed1-92bb79d4193a" class="">Output:</p><figure id="53f73434-0823-4102-a1cc-0cd61460a546" class="image"><a href="Formulários/Untitled 1.png"><img style="width:432px" src="Formulários/Untitled 1.png"/></a></figure><p id="c55da832-10ec-4678-b56f-58b22f46110e" class="">Onde Raul corresponde ao nome inserido no formulário.</p><p id="efb420e4-5fee-490b-8a4b-645dd4437705" class="">
+</p><ul id="0b66cb23-c296-43e6-9f73-a495b4ade93a" class="bulleted-list"><li style="list-style-type:disc">Determinar o valor a pagar por um produto tendo em consideração que o imposto a aplicar é de 23%. Os dados a inserir no formulário são: preço do produto, quantidade, desconto e despesas de transporte.</li></ul><p id="96a526bf-09dd-4fe3-9449-233c0bcbaadf" class="">As despesas de transporte seguem a tabela a seguir apresentada:</p><table id="8de60b46-156c-469d-bcec-180e41844d88" class="simple-table"><tbody><tr id="faaf21cb-b541-4b91-92bd-6786eed6d3b3"><td id="rf&lt;J" class="">Peso</td><td id="K&lt;XA" class="">Valor a pagar</td></tr><tr id="3da8bdfe-3601-4234-a84a-06eb6881c215"><td id="rf&lt;J" class="">Até 5Kg</td><td id="K&lt;XA" class="">5€</td></tr><tr id="98aca618-4bad-4890-bc11-5b9468ad1de3"><td id="rf&lt;J" class="">Até 10Kg</td><td id="K&lt;XA" class="">8€</td></tr><tr id="085faaeb-7d1e-4ae8-b3a3-2b2a26c4d679"><td id="rf&lt;J" class="">Mais de 10Kg</td><td id="K&lt;XA" class="">15€</td></tr></tbody></table><p id="861b4736-bc36-4c12-976c-c7e5084ad8dd" class="">Depois de calcular o total da fatura, apresente, também, um número aleatório entre 1 e 99999, que representa a fatura da sorte.</p><p id="b406b91e-4b99-4985-a820-acef28c9f5a6" class="">O output do formulário:</p><figure id="9ee768a0-7285-4d2b-859e-fd8ca1d9bd68" class="image"><a href="Formulários/Untitled 2.png"><img style="width:288px" src="Formulários/Untitled 2.png"/></a></figure><p id="83003b27-d1ff-4aa3-8ef4-2ce2543b4cf0" class="">Output depois do processamento dos dados:</p><figure id="4e20d151-0de7-4843-9640-4bd60835267b" class="image"><a href="Formulários/Untitled 3.png"><img style="width:288px" src="Formulários/Untitled 3.png"/></a></figure><p id="73b81377-c396-412e-8fd9-3d78e85b2719" class=""><strong>Cálculos:</strong></p><p id="db4facfa-dac7-43ef-bdcc-9cf7ee480582" class="">O valor total ilíquido é igual ((preco * quantidade) + transporte) – desconto;</p><p id="f2272b3a-33c4-4931-b9e4-2a21551555bf" class="">Determinar o valor total líquido tendo em consideração a taxa do IVA (23%);</p><p id="099515f6-c14a-43b2-91aa-8e48d32f26c0" class="">
+</p><ul id="459f9683-4a62-42db-9fa6-5a30568253ce" class="bulleted-list"><li style="list-style-type:disc">Construa o seguinte formulário.</li></ul><figure id="d8ae063c-ac6d-475c-b425-5a06301598a8" class="image"><a href="Formulários/Untitled 4.png"><img style="width:336px" src="Formulários/Untitled 4.png"/></a></figure><p id="241188e5-9917-45dc-a7be-fd88fcfe9b14" class="">Os campos das passwords são do tipo <strong>password</strong> e preencha o objeto <strong>select</strong> com várias cores.</p><p id="ee4b3ec2-c9bf-4555-ace5-97dc32a26f22" class="">Com base no formulário apresentado:</p><ol type="1" id="83b30943-dce3-4415-a136-25dc0bfb78ed" class="numbered-list" start="1"><li>Verifique se as <em>passwords</em> são iguais e determine a idade do utilizador com base no ano de nascimento.</li></ol><ol type="1" id="0637f396-2bf6-42de-a6aa-4ca31f52cea3" class="numbered-list" start="2"><li>Apresente a cor favorita e informe se esta cor é primária ou secundária. Resolva esta alínea recorrendo à estrutura de decisão IF e à estrutura SWITCH.</li></ol><ol type="1" id="13c22a8a-6ca9-4d96-9c10-6f0f8cc561a5" class="numbered-list" start="3"><li>A página deve apresentar mensagens de erro se as <em>passwords</em> não forem iguais, se não preencheu todos os campos, se digitou um número para o ano inválido ou não aceitou o termo de responsabilidade.</li></ol><ol type="1" id="c6b54597-f189-4844-8e2e-b67d9d578e66" class="numbered-list" start="4"><li>O formulário será apresentado no centro da página, com um limite no seu contorno, onde a legenda do formulário será “Preencha o formulário”.</li></ol><p id="70dd374a-63da-4ae5-aa6f-f9778ebe2be0" class="">
+</p><p id="cee9d25b-fe12-4e2a-9429-8c50ae77cf2c" class="">
+</p><ul id="c2b9ac7c-b85a-4252-b252-44b4e04425cc" class="bulleted-list"><li style="list-style-type:disc">Pretende-se criar uma página que determina o número de palavras existentes num texto e a posição da primeira ocorrência de uma <em>string</em> a pesquisar. </li></ul><p id="385f4552-4189-4ff1-861d-da2f2610ab10" class="">
+</p><figure id="56056766-64bd-407c-a167-14112c7e7c58" class="image"><a href="Formulários/Untitled 5.png"><img style="width:384px" src="Formulários/Untitled 5.png"/></a></figure><p id="6d833af1-8d69-4bc1-8edf-1faae4794c58" class=""><strong>Output:</strong></p><figure id="caf1d08a-51ea-4eed-b7d8-1887f43e9fe8" class="image"><a href="Formulários/Untitled 6.png"><img style="width:432px" src="Formulários/Untitled 6.png"/></a></figure><ul id="62ead861-04c9-44be-ba0c-9705882531b1" class="bulleted-list"><li style="list-style-type:disc">Aplica uma das <em>frameworks </em>indicadas nestes <strong>Exercícios de aplicação</strong>.</li></ul><p id="67e348ce-2e8d-49c1-97b3-a0f1ee82422a" class="">
+</p><p id="05626539-6d02-4750-8288-a4c5a035e9ff" class="">
+</p><p id="5d95ba3f-e1b8-41bb-9d87-75acfae9168a" class=""><strong>INFORMAÇÃO ADICIONAL</strong></p><p id="5fd2f1b9-4a1f-4468-b052-9de1fc3e3c27" class="">Definição de constantes: <strong>define(‘IVA’, 0.23);</strong></p><p id="74082db9-d1a7-486d-a1ba-b0460b880383" class="">Limitar número com 2 casas decimais: <strong>number_format($num, 2);</strong></p><p id="87b7f24c-80a1-486c-83b3-9d5effd54fc0" class="">Determinar o valor do ano atual: <strong>date(“Y”, time());</strong></p><p id="f76aadc4-189e-4591-ac33-26f0326a71d2" class="">Verifica se número é numérico: <strong>is_numeric()</strong></p><p id="b501b58a-95ae-4c15-a161-c5e11b0e3d2e" class="">
+</p></div></article></body></html>

@@ -1,0 +1,1251 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Funções</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-interactiveBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="4f299640-f9a4-43bd-803a-8b7767d52a02" class="page sans"><header><h1 class="page-title">Funções</h1><p class="page-description"></p></header><div class="page-body"><p id="72a7ba78-649e-471f-be61-2d58abe8b949" class="">Dando continuidade ao estude de funções exploradas noutras disciplinas, vamos dar ênfase ao <em>scope </em>de uma variável PHP (PHP variable scope). Por vezes, poderá haver necessidade de declarar variáveis que necessitem de existir durante todo o código (variáveis globais) ou apenas em certos momentos do código (variáveis locais). Chama-se a esta propriedade <strong><em>scope</em></strong>. Por defeito, as variáveis em PHP são locais, pelo que não estão acessíveis no programa como um todo.</p><p id="50841793-6a1f-4ef6-8a96-07213631f110" class="">
+</p><p id="7149e426-074e-40cb-a585-9cf696a502a8" class="">Relacionadas com o scope existem 4 tipos de variáveis:
+- Variável local;
+- Variável global;
+- Variável estática;
+- Parâmetro de uma função.</p><p id="fa171b73-95a1-4066-b035-623f1e3576aa" class="">
+</p><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="0d148880-5ab6-4987-bc44-a4f71e3208c5"><div style="font-size:1.5em"><span class="icon">💡</span></div><div style="width:100%">Quando o acesso à variável está fora do scope da variável, o PHP causa um erro <em><strong>undefined variable</strong></em>.</div></figure><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="a0b9f33d-c54c-430a-9c11-287c7651f9fb"><div style="font-size:1.5em"><span class="icon">💡</span></div><div style="width:100%">O PHP suporta a passagem de argumentos &quot;por valor&quot; (o padrão), &quot;por referência&quot;, e valores padrões. </div></figure><p id="ff2f8cae-0691-4844-9e20-968ac5077be1" class="">
+</p><p id="f62c7e3d-9b4e-4d5f-ae2b-c2f36e253338" class="">Por padrão, argumentos da função são passados por valor, o valor do argumento pode mudar dentro da função, mas não é alterado fora da função. 
+Para permitir que uma função modifique os seus argumentos, estes devem ser passados por referência.</p><p id="c231dd0d-f3f9-46cc-9d4a-f3c675dfb81f" class="">
+</p><ol type="1" id="9d29f972-3b1e-4cef-b74d-b6ef066d6775" class="numbered-list" start="1"><li>Cria um ficheiro como código seguinte. Grava o ficheiro com o nome <strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>funcoes.php</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong>.</li></ol><pre id="ae4894a8-871e-413c-ac74-d3bf52c5c526" class="code"><code>&lt;?php
+
+    // definição de cada passo em metros
+    define(&#x27;CADA_PASSO&#x27;, 0.8);
+
+    /**
+     * Description: a variável passo diz-se local porque está definida dentro da função.
+     * Se fizer uso desta variável fora da função será visualizado o erro
+     * &quot;undefined variable&quot;.
+     */
+    function MostraPasso(){
+        $passo = CADA_PASSO;    // $passo é uma variável local
+        return $passo;  // return faz com que a função devolva um valor.
+    }
+
+    /**
+     * Description: determina quantos quilometros existem em $passos
+     * Parâmetros: $passos - só é acessível dentro da função.
+     */
+    function PassosPorQuilometro($passos)
+    {
+        return $passos * CADA_PASSO;
+    }
+
+
+    /**
+     * Description: determina o número de milhas por quilometro.
+     * A variável $total é visivel dentro deste ficheiro,
+     * como tal, chamamos &quot;variável global&quot; e aplica-se a palavra global.
+     */
+    function km2mi($quilometros)
+    {
+        global $total;
+        $total += $quilometros;    // equivale a $total = $total + $quilometros; - total de quilometros
+        return $quilometros * 0.6;
+    }
+    
+
+    /**
+     * Description: determina e apresenta o número de quilometros.
+     * $ptotal - trata-se de uma variável local porque é reconhecida dentro
+     * da função, no entanto guarda os valores entre as chamadas da
+     * função.
+     */
+    function Percorre($quilometros)
+    {
+        // $ptotal é inicializada só na primeira chamada da função
+        static $ptotal=0;
+
+        $ptotal += $quilometros;    
+        echo &quot;percorreu mais $quilometros do total de $ptotal&lt;br&gt;\n&quot;;
+    }
+
+
+    /*
+    ##
+        Chamadas das funções
+    ##
+    */
+
+    echo &quot;Cada passo mede &quot;.MostraPasso().&quot; metros&lt;br&gt;&quot;;
+
+    echo &quot;Com 2000 passos caminhei &quot; . PassosPorQuilometro(2000) . &quot; metros&lt;br&gt;&quot;;
+
+    echo &quot;--------------------------------------------------------&lt;br&gt;&quot;;
+    
+    /**
+     * As variáveis seguintes são visíveis fora das funções, não são 
+     * reconhecidas dentro das funções.
+     * Um parâmetro passa uma cópia do valor para a função.
+     */
+    $valor1 = 100;
+    $valor2 = 200;
+    echo &quot;$valor1 quilometros são &quot; . km2mi($valor1) . &quot; milhas &lt;br&gt;\n&quot;;
+    echo &quot;$valor2 quilometros são &quot; . km2mi($valor2) . &quot; milhas &lt;br&gt;\n&quot;;
+    // total é uma variável global definidadentro da função km2milhas
+    echo &#x27;percorreu no total &#x27; . $total . &quot; quilometros &lt;br&gt;\n&quot;;
+
+    echo &quot;--------------------------------------------------------&lt;br&gt;&quot;;
+
+    // outra forma de guardar os valores totais sem utilizar uma variável global
+    // usamos uma variável static
+    Percorre(100);
+    Percorre(200);
+    Percorre(50);
+?&gt;</code></pre><ol type="1" id="d895fd36-c8c1-4cdb-a9b4-666ca9ce486c" class="numbered-list" start="2"><li>Analisa o código apresentado.</li></ol><p id="cae27bfd-cd42-4c92-8d39-6c3f81b1647e" class="">
+</p><p id="21413e5f-b3da-4bbd-bf40-962ab5505eb3" class="">A recursividade também existe em PHP. No entanto não a vamos abordar.</p><p id="c31f0be3-dc62-4e73-b70e-da97b1b5ba1e" class="">Observe com a tenção o comportamento de uma variável <strong><em>static</em></strong>.</p><p id="2111361f-c38a-4008-b22f-d03dab218a45" class="">
+</p><hr id="5d607f89-6772-44d8-b84d-199ebca92449"/><p id="456eb3a3-5f67-4d76-90c0-69804ec83f01" class="">
+Como o próprio nome diz, a declaração &quot;include&quot; inclui o conteúdo de um determinado 
+ficheiro no ficheiro atual, isto é, no documento onde se inseriu  a função <strong>include</strong>.
+A declaração &quot;require&quot; é idêntica à &quot;include&quot;, exceto no caso de uma falha que produz um 
+erro fatal de nível E_COMPILE_ERROR. Por outras palavras, ela para o script enquanto que a &quot;include&quot; apenas emitirá um alerta (E_WARNING) permitindo que o script continue.
+
+As funções &quot;include_once&quot; e &quot;require_once&quot; são idênticas às declarações anteriores com uma diferença, se o conteúdo do ficheiro foi já carregado este não voltará a ser carregado.</p><p id="43009226-e12f-458c-b382-fab67c848a86" class="">
+</p><ol type="1" id="8b3b95c1-ec33-4fce-8aa2-d784095bf72e" class="numbered-list" start="1"><li>Cria um ficheiro com o nome <strong>include.php</strong></li></ol><pre id="9ae4b64d-1da3-42e6-beab-d01c6826325d" class="code"><code>&lt;!doctype html&gt;
+&lt;html lang=&quot;pt-pt&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Funções&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;?php
+    include &#x27;libs/cor.php&#x27;;
+    include &#x27;libs/util.php&#x27;;
+
+    $color_code = getRGB();
+    echo $color_code . &quot;&lt;br&gt;&quot;;
+    $color_code = getRGB(BLUE);
+    echo $color_code . &quot;&lt;br&gt;&quot;;
+
+    echo &quot;--------------------------------------------------------&lt;br&gt;&quot;;
+    
+    $x = 1;
+    $num = contador($x);
+    $num = contador($x);
+    $num = contador($x);
+    customFont(&quot;Arial&quot;, 2, $color_code, $num);
+    
+    echo &quot;--------------------------------------------------------&lt;br&gt;&quot;;
+    
+    $y = 5;
+    echo $y . &quot;&lt;br&gt;&quot;; // Output: 5
+
+    // o parâmetro $y é passado por referência, o valor de $y sai alterado.
+    // verifica o cabeçalho da função.
+    selfMultiply($y);
+    echo $y . &quot;&lt;br&gt;&quot;; // Output: 25
+
+    echo &quot;--------------------------------------------------------&lt;br&gt;&quot;;
+
+    list($indice, $nome, $peso) = mostraLista();
+    echo &quot;$indice - $nome e tenho $peso Kg&lt;br&gt;&quot;;
+    
+    echo &quot;--------------------------------------------------------&lt;br&gt;&quot;;
+    
+    Mostra(&#x27;João&#x27;, &#x27;Maria&#x27;, &#x27;José&#x27;, &#x27;Pedro&#x27;);
+?&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><ol type="1" id="6545cef5-aa81-41cc-8c7a-8c5dbe770f6e" class="numbered-list" start="2"><li>Interpreta o código constante no ficheiro.</li></ol><ol type="1" id="66e49ad1-1084-4326-94a1-ca3875e2a00b" class="numbered-list" start="3"><li>Cria uma pasta com o nome <strong><strong><strong><strong>libs</strong></strong></strong></strong>.</li></ol><ol type="1" id="15a40da8-19bc-4ca1-b9b6-0737c8d93d5b" class="numbered-list" start="4"><li>Cria um ficheiro com o nome <strong><strong><strong><strong><strong><strong><strong>cor.php</strong></strong></strong></strong></strong></strong></strong> com o seguinte código:</li></ol><pre id="1a35bb3a-c35b-4acf-a8bd-cf92227571a5" class="code"><code>&lt;?php
+    // Permite definir os caracteres portugueses, por exemplo 5ª
+    header(&#x27;Content-Type: text/html; charset=UTF-8&#x27;);
+
+    // definição de constantes
+    define(&quot;RED&quot;,&quot;#FF0000&quot;);
+    define(&quot;GREEN&quot;,&quot;#00FF00&quot;);
+    define(&quot;BLUE&quot;,&quot;#0000FF&quot;);
+
+    /**
+     * A função getRGB aceita o parâmetro $color por valor com
+     * um valor por default
+    */
+    function getRGB($code=RED)
+    {
+        //$code = RED; // default color
+        switch ($code){
+            case &#x27;red&#x27;: $code = &quot;RED&quot;;
+            break;
+            case &#x27;green&#x27;: $code = &quot;GREEN&quot;;
+            break;
+            case &#x27;blue&#x27;: $code = &quot;BLUE&quot;;
+            break;
+         }
+         return $code;
+    }
+?&gt;</code></pre><ol type="1" id="51edb73e-15d3-4047-842d-ea9ac75a02a7" class="numbered-list" start="5"><li>Cria um ficheiro com o nome <strong>util.php</strong> com o seguinte código:</li></ol><pre id="9adbdf15-e10d-44af-8c54-b746a34a76db" class="code"><code>&lt;?php
+    /**
+     * Description: devolve o quadrado de um número
+     */
+    function quadrado($numero)
+    {
+           return $numero * $numero;
+    }
+
+    /*
+     * Description: define tipo e tamanho da letra
+     * Parâmetros com valores predefinidos devem ficar no fim
+    */
+    function customFont($font, $color, $value, $size=1.5){
+        echo &quot;&lt;p style=\&quot;font-family: $font; font-size: {$size}em; color:$color\&quot;&gt;&quot; . $value . &quot;&lt;/p&gt;&quot;;
+    }
+
+
+    /**
+     * Description: incrementa um valor a partir do valor inicial $x.
+     * $x conserva valores entre chamadas da função pois é do tipo static
+    */
+    function contador($x){
+        static $x;
+        $x = $x + 1;
+     return $x;
+    }
+
+
+    /*
+     * Description: lê os argumentos passados à função e lista-os
+    */
+    function Mostra()
+    {
+        // Lê os argumentos passado à função no formato array
+        $argumentos = func_get_args();
+        
+        // determina número de argumentos
+        $quantidade = func_num_args();
+        
+        for($n=0; $n&lt;$quantidade; $n++)
+        {
+            echo &quot;Lista &quot; . (int)($n+1) . &quot;.º argumento = &quot; . $argumentos[$n] . &quot;&lt;br&gt;\n&quot;;
+        }
+    }
+
+
+    // Description: exemplificação de uma função que utiliza passagem por referência
+    function selfMultiply(&amp;$number){
+        $number *= $number;
+        return $number;
+    }
+
+
+    /**
+     * Uma função não pode devolver &quot;múltiplos valores&quot;, podemos contornar o problema
+     * devolvendo um array.
+     */
+    function mostraLista()
+    {
+        return array(0, &quot;Adelino&quot;, 70);
+    }
+
+?&gt;</code></pre><ol type="1" id="5d0b59cf-57c1-47a9-acf1-d00e13e1899c" class="numbered-list" start="6"><li>Interpreta o código destes dois últimos ficheiros.</li></ol><p id="78cfb8ed-a1c0-432d-bb59-7908fea3a54c" class="">
+</p><hr id="0f2ac9f0-55b1-46d4-9b46-26c9d8008818"/><ol type="1" id="34fed84f-6377-46fd-86a2-cf0e00416b63" class="numbered-list" start="1"><li>Cria um ficheiro com o nome <strong>datas.php</strong> e insere o código seguinte:</li></ol><pre id="da688b63-9e3d-4c98-af61-03cfb08563eb" class="code"><code>&lt;?php
+
+	// Permite definir os caracteres portugueses, por exemplo 5ª
+	header(&#x27;Content-Type: text/html; charset=UTF-8&#x27;);
+
+    /*
+        Tratamento de datas
+    */
+
+	function data_actual_pt() {
+
+		$d2p = getdate(time());
+
+		switch($d2p[&quot;weekday&quot;]) {
+			case &quot;Monday&quot;: $dds = &quot;2ª Feira&quot;; break;
+			case &quot;Tuesday&quot;: $dds = &quot;3ª Feira&quot;; break;
+			case &quot;Wednesday&quot;: $dds = &quot;4ª Feira&quot;; break;
+			case &quot;Thursday&quot;: $dds = &quot;5ª Feira&quot;; break;
+			case &quot;Friday&quot;: $dds = &quot;6ª Feira&quot;; break;
+			case &quot;Saturday&quot;: $dds = &quot;Sábado&quot;; break;
+			case &quot;Sunday&quot;: $dds = &quot;Domingo&quot;; break;
+		}
+
+		switch($d2p[&quot;month&quot;]) {
+			case &quot;January&quot;: $mes = &quot;Janeiro&quot;; break;
+			case &quot;February&quot;: $mes = &quot;Fevereiro&quot;; break;
+			case &quot;March&quot;: $mes = &quot;Março&quot;; break;
+			case &quot;April&quot;: $mes = &quot;Abril&quot;; break;
+			case &quot;May&quot;: $mes = &quot;Maio&quot;; break;
+			case &quot;June&quot;: $mes = &quot;Junho&quot;; break;
+			case &quot;July&quot;: $mes = &quot;Julho&quot;; break;
+			case &quot;August&quot;: $mes = &quot;Agosto&quot;; break;
+			case &quot;September&quot;: $mes = &quot;Setembro&quot;; break;
+			case &quot;October&quot;: $mes = &quot;Outubro&quot;; break;
+			case &quot;November&quot;: $mes = &quot;Novembro&quot;; break;
+			case &quot;December&quot;: $mes = &quot;Dezembro&quot;; break;
+		}
+
+		//$data = sprintf(&quot;%s, %d de %s, %d&quot;, $dds, $d2p[&quot;mday&quot;], $mes, $d2p[&quot;year&quot;]);
+		$data = $dds . &#x27;, &#x27; . $d2p[&quot;mday&quot;] . &#x27; de &#x27; . $mes . &#x27; de &#x27; . $d2p[&quot;year&quot;];
+		return $data;
+	}
+
+	function data_actual_pt_arr()
+	{
+		$m = date(&quot;n&quot;);
+		$d = date(&quot;l&quot;);
+		$n = date(&quot;j&quot;);
+		$y = date(&quot;Y&quot;);
+		$h = date(&quot;H&quot;);
+		$i = date(&quot;i&quot;);
+
+
+		//Meses
+		$mes = array(&#x27;1&#x27; =&gt; &quot;Janeiro&quot;,
+					 &#x27;2&#x27; =&gt; &quot;Fevereiro&quot;,
+					 &#x27;3&#x27; =&gt; &quot;Março&quot;,
+					 &#x27;4&#x27; =&gt; &quot;Abril&quot;,
+					 &#x27;5&#x27; =&gt; &quot;Maio&quot;,
+					 &#x27;6&#x27; =&gt; &quot;Junho&quot;,
+					 &#x27;7&#x27; =&gt; &quot;Julho&quot;,
+					 &#x27;8&#x27; =&gt; &quot;Agosto&quot;,
+					 &#x27;9&#x27; =&gt; &quot;Setembro&quot;,
+					 &#x27;10&#x27; =&gt; &quot;Outubro&quot;,
+					 &#x27;11&#x27; =&gt; &quot;Novembro&quot;,
+					 &#x27;12&#x27; =&gt; &quot;Dezembro&quot;);
+
+		//dias da semana
+		 $dia = array(&quot;Monday&quot; =&gt; &quot;Segunda-Feira&quot;,
+					  &quot;Tuesday&quot; =&gt; &quot;Terça-Feira&quot;,
+					  &quot;Wednesday&quot; =&gt; &quot;Quarta-Feira&quot;,
+					  &quot;Thursday&quot; =&gt; &quot;Quinta-Feira&quot;,
+					  &quot;Friday&quot; =&gt; &quot;Sexta-Feira&quot;,
+					  &quot;Saturday&quot; =&gt; &quot;Sabado&quot;,
+					  &quot;Sunday&quot; =&gt; &quot;Domingo&quot;);
+
+
+		$strdata = &quot;$dia[$d], $n de $mes[$m] de $y&quot;;
+		return($strdata);
+	}
+
+
+	// Calcula o número de anos decorridos até hoje
+	// $inicio no formato &quot;AAAA-MM-DD&quot;;
+	function ContaAnosDecorridos($inicio){
+		$fim = date(&quot;Y-m-d&quot;);
+
+		$diferenca = abs(strtotime($fim) - strtotime($inicio));
+		$num_anos = floor($diferenca / (365*60*60*24));
+		return $num_anos;
+	}
+
+	function getWeekdayName($date = &#x27;2023-11-18&#x27;) {
+		// formato português
+		return strftime(&quot;%A&quot;, strtotime($date));
+		
+	 }
+?&gt;</code></pre><ol type="1" id="dbb0fd4f-92e3-4a17-9aaa-63c84414361a" class="numbered-list" start="2"><li>Interpreta o código apresentado.</li></ol><ol type="1" id="dac51d3a-25f1-4d2a-87cd-f3b1b3259da2" class="numbered-list" start="3"><li>Cria um ficheiro com o nome <strong>TrataDatas.php</strong> e insere o código seguinte:</li></ol><pre id="2d3dfbbe-ea7e-4a20-9875-fec8939d9a27" class="code"><code>&lt;?php
+	// NOTA  IMPORTANTE:
+	// Não pode haver espaço a seguir ao Content-Type
+	header(&#x27;Content-Type: text/html; charset=iso-8859-1&#x27;);
+
+	include &#x27;libs/datas.php&#x27;;
+
+	/*
+		LC_ALL é uma constante que indica que as informações locais serão definidas 
+		em todas as instâncias. 
+		LC_ALL engloba LC_COLLATE, LC_CTYPE, LC_MONETARY, LC_NUMERIC e LC_TIME.
+	*/
+
+	// Define timezone local com datas em português
+	setlocale(LC_ALL, &#x27;pt_PT&#x27;, &#x27;pt_PT.utf-8&#x27;, &#x27;pt_PT.utf-8&#x27;, &#x27;portuguese&#x27;);
+	// setlocale(LC_ALL, &quot;pt_PT&quot;, &quot;pt_PT.iso-8859-1&quot;, &quot;pt_PT.utf-8&quot;, &quot;portuguese&quot;);
+
+	// Fuso horário português
+	date_default_timezone_set(&#x27;Europe/Lisbon&#x27;);
+
+	// strftime — Format a local time/date according to locale settings
+
+	# Vamos criar uma data por extenso em função do setlocale()
+	// strtotime — Parse about any English textual datetime description into a Unix timestamp
+	// %A: dia da semana por extenso.
+	// %d: dia do mês representado com dois digitos.
+	// %B: mês por extenso.
+	// %Y: ano representado com quatro digitos.
+	echo strftime(&#x27;%A, %d de %B de %Y&#x27;, strtotime(&#x27;today&#x27;));
+
+	echo &quot;&lt;br&gt;&lt;br&gt; Data: &quot;;
+	$date = date(&quot;Y-m-d&quot;); 	// ou date(&quot;Y/m/d&quot;)
+	echo $date . &quot;&lt;br&gt;&quot;;
+
+	// define data específica por extenso
+	echo strftime(&quot;%A, %d de %B de %Y&quot;, strtotime($date));
+
+	echo &quot;&lt;br&gt;&quot;;
+
+	echo data_actual_pt();
+
+	echo &quot;&lt;br&gt;&quot;;
+
+	echo ContaAnosDecorridos(&quot;2019-11-10&quot;) . &quot; anos.&quot;;
+
+	echo &quot;&lt;br&gt;&quot;;
+
+	$result1 = getWeekdayName(&#x27;2021-11-18&#x27;); // returns Saturday
+	echo $result1;
+
+?&gt;</code></pre><ol type="1" id="f52aac21-7cdf-4d79-b8c2-cef6135c8390" class="numbered-list" start="4"><li>Interpreta o código apresentado</li></ol><p id="62d2ab71-74f1-45d0-823b-cc34fe472ef5" class="">
+</p><p id="8770bf44-34ec-463d-9adb-74e32192b106" class="">O PHP possui uma série de funções que permitem ajustar, mostrar e manipular datas e horas. A descrição completa destas funções pode ser encontrada no endereço: 
+	 https://www.php.net/manual/en/function.date.php
+	 * </p><p id="af058708-1b7c-41b6-8b44-9992155a8190" class=""><strong>Resumo de algumas funções:</strong>
+	 checkdate - valida uma data e hora
+	 date - formata uma data ou hora local (ver parâmetros no manual)
+	 strftime - formata uma data ou uma hora de acordo com as configurações locais
+	 getdate - devolve a informação acerca da hora ou da data
+	 gettimeofday - devolve a hora atual
+	 gmdate - formata uma hora ou uma data emformato GMT ou CUT
+	 mktime - devolve um timestamp UNIX para uma hora ou uma data
+	 time - devolve o timestamp UNIX atual
+	 microtime - devolve o timestamp UNIX atual com microsegundos
+</p><p id="a194f423-1e41-43ca-9b0c-9f14e00d43c9" class="">
+</p><h2 id="ef60ee32-f0d0-4626-b903-b4cd42921751" class="">Validação de Dados de um Formulário</h2><ol type="1" id="c4d687a6-f0b1-4428-abf8-9c8a9d268553" class="numbered-list" start="1"><li>Cria um ficheiro com o nome <strong>contactos.php</strong> com o seguinte código:</li></ol><pre id="788e37d1-5de6-48fb-abf2-a3f035e92588" class="code"><code>&lt;?php
+
+include &quot;libs/valida.php&quot;;
+
+// Define variables and initialize with empty values
+$nameErr = $emailErr = $messageErr = &quot;&quot;;
+$name = $email = $subject = $message = &quot;&quot;;
+ 
+ 
+// Processing form data when form is submitted.
+// MELHORA A AVALIAÇÃO DA SUBMISSÃO DO FORMULÁRIO
+if($_SERVER[&quot;REQUEST_METHOD&quot;] == &quot;POST&quot;){
+ 
+    // Validate user name
+    if(empty($_POST[&quot;name&quot;])){
+        $nameErr = &quot;Please enter your name.&quot;;
+    } else{
+        $name = filterName($_POST[&quot;name&quot;]);
+        if($name == FALSE){
+            $nameErr = &quot;Please enter a valid name.&quot;;
+        }
+    }
+    
+    // Validate email address
+    if(empty($_POST[&quot;email&quot;])){
+        $emailErr = &quot;Please enter your email address.&quot;;     
+    } else{
+        $email = filterEmail($_POST[&quot;email&quot;]);
+        if($email == FALSE){
+            $emailErr = &quot;Please enter a valid email address.&quot;;
+        }
+    }
+    
+    // Validate message subject
+    if(empty($_POST[&quot;subject&quot;])){
+        $subject = &quot;&quot;;
+    } else{
+        $subject = filterString($_POST[&quot;subject&quot;]);
+    }
+    
+    // Validate user comment
+    if(empty($_POST[&quot;message&quot;])){
+        $messageErr = &quot;Please enter your comment.&quot;;     
+    } else{
+        $message = filterString($_POST[&quot;message&quot;]);
+        if($message == FALSE){
+            $messageErr = &quot;Please enter a valid comment.&quot;;
+        }
+    }
+    
+    // Check input errors before sending email
+    if(empty($nameErr) &amp;&amp; empty($emailErr) &amp;&amp; empty($messageErr)){
+        // Recipient email address
+        $to = &#x27;webmaster@example.com&#x27;;
+        
+        // Create email headers
+        $headers = &#x27;From: &#x27;. $email . &quot;\r\n&quot; .
+        &#x27;Reply-To: &#x27;. $email . &quot;\r\n&quot; .
+        &#x27;X-Mailer: PHP/&#x27; . phpversion();
+        
+        // Sending email
+        if(mail($to, $subject, $message, $headers)){
+            echo &#x27;&lt;p class=&quot;success&quot;&gt;Your message has been sent successfully!&lt;/p&gt;&#x27;;
+        } else{
+            echo &#x27;&lt;p class=&quot;error&quot;&gt;Unable to send email. Please try again!&lt;/p&gt;&#x27;;
+        }
+    }
+}
+?&gt;
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Contact Form&lt;/title&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        .error{ color: red; }
+        .success{ color: green; }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h2&gt;Contact Us&lt;/h2&gt;
+    &lt;p&gt;Please fill in this form and send us.&lt;/p&gt;
+    &lt;!-- Repare natribuição do atributo value, toma o valor inserido anteriormente. --&gt;
+    &lt;form action=&quot;&lt;?php echo $_SERVER[&quot;PHP_SELF&quot;]; ?&gt;&quot; method=&quot;post&quot;&gt;
+        &lt;p&gt;
+            &lt;label for=&quot;inputName&quot;&gt;Name:&lt;sup&gt;*&lt;/sup&gt;&lt;/label&gt;
+            &lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;inputName&quot; value=&quot;&lt;?php echo $name; ?&gt;&quot;&gt;
+            &lt;span class=&quot;error&quot;&gt;&lt;?php echo $nameErr; ?&gt;&lt;/span&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            &lt;label for=&quot;inputEmail&quot;&gt;Email:&lt;sup&gt;*&lt;/sup&gt;&lt;/label&gt;
+            &lt;input type=&quot;text&quot; name=&quot;email&quot; id=&quot;inputEmail&quot; value=&quot;&lt;?php echo $email; ?&gt;&quot;&gt;
+            &lt;span class=&quot;error&quot;&gt;&lt;?php echo $emailErr; ?&gt;&lt;/span&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            &lt;label for=&quot;inputSubject&quot;&gt;Subject:&lt;/label&gt;
+            &lt;input type=&quot;text&quot; name=&quot;subject&quot; id=&quot;inputSubject&quot; value=&quot;&lt;?php echo $subject; ?&gt;&quot;&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            &lt;label for=&quot;inputComment&quot;&gt;Message:&lt;sup&gt;*&lt;/sup&gt;&lt;/label&gt;
+            &lt;textarea name=&quot;message&quot; id=&quot;inputComment&quot; rows=&quot;5&quot; cols=&quot;30&quot;&gt;&lt;?php echo $message; ?&gt;&lt;/textarea&gt;
+            &lt;span class=&quot;error&quot;&gt;&lt;?php echo $messageErr; ?&gt;&lt;/span&gt;
+        &lt;/p&gt;
+        &lt;input type=&quot;submit&quot; name=&quot;send&quot; value=&quot;Send&quot;&gt;
+        &lt;input type=&quot;reset&quot; value=&quot;Reset&quot;&gt;
+    &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><ol type="1" id="895d46e4-efc5-421e-bdfb-49bc4e5d7dcf" class="numbered-list" start="2"><li>Interpreta o código apresentado.</li></ol><ol type="1" id="20a58c80-7d92-4d2f-b489-ffe111e22eee" class="numbered-list" start="3"><li>Cria o ficheiro <strong>valida.php </strong> dentro da pasta <strong>libs</strong></li></ol><pre id="4e81ec23-c8fd-47ec-9994-e08a6b1128b3" class="code"><code>&lt;?php
+
+/**
+ * From: https://www.tutorialrepublic.com/php-tutorial/php-form-validation.php
+ * Date: 2018-10-02
+ * 
+ * Pretende-se implementar recursos básicos de segurança, 
+ * como a validação da entrada de dados do utilizador evitando a inserção  de
+ * dados potencialmente prejudiciais que comprometam a segurança do site ou 
+ * possam bloquear a aplicação.
+ * 
+ * Notes:
+ * filter_var ( mixed $variable [, int $filter = FILTER_DEFAULT [, mixed $options ]] ) : mixed
+ * Filters a variable with a specified filter.
+ * 
+ */
+
+// Functions to filter user inputs
+function filterName($field){
+    // Sanitize user name
+    $field = filter_var(trim($field), FILTER_SANITIZE_STRING);
+    
+    // valida o campo segundo a expressão regular indicada
+    if(filter_var($field, FILTER_VALIDATE_REGEXP, array(&quot;options&quot;=&gt;array(&quot;regexp&quot;=&gt;&quot;/^[a-zA-Z\s]+$/&quot;))))
+    {
+        return $field;
+    } else{
+        return FALSE;
+    }
+}
+
+
+// sanitizes and validates an email address
+function filterEmail($field){
+    // Sanitize e-mail address - first remove illegal characters from $email
+    $field = filter_var(trim($field), FILTER_SANITIZE_EMAIL);
+    
+    // Validate e-mail address
+    if(filter_var($field, FILTER_VALIDATE_EMAIL)){
+        return $field;
+    } else{
+        return FALSE;
+    }
+}
+
+function filterCodPostal($field){
+    // Sanitize user name
+    $field = filter_var(trim($field), FILTER_SANITIZE_STRING);
+    
+    // Validate user name
+    if(filter_var($field, FILTER_VALIDATE_REGEXP, array(&quot;options&quot;=&gt;array(&quot;regexp&quot;=&gt;&quot;/^[0-9-]+$/&quot;)))){
+        return $field;
+    } else{
+        return FALSE;
+    }
+}
+
+
+function filterString($field){
+    // Sanitize string
+    $field = filter_var(trim($field), FILTER_SANITIZE_STRING);
+    
+    if(!empty($field)){
+        return $field;
+    } else{
+        return FALSE;
+    }
+}</code></pre><ol type="1" id="55d54ab2-06d8-41d9-9ac1-d185cd2f02ee" class="numbered-list" start="4"><li>Interpreta o código apresentado.</li></ol><p id="a8c07f28-9a05-4972-a8e2-7f7d4e36d34d" class="">
+</p><p id="88f8ce55-95ea-4226-8adf-d57873b1d867" class="">
+</p></div></article></body></html>
