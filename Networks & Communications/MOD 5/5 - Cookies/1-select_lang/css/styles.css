@@ -1,0 +1,19 @@
+.container{
+    width: 600px;
+    margin: 100px auto;
+}
+.row{width: 100%;}
+.col-md-2{
+    width: 30%;
+    height: 95px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.col-md-10{
+    width: 70%;
+    height: 95px;
+    margin: 0;
+    padding: 0;
+}
+.bandeira{height: 95px;}

@@ -1,0 +1,42 @@
+O que é o timestamp?
+Provavelmente já teve que lidar com datas e esbarrou em valores do tipo 1556322834 ou 1556322834401. 
+Estes números possuem vários nomes: Unix timestamps, Unix Time, ou simplesmente timestamps 
+(nome que usaremos a partir de agora). 
+
+Um timestamp basicamente representa um instante único, um ponto específico na linha do tempo, 
+o seu valor corresponde a uma determinada quantidade de tempo decorrida a partir de um 
+instante inicial.
+
+Esse instante inicial (o “instante zero”) é chamado de Unix Epoch, cujo valor é 
+1970-01-01T00:00Z (1 de janeiro de 1970, à meia-noite, em UTC 1). 
+Geralmente o timestamp toma o valor em segundos ou milissegundos, podendo ser um número positivo 
+(para instantes que ocorrem depois do Unix Epoch) ou negativo (para instantes anteriores ao 
+Unix Epoch).
+
+O timestamp 1556322834, por exemplo, representa um instante ocorrido 1556322834 segundos 
+depois do Unix Epoch, que corresponde a 2019-04-26T23:53:54Z (26 de abril de 2019, às 23:53:54 em UTC).
+
+Um detalhe importante é que o timestamp representa um único instante, o mesmo no mundo todo. 
+Muitas linguagens e APIs possuem funções para devolver “a data atual”, no entanto devolvem 
+o valor do timestamp. Qualquer computador do mundo que executasse uma destas funções, 
+naquele exato instante, obteria o mesmo valor (1556322834)2.
+
+O detalhe é que um mesmo valor de timestamp corresponde a uma data e hora diferente, 
+dependendo do fuso-horário. O timestamp 1556322834, por exemplo, corresponde às seguintes 
+datas e horários:
+Data e hora	                    Fuso horário
+26/04/2019, às 20:53:54	        São Paulo
+26/04/2019, às 16:53:54	        Los Angeles
+27/04/2019, às 08:53:54	        Tóquio
+
+Este é um conceito importantíssimo: o timestamp 1556322834 corresponde a todas as datas e 
+horas acima referidas. O instante é o mesmo (1556322834 segundos depois do Unix Epoch), 
+o que muda é apenas a data e hora local, de acordo com o fuso-horário usado como referência.
+
+Por isso, só faz sentido converter um timestamp para uma data e hora (e vice-versa) se 
+usar um fuso-horário específico. 
+Muitas linguagens possuem funções que fazem essas conversões sem recorrer a um fuso-horário, 
+mas no fundo elas usam algum predefinido (geralmente o default que está configurado no 
+ambiente em que o código executa). Algumas permitem mudança ou configuração do fuso-horário, 
+mas nem sempre é possível.
+https://hkotsubo.github.io/blog/2019-05-02/o-que-e-timestamp

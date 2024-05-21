@@ -1,0 +1,1 @@
+﻿select distinct isbn, autor, capa from livros where month(data_aquisicao)=month(getdate())

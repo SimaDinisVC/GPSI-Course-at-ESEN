@@ -1,0 +1,23 @@
+listar os leitores ordenados pelo nome de a para z
+listar a média dos preços dos livros
+listar o nome do leitor mais velho
+listar o nr de leitores
+listar o nr de leitores cujo campo ativo é 1
+listar o nr de leitores por género
+listar o nome de todos os leitores e a respetiva idade
+listar o nome dos leitores cuja idade é inferior a 20 anos
+listar o nome dos leitores que nasceram o mês atual
+listar os livros cuja data de aquisição é anterior ao ano de publicação
+listar o nome dos livros ordenados por forma a mostrar primeiro os mais baratos
+listar os livros cujo estado é 0
+listar os livros cujo preço é superior ou igual a 2€ e inferior a 20€
+listar a duração em dias dos empréstimos
+listar o nome do livro com mais empréstimos
+listar a média de empréstimos por leitor
+listar o nome do leitor e o nome do livro do empréstimo
+listar o número de empréstimo que cada leitor já realizou, devem aparecer todos os leitores
+atualize o preço dos livros adicionando €0,50 ao preço atual
+remova todos os leitores cujo campo estado é 0
+
+
+

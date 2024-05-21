@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|solutionrelative:login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|c:\\users\\simao\\reposit\u00F3rio local\\gpsi-course-at-esen\\asp.net\\projeto\\gymachines\\editarmaquinas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|solutionrelative:editarmaquinas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\inserirmaquina.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|solutionrelative:inserirmaquina.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\maquinas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|solutionrelative:maquinas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|solutionrelative:site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|solutionrelative:site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\detalhes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|solutionrelative:detalhes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\maquinas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|solutionrelative:maquinas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\registar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|solutionrelative:registar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\registar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|solutionrelative:registar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|solutionrelative:login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9DA8F225-C4EF-451F-ABC3-B96D69C8B299}|GYMachines.csproj|solutionrelative:content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Site.Master.cs",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\Site.Master.cs",
+              "RelativeDocumentMoniker": "Site.Master.cs",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\Site.Master.cs",
+              "RelativeToolTip": "Site.Master.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T10:39:38.139Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditarMaquinas.aspx",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\EditarMaquinas.aspx",
+              "RelativeDocumentMoniker": "EditarMaquinas.aspx",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\EditarMaquinas.aspx",
+              "RelativeToolTip": "EditarMaquinas.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-22T20:51:30.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "detalhes.aspx",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\detalhes.aspx",
+              "RelativeDocumentMoniker": "detalhes.aspx",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\detalhes.aspx",
+              "RelativeToolTip": "detalhes.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-20T12:01:20.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\Site.Master",
+              "RelativeDocumentMoniker": "Site.Master",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\Site.Master",
+              "RelativeToolTip": "Site.Master",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-04T09:28:52.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "login.aspx",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\login.aspx",
+              "RelativeDocumentMoniker": "login.aspx",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\login.aspx",
+              "RelativeToolTip": "login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-10T10:28:39.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\login.aspx.cs",
+              "RelativeDocumentMoniker": "login.aspx.cs",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\login.aspx.cs",
+              "RelativeToolTip": "login.aspx.cs",
+              "ViewState": "AQIAACIAAABgmZmZmZkxwDcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T10:21:09.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Maquinas.aspx",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\Maquinas.aspx",
+              "RelativeDocumentMoniker": "Maquinas.aspx",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\Maquinas.aspx",
+              "RelativeToolTip": "Maquinas.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-13T12:13:19.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InserirMaquina.aspx",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\InserirMaquina.aspx",
+              "RelativeDocumentMoniker": "InserirMaquina.aspx",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\InserirMaquina.aspx",
+              "RelativeToolTip": "InserirMaquina.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-22T20:14:38.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "registar.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\registar.aspx.cs",
+              "RelativeDocumentMoniker": "registar.aspx.cs",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\registar.aspx.cs",
+              "RelativeToolTip": "registar.aspx.cs",
+              "ViewState": "AQIAACIAAADAzMzMzMwmwCsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T16:36:25.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\Content\\bootstrap.css",
+              "RelativeDocumentMoniker": "Content\\bootstrap.css",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\Content\\bootstrap.css",
+              "RelativeToolTip": "Content\\bootstrap.css",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-20T12:11:41.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DataBase.cs",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\DataBase.cs",
+              "RelativeDocumentMoniker": "DataBase.cs",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\DataBase.cs",
+              "RelativeToolTip": "DataBase.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAqwAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T09:05:56.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\Default.aspx",
+              "RelativeDocumentMoniker": "Default.aspx",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\Default.aspx",
+              "RelativeToolTip": "Default.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-17T11:18:07.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Maquinas.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\Maquinas.aspx.cs",
+              "RelativeDocumentMoniker": "Maquinas.aspx.cs",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\Maquinas.aspx.cs",
+              "RelativeToolTip": "Maquinas.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T10:00:36.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "registar.aspx",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\registar.aspx",
+              "RelativeDocumentMoniker": "registar.aspx",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\registar.aspx",
+              "RelativeToolTip": "registar.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-19T16:34:46.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "login.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\login.aspx.designer.cs",
+              "RelativeDocumentMoniker": "login.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto\\GYMachines\\login.aspx.designer.cs",
+              "RelativeToolTip": "login.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T10:32:12.735Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

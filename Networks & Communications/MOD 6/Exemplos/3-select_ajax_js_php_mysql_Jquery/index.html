@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cursos</title>
+</head>
+<body>
+    <h2>Cursos na ESEN</h2>
+    <form>
+        <!--
+          Os valores atribuídos aos cursos têm que estar em conformidade com
+          os valores da chave primária da tabela cursos.
+          Ao selecionar um item do elemento select, o evento onchange é disparado,
+        este chama a função mostraCurso(), é passado o valor do atributo value do
+        item selecionado.
+        -->
+        <select name="users" onchange="mostraCurso(this.value)">
+            <option value="">Seleciona Curso:</option>
+            <option value="1">Multimédia</option>
+            <option value="2">Turismo</option>
+            <option value="3">Desporto</option>
+            <option value="4">Mecatrónica</option>
+            <option value="5">GPSI</option>
+        </select>
+    </form>
+    <br>
+    <div id="mostra"><b>Os cursos serão listados aqui.</b></div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/rotinas.js"></script>
+</body>
+</html>

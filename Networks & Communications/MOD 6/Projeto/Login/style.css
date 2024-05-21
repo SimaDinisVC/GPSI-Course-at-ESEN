@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    25% {
+      background-position: 100% 50%;
+    }
+    50% {
+      background-position: 0% 50%;
+    }
+    75% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+* {
+  user-select: none;
+}
+
+body {
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  background: linear-gradient(240deg, #57b6aeea, #513793ef);
+  background-size: 160% 100%;
+  animation: gradientAnimation 6s linear infinite;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-signin {
+  max-width: 430px;
+  padding: 1rem;
+}
+
+.btn-costum {
+  color: white;
+  border-color: rgb(22, 75, 199);
+  background-color: rgb(22, 75, 199);
+}
+
+.btn-costum:hover {
+  color:none;
+  border-color: rgb(37, 94, 226);
+  background-color: rgb(37, 94, 226);
+}
+
+.container-cargo {
+  display:flex; 
+  justify-content: space-between;
+}
+
+.btn-select {
+  background-color: transparent; 
+  border-color: transparent; 
+  font-size: 17pt;
+}
+
+.btn-select:hover {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.btn-select:focus {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.br {
+    border-radius: 11px;
+}
+
+.queuepro {
+    color: rgb(22, 75, 199);
+}
+
+.alert-costum {
+  box-shadow: -12px 10px 100px #00000056;
+  border-radius: 20px;
+}

@@ -1,0 +1,8 @@
+ <div class="input-group" style="width: 380px; padding-left: 30px; padding-top: 10px">
+        <input id="txt_pesquisa" type="text" class="form-control" placeholder="Procurar..." runat="server">
+                <div class="input-group-btn">
+                        <button id="pesquisa" class="btn btn-default" runat="server">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                </div>
+ </div>

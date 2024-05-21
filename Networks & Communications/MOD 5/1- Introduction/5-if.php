@@ -7,7 +7,7 @@
     /*
         strpos - encontra a posição da primeira ocorrência de uma substring numa string
     */
-    if (strpos($versao_navegador, 'Safari/603.3') == true){
+    if (strpos($versao_navegador, 'Safari/537.36') == true){
        echo "<br>O teu browser é o Safari versão 603.3";
     }
 

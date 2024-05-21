@@ -1,0 +1,244 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="WebApplication1.Master" %>
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head runat="server">
+
+    <title></title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+    <!-- Bootstrap open source CDN (Content Delivery Network) -->
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Interface Renponsivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <!-- Cookies consent -->
+    <style>
+        @media (max-width:600 px) {
+            body {
+                background-color: aquamarine
+            }
+        }
+
+        body {
+            background-color: #eee
+        }
+
+        .cookie-consent {
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+            height: 45px;
+            color: #fff;
+            line-height: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 14px;
+            background: #292929;
+            z-index: 120;
+            cursor: pointer;
+            border-radius: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+
+        .allow-button {
+            height: 20px;
+            width: 104px;
+            color: #fff;
+            font-size: 12px;
+            line-height: 10px;
+            border-radius: 3px;
+            border: 1px solid green;
+            background-color: green
+        }
+    </style>
+
+</head>
+
+
+<body style="background-color: white">
+
+    <form id="form1" runat="server">
+
+        <!-- Guardar numa cookie a URL da última página visitada -->
+        <% 
+            if (Request.Url.ToString().Contains("login") == false)
+            {
+                Response.Cookies["url"].Value = Request.Url.ToString();
+            }
+        %>
+
+
+        <!-- Navbar com o menu principal do site -->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <img src="imagens/logo1.png" style="vertical-align: top; width: 60px; height: 60px">
+                        </div>
+                <!-- Menu pendente -->
+                 <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">COMPUTADORES
+                                <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="computadores.aspx?tipo=portátil">Portáteis</a></li>
+                            <li><a href="computadores.aspx?tipo=desktop">Desktop</a></li>
+                            <li><a href="computadores.aspx?tipo=hibrido">Hibridos</a></li>
+                            <li><a href="computadores.aspx?tipo=gaming">Gaming</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="promocoes.aspx">PROMOÇÕES</a></li>
+                    <li><a href="novidades.aspx">NOVIDADES</a></li>
+                    <li><a href="configurador.aspx">CONFIGURADOR</a></li>
+                </ul>
+
+                <!-- Caixa de pesquisa -->
+                <div class="input-group" style="width: 380px; padding-left: 30px; padding-top: 10px">
+                    <input id="txt_pesquisa" type="text" class="form-control" placeholder="Procurar..." runat="server">
+                    <div class="input-group-btn">
+                        <button id="pesquisa" class="btn btn-default" runat="server" onserverclick="pesquisa_click">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+
+                <!-- Opções da área pública -->
+<%--            <% if (Session["user"] == null)--%>
+                <% if (Session["user"] == null && Session["admin"] == null)
+                { %>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="registar.aspx"><span class="glyphicon glyphicon-user"></span>Registar</a></li>
+                <li><a href="login.aspx"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+            </ul>
+            <!-- Opções da área reservada-->
+            <% }
+                else
+                { %>
+            <ul class="nav navbar-nav navbar-right">
+
+                <!-- Se cliente logado-->
+                <% //if (Session["perfil"].ToString() == "cliente")
+                   if (Session["user"]!=null)
+                    { %>
+                <li>
+                    <a href="favoritos.aspx"><span class="glyphicon glyphicon-heart"></span></a>
+                </li>
+                <li>
+                    <a href="carrinho.aspx"><span class="glyphicon glyphicon-shopping-cart"></span>
+                        <!-- Se carrinho de compras tem produtos -->
+                        <% if (HiddenField1.Value != "0")
+                            { %>
+                        <span class="badge" style="background-color: red">
+                            <% Response.Write(HiddenField1.Value); %>
+                            <asp:HiddenField ID="HiddenField1" runat="server" />
+                        </span>
+                        <% } %>
+                    </a>
+                </li>
+
+                <!-- Se administrador logado-->
+                <% }
+                    else
+                    { %>
+                <li>
+<%--                    <a href="lista_compras.aspx"><span class="glyphicon glyphicon-bell"></span>--%>
+                        <a href="compras.aspx"><span class="glyphicon glyphicon-bell"></span>
+                        <!-- Se existirem novas compras-->
+                        <% if (HiddenField2.Value != "0")
+                            { %>
+                        <span class="badge" style="background-color: red">
+                            <%Response.Write(HiddenField2.Value); %>
+                            <asp:HiddenField ID="HiddenField2" runat="server" />
+                        </span>
+                        <% } %>
+                    </a>
+                </li>
+                <% } %>
+
+                <!-- Menu àrea reservada-->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <% //if (Session["perfil"].ToString() == "cliente")
+                            if (Session["user"]!=null)
+                            { %>
+                                Área Pessoal 
+                          <% }
+                              else
+                              { %> Administração <%}%>
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <img src="imagens/utilizadores/<%Response.Write(Session["user"]);%>.jpg" style="width: 70px; height: 50px; padding-top: 12px; padding-right: 15px;">
+                            <%Response.Write(Session["user"]);%>
+                            <hr />
+                        </li>
+                        <% //if (Session["perfil"].ToString() == "cliente")
+                            if (Session["user"]!=null)
+                            { %>
+                        <li><a href="perfil.aspx">Perfil </a></li>
+                        <li><a href="compras.aspx">Compras </a></li>
+                        <%                             
+                            }
+                            else
+                            { %>
+                        <li><a href="inserir_computador.aspx">Inserir Produto</a></li>
+                        <li><a href="Editar_Computadores.aspx">Editar Produtos</a></li>
+                        <!--<li><a href="Lista_compras.aspx">Encomendas </a></li>-->
+                        <li><a href="Compras.aspx">Encomendas </a></li>
+                        <% } %>
+                        <li>
+                            <hr />
+                            <a href="logout.aspx">Sair</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <% } %>
+            </div>
+
+        </nav>
+
+        <!-- Barra de consentimento de Cookies -->
+        <br />
+        <% 
+            HttpCookie reqCookies = Request.Cookies["aceitar_cookies"];
+            if (reqCookies == null)
+            {  %>
+        <div class="cookie-consent">
+            <span>This site uses cookies to enhance user experience.</span>
+            <div class=" ml-2 d-flex align-items-center justify-content-center g-2">
+                <button class="allow-button mr-1" runat="server" onserverclick="aceitar_Click">Allow cookies</button>
+                <button class="allow-button">cancel</button>
+                <asp:Button ID="Button1" runat="server" OnClick="aceitar_Click" Text="Button" />
+            </div>
+        </div>
+        <% } %>
+
+        <!-- Área editável do site -->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+    </form>
+</body>
+</html>

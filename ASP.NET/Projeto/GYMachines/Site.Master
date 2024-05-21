@@ -1,0 +1,184 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="GYMachines.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - GYMachines</title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/Images/Logo.jpg" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <style>
+        .cookie-consent {
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+            height: 45px;
+            color: #fff;
+            line-height: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 14px;
+            background: #292929;
+            z-index: 120;
+            cursor: pointer;
+            border-radius: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+
+        .allow-button {
+            height: 20px;
+            width: 104px;
+            color: #fff;
+            font-size: 12px;
+            line-height: 10px;
+            border-radius: 3px;
+            border: 1px solid green;
+            background-color: green
+        }
+    </style>
+</head>
+<body>
+    <form runat="server">
+
+        <% 
+            if (Request.Url.ToString().Contains("login") == false)
+            {
+                Response.Cookies["url"].Value = Request.Url.ToString();
+            }
+        %>
+
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" runat="server" href="~/">
+                    <img src="Images/Logo.jpg" class="my-1 rounded-circle" style="width: 60px; height: 60px;">
+                    GYMachines
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Maquinas">Máquinas</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contactos</a></li>
+                    </ul>
+                        <% if (Session["user"] == null && Session["admin"] == null)
+                            { %>
+                                <ul class="navbar-nav">
+                                    <li><a class="nav-link" href="registar.aspx"><i class="material-icons me-2">person_add</i>Registar</a></li>
+                                    <li><a class="nav-link" href="login.aspx"><i class="material-icons me-2">login</i>Login</a></li>
+                                </ul>
+                        <% } else { %>
+                                <ul class="navbar-nav">
+                                    <% if (Session["user"] != null) {  %>
+                                    <li><a class="nav-link" href="favoritos.aspx"><i class="material-icons me-2">favorite</i></a></li>
+                                    <li><a class="nav-link" href="carrinho.aspx"><i class="material-icons me-2">shopping_cart</i></a></li>
+                                    <%} else { %>
+                                    <li><a class="nav-link" href="compras.aspx"><i class="material-icons me-2">notifications</i></a></li>
+                                    <%} %>
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <% //if (Session["perfil"].ToString() == "cliente")
+                                                if (Session["user"]!=null)
+                                                { %>
+                                                    Área Pessoal 
+                                                <% } else { %> 
+                                                    Administração 
+                                                <%}%>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li class="mx-2">
+                                                <% if (Session["user"] != null) {
+                                                        Response.Write(Session["user"]);}
+                                                    else {
+                                                        Response.Write(Session["admin"]);
+                                                    }
+                                                %>
+                                                
+                                            </li>
+                                            <hr />
+                                            <% //if (Session["perfil"].ToString() == "cliente")
+                                                if (Session["user"]!=null)
+                                                { %>
+                                            <li><a class="dropdown-item" href="perfil.aspx">Perfil </a></li>
+                                            <li><a class="dropdown-item" href="compras.aspx">Compras </a></li>
+                                            <%                             
+                                                }
+                                                else
+                                                { %>
+                                            <li><a class="dropdown-item" href="InserirMaquina.aspx">Inserir Produto</a></li>
+                                            <li><a class="dropdown-item" href="EditarMaquinas.aspx">Editar Produtos</a></li>
+                                            <!--<li><a href="Lista_compras.aspx">Encomendas </a></li>-->
+                                            <li><a class="dropdown-item" href="compras.aspx">Encomendas </a></li>
+                                            <% } %>
+                                            <li>
+                                                <hr />
+                                                <a class="dropdown-item" href="logout.aspx">Sair</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </ul>
+                        <% } %>
+                </div>
+            </div>
+        </nav>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr /> 
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - GYMachine </p>
+            </footer>
+        </div>
+        <% 
+            HttpCookie reqCookies = Request.Cookies["aceitar_cookies"];
+            if (reqCookies == null)
+            {  %>
+                <div class="cookie-consent">
+                    <span>This site uses cookies to enhance user experience.</span>
+                    <div class=" ml-2 d-flex align-items-center justify-content-center g-2">
+                        <button class="allow-button mr-1" runat="server" onserverclick="aceitar_Click">Allow cookies</button>
+                        <button class="allow-button">cancel</button>
+                    </div>
+                </div>
+         <% } %>
+    </form>
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/Scripts/bootstrap.js") %>
+    </asp:PlaceHolder>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>JavaScript Ajax POST Demo</title>
+<script>
+function postComment() {
+    // Cria o objeto XMLHttpRequest
+    var request = new XMLHttpRequest();
+    
+    request.open("POST", "confirmation.php");
+    
+    request.onreadystatechange = function() {
+        if(this.readyState === 4 && this.status === 200) {
+            document.getElementById("result").innerHTML = this.responseText;
+        }
+    };
+    
+    // Recupera os dados do formulário
+    var myForm = document.getElementById("myForm");
+
+    var formData = new FormData(myForm);
+
+    // Envia a requisição ao servidor
+    request.send(formData);
+}
+</script>
+</head>
+<body>
+    <form id="myForm">
+        <label>Nome:</label>
+        <div><input type="text" name="name"></div>
+        <br>
+        <label>Comentário:</label>
+        <div><textarea name="comment"></textarea></div>
+        <p>
+            <button type="button" onclick="postComment()"> Comentário </button>
+        </p>
+    </form>
+    
+    <div id="result">
+        <p>A resposta do servidor será colocada aqui</p>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "QueuePro",
+    "description": "The QueuePro app is the new inovation for the old paper tickets queues and start to be modern waiting queues.",
+    "slug": "QueuePro",
+    "owner": "Simão Dinis Varanda Costa",
+    "privacy": "hidden",
+    "version": "1.0.0",
+    "plataforms": [
+      "ios",
+      "android"
+    ],
+    "assets": ["./assets/fonts"],
+    "githubUrl": "https://github.com/SimaDinisVC/GPSI-Course-at-ESEN/tree/master/PAP%20(final%20course%20project)",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "center",
+      "backgroundColor": "#305e96"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splash.png",
+        "backgroundColor": "#305e96"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "fonts": [
+      {
+        "asset":"Poppins-Regular.ttf"
+      },
+      {
+        "asset":"Poppins-Bold.ttf"
+      },
+      {
+        "asset":"Poppins-Italic.ttf"
+      },
+      {
+        "asset":"Poppins-Light.ttf"
+      },
+      {
+        "asset":"Poppins-Medium.ttf"
+      },
+      {
+        "asset":"Poppins-SemiBold.ttf"
+      }
+    ]
+  }
+}

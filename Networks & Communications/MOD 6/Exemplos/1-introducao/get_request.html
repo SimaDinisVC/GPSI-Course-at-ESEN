@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Demosnstração JavaScript Ajax GET </title>
+<script>
+function displayFullName() {
+    // Cria um objeto XMLHttpRequest
+    var request = new XMLHttpRequest();
+
+    // Inicializa o request object
+    request.open("GET", "greet.php?fname=John&lname=Clark");
+    // request.open("GET", "greet.php");
+
+    // Define o evento ouvinte readystatechange
+    request.onreadystatechange = function() {
+        // Verifica se o request está completo e teve sucesso
+        if(this.readyState === 4 && this.status === 200) {
+            // Insere a resposta (response) do servidor no elemento HTML
+            document.getElementById("result").innerHTML = this.responseText;
+        }
+    };
+
+    // Enviar o request ao servidor
+    request.send();
+}
+</script>
+</head>
+<body>
+    <div id="result">
+    </div>
+    <button type="button" onclick="displayFullName()">Mostra Nomes</button>
+</body>
+</html>

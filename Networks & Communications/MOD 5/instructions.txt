@@ -1,0 +1,9 @@
+Change the default XAMPP executable path:
+
+Open - C:\xampp\apache\conf\httpd.conf
+
+Find:
+DocumentRoot "C:/xampp/htdocs"
+<Directory "C:/xampp/htdocs">
+
+Edit both paths to the desired path.

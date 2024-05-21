@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    25% {
+      background-position: 100% 50%;
+    }
+    50% {
+      background-position: 0% 50%;
+    }
+    75% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+* {
+    user-select: none;
+}
+
+body {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    background: linear-gradient(75deg, #57b6aeea, #513793ef);
+    background-size: 160% 100%;
+    animation: gradientAnimation 6s linear infinite;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-outline-costum {
+    color: rgb(22, 75, 199);
+    border-color: rgb(22, 75, 199);
+}
+
+.btn-outline-costum:hover {
+    color: white;
+    border-color: rgb(22, 75, 199);
+    background-color: rgb(22, 75, 199);
+}
+
+.btn-costum {
+    color: white;
+    border-color: rgb(22, 75, 199);
+    background-color: rgb(22, 75, 199);
+}
+
+.btn-costum:hover {
+    color:none;
+    border-color: rgb(37, 94, 226);
+    background-color: rgb(37, 94, 226);
+}
+
+.btn-costum:focus {
+    color:none;
+    border-color: rgb(37, 94, 226);
+    background-color: rgb(37, 94, 226);
+}
+
+.br {
+    border-radius: 11px;
+}
+
+.queuepro {
+    color: rgb(22, 75, 199);
+    font-weight: 600;
+}
+
+.bg-input {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.alert-costum {
+    box-shadow: -12px 10px 100px #00000056;
+    border-radius: 20px;
+}
+
+.not-allowed:hover {
+    cursor: not-allowed;
+}

@@ -1,0 +1,33 @@
+﻿/*1_listar nome dos produtos sem repetir*/
+/*2_referencia, nome e o valor do iva dos produtos*/
+/*3_referencia,nome e o valor a pagar por produto*/
+/*4_Média do preço dos produtos*/
+/*5_Todos os produtos da categoria Limpeza*/
+/*6_Todos os produtos fora de validade*/
+/*7_todos os produtos com validade do mês atual*/
+/*8_Nr de produtos por categoria*/
+/*9_os produtos da categoria bebidas e cujo preço é inferior a 5 €*/
+/*10_os produtos enlatados ou charcutaria*/
+/*11_os produtos sem desconto*/
+/*12_produtos cujo preço é superior a 5 e inferior a 10*/
+/*13_produtos cujo preço unitário é superior à média dos preços*/
+/*14_número total de produtos em stock*/
+/*15_nome do produto com maior quantidade em stock*/
+/*16_número de registos da tabela produtos*/
+/*17_lista de produtos com o valor mais baixo em stock*/
+/*18_listar o nome do produto e do repositor*/
+/*19_listar todos os campos dos produtos cujo
+preco é superior à média dos preços dos produtos*/
+/*20_Valor dos produtos em stock*/
+/*21_Listar os respositores sem produtos*/
+/*22_Nr de lojas por localidade*/
+/*23_Loja com mais funcionários*/
+/*24_Média de idades dos funcionários por loja*/
+/*25_atualizar a idade dos funcionários*/
+/*26_atualizar o preço dos produtos cuja data de validade
+já foi ultrapassada retirando 10% ao preço unitário*/
+/*27_Mostrar o funcionario que trabalha mais horas*/
+/*28_Mostrar o funcionario com o maior nome*/
+/*29_mostrar o preços dos produtos cujo nome da marca 
+termina com b*/
+/*30_eliminar produtos fora de prazo*/

@@ -1,0 +1,192 @@
+D:\ESEN_2021_2022\PSI\MOD_15\Biblioteca\Biblioteca\bin\Debug\AppData\Biblioteca.mdf
+D:\ESEN_2021_2022\PSI\MOD_15\Biblioteca\Biblioteca\bin\Debug\AppData\Biblioteca_log.ldf
+D:\ESEN_2021_2022\PSI\MOD_15\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+D:\ESEN_2021_2022\PSI\MOD_15\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+D:\ESEN_2021_2022\PSI\MOD_15\Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
+D:\ESEN_2021_2022\PSI\MOD_15\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Properties.Resources.resources
+D:\ESEN_2021_2022\PSI\MOD_15\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.cache
+D:\ESEN_2021_2022\PSI\MOD_15\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+D:\ESEN_2021_2022\PSI\MOD_15\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+D:\ESEN_2021_2022\PSI\MOD_15\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
+D:\ESEN_2021_2022\PSI\MOD_15\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Form1.resources
+D:\ESEN_2021_2022\PSI\MOD_15\Biblioteca\Biblioteca\obj\Debug\Biblioteca.AboutBox1.resources
+D:\ESEN_2021_2022\PSI\MOD_15\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Frm_Leitores.resources
+D:\ESEN_2021_2022\PSI\MOD_15\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.AssemblyReference.cache
+D:\ESEN_2021_2022\PSI\MOD_15\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Frm_Livro.resources
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\bin\Debug\AppData\Biblioteca.mdf
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\bin\Debug\AppData\Biblioteca_log.ldf
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.AboutBox1.resources
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Form1.resources
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Frm_Leitores.resources
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Frm_Livro.resources
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Properties.Resources.resources
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.cache
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_listar_livros.resources
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Pesquisa_leitor.resources
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Mostrar_Leitores.resources
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pesquisar_autor.resources
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pesaquisa_palavrachave.resources
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.mais_lidos.resources
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.novidades.resources
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_requesitar.resources
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_entregar.resources
+C:\Users\esen2020\Downloads\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_historcomovimentos.resources
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\AppData\Biblioteca.mdf
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\AppData\Biblioteca_log.ldf
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.SuggestedBindingRedirects.cache
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.AboutBox1.resources
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_Main.resources
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_entregar.resources
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_historcomovimentos.resources
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Frm_Leitores.resources
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_listar_livros.resources
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Frm_Livro.resources
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_requesitar.resources
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.mais_lidos.resources
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Mostrar_Leitores.resources
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.novidades.resources
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pesaquisa_palavrachave.resources
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pesquisar_autor.resources
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Pesquisa_leitor.resources
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Properties.Resources.resources
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.cache
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+C:\Users\carlo\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.SuggestedBindingRedirects.cache
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\AppData\Biblioteca.mdf
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\AppData\Biblioteca_log.ldf
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.AboutBox1.resources
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_Main.resources
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_entregar.resources
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_historcomovimentos.resources
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Frm_Leitores.resources
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_listar_livros.resources
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Frm_Livro.resources
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_requesitar.resources
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.mais_lidos.resources
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Mostrar_Leitores.resources
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.novidades.resources
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pesaquisa_palavrachave.resources
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pesquisar_autor.resources
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Pesquisa_leitor.resources
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Properties.Resources.resources
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.cache
+C:\Users\p946\Downloads\Biblioteca\Biblioteca\Biblioteca\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.AboutBox1.resources
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_Main.resources
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_entregar.resources
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_historcomovimentos.resources
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Frm_Leitores.resources
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_listar_livros.resources
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Frm_Livro.resources
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_requesitar.resources
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.mais_lidos.resources
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Mostrar_Leitores.resources
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.novidades.resources
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pesaquisa_palavrachave.resources
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pesquisar_autor.resources
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Pesquisa_leitor.resources
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Properties.Resources.resources
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.cache
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+C:\Users\Pedro Cardoso\Desktop\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\bin\Debug\AppData\Biblioteca.mdf
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\bin\Debug\AppData\Biblioteca_log.ldf
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.AboutBox1.resources
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_Main.resources
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_entregar.resources
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_historcomovimentos.resources
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Frm_Leitores.resources
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_listar_livros.resources
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Frm_Livro.resources
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_requesitar.resources
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.mais_lidos.resources
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Mostrar_Leitores.resources
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.novidades.resources
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pesaquisa_palavrachave.resources
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pesquisar_autor.resources
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Pesquisa_leitor.resources
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Properties.Resources.resources
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.cache
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+C:\Users\Pedro Cardoso\source\repos\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe.config
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.SuggestedBindingRedirects.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.AboutBox1.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_Main.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_entregar.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_historcomovimentos.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Frm_Leitores.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_listar_livros.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Frm_Livro.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.frm_requesitar.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.mais_lidos.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Mostrar_Leitores.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.novidades.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pesaquisa_palavrachave.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pesquisar_autor.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Properties.Resources.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.exe
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.pdb
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Por_Leitor.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Por_Livro.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\Biblioteca\Biblioteca\obj\Debug\Biblioteca.Por_Entregar.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\bin\Debug\Biblioteca.exe.config
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\bin\Debug\Biblioteca.exe
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.csproj.SuggestedBindingRedirects.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.AboutBox1.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.frm_Main.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.frm_entregar.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.frm_historcomovimentos.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.Frm_Leitores.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.frm_listar_livros.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.Frm_Livro.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.frm_requesitar.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.mais_lidos.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.Mostrar_Leitores.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.novidades.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.pesaquisa_palavrachave.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.pesquisar_autor.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.Por_Entregar.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.Por_Leitor.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.Por_Livro.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.Properties.Resources.resources
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.csproj.GenerateResource.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.exe
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\SQL\3 - DataBase Acess\AnimalClinic v.2\Biblioteca\obj\Debug\Biblioteca.pdb

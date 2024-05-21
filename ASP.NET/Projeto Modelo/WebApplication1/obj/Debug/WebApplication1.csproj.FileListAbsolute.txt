@@ -1,0 +1,590 @@
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Net.Http.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\carlo\source\repos\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Net.Http.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\carlo\OneDrive\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Net.Http.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\carlo\OneDrive\Documents\site ecomerce\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Net.Http.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+C:\Users\carlo\OneDrive\Documents\siteecomerce\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\WebApplication1.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\csc.exe
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\csc.exe.config
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\csc.rsp
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\csi.exe
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\csi.exe.config
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\csi.rsp
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.AppContext.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Console.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.Compression.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Net.Http.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.ValueTuple.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\vbc.exe
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\vbc.exe.config
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\vbc.rsp
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Prof.Carlos Malta\Desktop\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\WebApplication1.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\csc.exe
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\csc.exe.config
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\csc.rsp
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\csi.exe
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\csi.exe.config
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\csi.rsp
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.AppContext.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Console.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.Compression.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Net.Http.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.ValueTuple.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\vbc.exe
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\vbc.exe.config
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\vbc.rsp
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Prof.Carlos Malta\OneDrive - Escola Secundária de Emídio Navarro de Viseu\Desktop\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\dev\Projeto Modelo\WebApplication1\bin\WebApplication1.dll.config
+C:\dev\Projeto Modelo\WebApplication1\bin\WebApplication1.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\WebApplication1.pdb
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\csc.exe
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\csc.exe.config
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\csc.rsp
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\csi.exe
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\csi.exe.config
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\csi.rsp
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.AppContext.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.Console.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.Compression.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.Net.Http.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.ValueTuple.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\vbc.exe
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\vbc.exe.config
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\vbc.rsp
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\dev\Projeto Modelo\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\dev\Projeto Modelo\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\dev\Projeto Modelo\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\dev\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
+C:\dev\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\dev\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+C:\dev\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.dll
+C:\dev\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\WebApplication1.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\csc.exe
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\csc.exe.config
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\csc.rsp
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\csi.exe
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\csi.exe.config
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\csi.rsp
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.AppContext.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Console.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.Compression.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Net.Http.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.ValueTuple.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\vbc.exe
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\vbc.exe.config
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\vbc.rsp
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Pedro Cardoso\Desktop\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\WebApplication1.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\csc.exe
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\csc.exe.config
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\csc.rsp
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\csi.exe
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\csi.exe.config
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\csi.rsp
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.AppContext.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Console.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.Compression.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Net.Http.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.ValueTuple.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\vbc.exe
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\vbc.exe.config
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\vbc.rsp
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Pedro Cardoso\Desktop\Escola\ESEN\Ano letivo 202223\PSI\Modulo 17A\Projeto Modelo\WebApplication1\obj\Debug\WebAppli.7D14BD69.Up2Date
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\WebApplication1.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\WebApplication1.pdb
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\csc.exe
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\csc.exe.config
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\csc.rsp
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\csi.exe
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\csi.exe.config
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\csi.rsp
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.AppContext.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.Console.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.Compression.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.Net.Http.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.ValueTuple.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\vbc.exe
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\vbc.exe.config
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\vbc.rsp
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\obj\Debug\WebAppli.7D14BD69.Up2Date
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\simao\Repositório Local\GPSI-Course-at-ESEN\ASP.NET\Projeto Modelo\WebApplication1\obj\Debug\WebApplication1.pdb

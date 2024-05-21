@@ -1,0 +1,469 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\editar_computadores.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\editar_computadores.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|c:\\users\\simao\\reposit\u00F3rio local\\gpsi-course-at-esen\\asp.net\\projeto modelo\\webapplication1\\inserir_computador.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\inserir_computador.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|c:\\users\\simao\\reposit\u00F3rio local\\gpsi-course-at-esen\\asp.net\\projeto modelo\\webapplication1\\carrinho.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\carrinho.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\detalhes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\detalhes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\computadores.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\computadores.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\master.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\master.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\computadores.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\computadores.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\detalhes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\detalhes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\master.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\master.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\registar.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\registar.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\configurador.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\configurador.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\compras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\compras.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\configurador.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\configurador.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\configurador.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\configurador.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\compras.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\compras.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\carrinho.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\carrinho.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\promocoes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\promocoes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\promocoes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\promocoes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\webapplication1\\recuperar_password.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{21B17A74-880D-4CBD-A9A4-527F9F1187D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\recuperar_password.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Inserir_computador.aspx",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\Inserir_computador.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\Inserir_computador.aspx",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\Inserir_computador.aspx",
+              "RelativeToolTip": "WebApplication1\\Inserir_computador.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-22T20:14:48.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Master.Master",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\Master.Master",
+              "RelativeDocumentMoniker": "WebApplication1\\Master.Master",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\Master.Master",
+              "RelativeToolTip": "WebApplication1\\Master.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-04T09:11:32.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Master.Master.cs",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\Master.Master.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Master.Master.cs",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\Master.Master.cs",
+              "RelativeToolTip": "WebApplication1\\Master.Master.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:12:13.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "detalhes.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\detalhes.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\detalhes.aspx.cs",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\detalhes.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\detalhes.aspx.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAowEYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T10:20:52.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "computadores.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\computadores.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\computadores.aspx.cs",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\computadores.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\computadores.aspx.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAmwH4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:12:49.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Editar_Computadores.aspx",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\Editar_Computadores.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\Editar_Computadores.aspx",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\Editar_Computadores.aspx*",
+              "RelativeToolTip": "WebApplication1\\Editar_Computadores.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-16T15:40:00.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "login.aspx",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\login.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\login.aspx",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\login.aspx",
+              "RelativeToolTip": "WebApplication1\\login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-04T08:54:24.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "carrinho.aspx",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\carrinho.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\carrinho.aspx",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\carrinho.aspx",
+              "RelativeToolTip": "WebApplication1\\carrinho.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-04T09:13:05.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "computadores.aspx",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\computadores.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\computadores.aspx",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\computadores.aspx",
+              "RelativeToolTip": "WebApplication1\\computadores.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-04T09:12:46.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "logout.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\logout.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\logout.aspx.cs",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\logout.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\logout.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T09:47:03.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "detalhes.aspx",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\detalhes.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\detalhes.aspx",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\detalhes.aspx",
+              "RelativeToolTip": "WebApplication1\\detalhes.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-12T10:19:29.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "logout.aspx",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\logout.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\logout.aspx",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\logout.aspx",
+              "RelativeToolTip": "WebApplication1\\logout.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-16T09:46:46.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\login.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\login.aspx.cs",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\login.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\login.aspx.cs",
+              "ViewState": "AQIAAEMAAAAAZmZmZmYowEYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T08:54:32.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "registar.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\registar.aspx.designer.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\registar.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\registar.aspx.designer.cs",
+              "RelativeToolTip": "WebApplication1\\registar.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T16:37:37.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "index.aspx",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\index.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\index.aspx",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\index.aspx",
+              "RelativeToolTip": "WebApplication1\\index.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-02-26T08:57:29.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "index.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\index.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\index.aspx.cs",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\index.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\index.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:12:42.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "carrinho.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\carrinho.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\carrinho.aspx.cs",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\carrinho.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\carrinho.aspx.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:13:12.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "compras.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\compras.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\compras.aspx.cs",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\compras.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\compras.aspx.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:13:17.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "configurador.aspx",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\configurador.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\configurador.aspx",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\configurador.aspx",
+              "RelativeToolTip": "WebApplication1\\configurador.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-04T09:13:31.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "configurador.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\configurador.aspx.designer.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\configurador.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\configurador.aspx.designer.cs",
+              "RelativeToolTip": "WebApplication1\\configurador.aspx.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:13:36.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "configurador.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\configurador.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\configurador.aspx.cs",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\configurador.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\configurador.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:13:36.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "promocoes.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\promocoes.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\promocoes.aspx.cs",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\promocoes.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\promocoes.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T08:59:44.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Recuperar_Password.aspx",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\Recuperar_Password.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\Recuperar_Password.aspx",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\Recuperar_Password.aspx",
+              "RelativeToolTip": "WebApplication1\\Recuperar_Password.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-02-26T09:10:23.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "compras.aspx",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\compras.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\compras.aspx",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\compras.aspx",
+              "RelativeToolTip": "WebApplication1\\compras.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-02-26T08:59:09.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "promocoes.aspx",
+              "DocumentMoniker": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\promocoes.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\promocoes.aspx",
+              "ToolTip": "C:\\Users\\simao\\Reposit\u00F3rio Local\\GPSI-Course-at-ESEN\\ASP.NET\\Projeto Modelo\\WebApplication1\\promocoes.aspx",
+              "RelativeToolTip": "WebApplication1\\promocoes.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-02-25T23:58:53.904Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

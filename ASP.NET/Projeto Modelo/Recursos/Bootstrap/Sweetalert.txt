@@ -1,0 +1,18 @@
+Caixa de Mensagem
+
+Head da página
+	
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    	<script type="text/javascript">
+        function successalert() {
+            swal({
+                title: 'Titulo da mensagem!',
+                text: 'Texto da mensagem',
+                type: 'success'
+            	})
+        }
+    	</script>
+
+Code Behind
+	ScriptManager.RegisterStartupScript(this, GetType(), "Popup", "successalert();", true);

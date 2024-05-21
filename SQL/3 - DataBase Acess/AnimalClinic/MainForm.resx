@@ -1,0 +1,631 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnRececionistas.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnRececionistas.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnRececionistas.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat SemiBold, 14pt</value>
+  </data>
+  <data name="btnRececionistas.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnRececionistas.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRececionistas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 330</value>
+  </data>
+  <data name="btnRececionistas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 95</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnRececionistas.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnRececionistas.Text" xml:space="preserve">
+    <value>   Consultas</value>
+  </data>
+  <data name="btnRececionistas.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnRececionistas.Name" xml:space="preserve">
+    <value>btnRececionistas</value>
+  </data>
+  <data name="&gt;&gt;btnRececionistas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRececionistas.Parent" xml:space="preserve">
+    <value>pnlMenu</value>
+  </data>
+  <data name="&gt;&gt;btnRececionistas.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnMedicos.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnMedicos.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnMedicos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat SemiBold, 14pt</value>
+  </data>
+  <data name="btnMedicos.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnMedicos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnMedicos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 235</value>
+  </data>
+  <data name="btnMedicos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 95</value>
+  </data>
+  <data name="btnMedicos.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnMedicos.Text" xml:space="preserve">
+    <value>    Médicos</value>
+  </data>
+  <data name="btnMedicos.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnMedicos.Name" xml:space="preserve">
+    <value>btnMedicos</value>
+  </data>
+  <data name="&gt;&gt;btnMedicos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMedicos.Parent" xml:space="preserve">
+    <value>pnlMenu</value>
+  </data>
+  <data name="&gt;&gt;btnMedicos.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnAnimais.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnAnimais.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAnimais.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat SemiBold, 14pt</value>
+  </data>
+  <data name="btnAnimais.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnAnimais.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAnimais.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 140</value>
+  </data>
+  <data name="btnAnimais.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 95</value>
+  </data>
+  <data name="btnAnimais.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnAnimais.Text" xml:space="preserve">
+    <value>    Animais</value>
+  </data>
+  <data name="btnAnimais.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnAnimais.Name" xml:space="preserve">
+    <value>btnAnimais</value>
+  </data>
+  <data name="&gt;&gt;btnAnimais.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAnimais.Parent" xml:space="preserve">
+    <value>pnlMenu</value>
+  </data>
+  <data name="&gt;&gt;btnAnimais.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnLogo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnLogo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="btnLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 113</value>
+  </data>
+  <data name="btnLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnLogo.Name" xml:space="preserve">
+    <value>btnLogo</value>
+  </data>
+  <data name="&gt;&gt;btnLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLogo.Parent" xml:space="preserve">
+    <value>pnlLogo</value>
+  </data>
+  <data name="&gt;&gt;btnLogo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblIcons.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblIcons.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat Medium, 10pt</value>
+  </data>
+  <data name="lblIcons.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIcons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 85</value>
+  </data>
+  <data name="lblIcons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="lblIcons.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblIcons.Text" xml:space="preserve">
+    <value>Ícons</value>
+  </data>
+  <data name="&gt;&gt;lblIcons.Name" xml:space="preserve">
+    <value>lblIcons</value>
+  </data>
+  <data name="&gt;&gt;lblIcons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIcons.Parent" xml:space="preserve">
+    <value>pnlLogo</value>
+  </data>
+  <data name="&gt;&gt;lblIcons.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tgbIcons.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tgbIcons.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tgbIcons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 85</value>
+  </data>
+  <data name="tgbIcons.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>45, 22</value>
+  </data>
+  <data name="tgbIcons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 22</value>
+  </data>
+  <data name="tgbIcons.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tgbIcons.Name" xml:space="preserve">
+    <value>tgbIcons</value>
+  </data>
+  <data name="&gt;&gt;tgbIcons.Type" xml:space="preserve">
+    <value>AnimalClinic.CostumToggleButton, AnimalClinic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tgbIcons.Parent" xml:space="preserve">
+    <value>pnlLogo</value>
+  </data>
+  <data name="&gt;&gt;tgbIcons.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblTema.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTema.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat Medium, 10pt</value>
+  </data>
+  <data name="lblTema.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTema.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 38</value>
+  </data>
+  <data name="lblTema.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="lblTema.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblTema.Text" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="&gt;&gt;lblTema.Name" xml:space="preserve">
+    <value>lblTema</value>
+  </data>
+  <data name="&gt;&gt;lblTema.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTema.Parent" xml:space="preserve">
+    <value>pnlLogo</value>
+  </data>
+  <data name="&gt;&gt;lblTema.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tgbTema.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tgbTema.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tgbTema.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 38</value>
+  </data>
+  <data name="tgbTema.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>45, 22</value>
+  </data>
+  <data name="tgbTema.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 22</value>
+  </data>
+  <data name="tgbTema.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tgbTema.Name" xml:space="preserve">
+    <value>tgbTema</value>
+  </data>
+  <data name="&gt;&gt;tgbTema.Type" xml:space="preserve">
+    <value>AnimalClinic.CostumToggleButton, AnimalClinic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tgbTema.Parent" xml:space="preserve">
+    <value>pnlLogo</value>
+  </data>
+  <data name="&gt;&gt;tgbTema.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pnlLogo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnlLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 140</value>
+  </data>
+  <data name="pnlLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlLogo.Name" xml:space="preserve">
+    <value>pnlLogo</value>
+  </data>
+  <data name="&gt;&gt;pnlLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlLogo.Parent" xml:space="preserve">
+    <value>pnlMenu</value>
+  </data>
+  <data name="&gt;&gt;pnlLogo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pnlMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="pnlMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 661</value>
+  </data>
+  <data name="pnlMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlMenu.Name" xml:space="preserve">
+    <value>pnlMenu</value>
+  </data>
+  <data name="&gt;&gt;pnlMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlMenu.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat SemiBold, 20.25pt</value>
+  </data>
+  <data name="lblTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 22</value>
+  </data>
+  <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 37</value>
+  </data>
+  <data name="lblTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>        HOME</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Name" xml:space="preserve">
+    <value>lblTitle</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve">
+    <value>pnlTitleBar</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlTitleBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnlTitleBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 0</value>
+  </data>
+  <data name="pnlTitleBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>920, 80</value>
+  </data>
+  <data name="pnlTitleBar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlTitleBar.Name" xml:space="preserve">
+    <value>pnlTitleBar</value>
+  </data>
+  <data name="&gt;&gt;pnlTitleBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlTitleBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlTitleBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlPrincipal.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlPrincipal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 80</value>
+  </data>
+  <data name="pnlPrincipal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>920, 581</value>
+  </data>
+  <data name="pnlPrincipal.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnlPrincipal.Name" xml:space="preserve">
+    <value>pnlPrincipal</value>
+  </data>
+  <data name="&gt;&gt;pnlPrincipal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlPrincipal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlPrincipal.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1184, 661</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAMMOAADDDgAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAFVbPQlOTjoBTVI3AlNZOghPUzkHTU83A01SNwZMUDYHTFE2BU5RNwZQUjoHTFA3BE1R
+        OAZZYT0IXWVADk9TOQhOUTgHSE41Al1kPwVnb0QTYWc/BUpPNQRNTzcGS1E4B0pPOAZKUDgETFM5BktQ
+        OAVLUDkFXmI9BWVrQxFeYj8EdX9QgXN7TTx0f05LcnxNdHN9T3JtdUs8cntOaHF6TmxxeUxbdHtOXXR8
+        TmxudktNc3tObXV/Tn5tdkqKdX1OfnJ7TW1rdEk0eYRRd3mCUJN4glB0bndLTXB5TV1ye05vbnhMX294
+        TEpzfE5qbXZLWnF7Tl51f05rdX1OjHB5TGF7hlJ1e4VRtX2IU751f09ifIZSmXJ8TV13gVGLeIFRjneA
+        T3p6g1GFe4VSl3V+TnJ7hFGNcHdMdnF5TZl9h1OZeINRh3aAT3B/iVSRYGdBEnB5TVRyfE5tdoBQe3iC
+        UZN0f09/dYBQbnqEUY9xfEx3d4JQh3mDUZtpcUc5Z29HUW94Syd5g1GqeYNRo2ZuRh51fk+DdH1Ok3V+
+        T1hweE1ub3hMWHR9T5J7hVOWdX5Pk2dvRWlPVTdyV107wkxSNJNocUadW2M9kHqDUZ1sdEkadH5QT3aA
+        UWh4glF0b3hMcm54TFxxe02Td4FQhWx1Sk1wekxfdX5PYnV+To5veUxYAwAGAnqFUXZ4g1Fh4vePAEdL
+        NwZeZEILSE40BGJrRklfZ0QUICEYGAoLCFsDAwKjAAAAygEBAeMGBgT6AQEB8iwxH/cVFg/0Mjch80xT
+        Mdg2OyTZMDMhp1lgPWhkbUdGUVg9DFZdPQlVWzwGYWpFJGNsRjn/+74Ab3ZLDFRcOwNdZkQAUFY7BE1V
+        OgNVXT4AAAAAADdCJwAAAAAAgo9hAwYGBjsAAAC7BgYG+CwsLP9fX1//hoaG/5ycnP85OTn/Jycn/pub
+        nP6Pj5D+bGxr/zU1Nf8KCgr+AAAAzQgIBlAgIhsCDg8NAAgICwEMDQkYBgYFTQICAoADAwQsAgIDAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAEhISAAEBAQAEBAQ7AAAA3CsrK/+hoaH+6enp/v7+/v///////////1pa
+        Wv86Ojr/3t7e/t3d3f719fX+8fHx/7Kysv4/Pz//AgIC6QICAl4CAgJJAgIClQEBAdUBAQHtAgIC0AQE
+        BDwDAwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBQUABgYGDwAAALosLCz/0dHR/f//////////////////
+        ////////XV1d/wwMDP4kJCT+GBgY/kpKSv3Ozs79+Pj4/peXl/wODg7+AAAA9AEBAewBAQHQAgICjwMD
+        A0cFBQUUExMTAQ0NDQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQABAQFJBQUF9qCgoP7/////////////
+        /////////////9PT0/43Nzf+AAAA/0lJSf2enp79MzMz/TMzM/yfn5/7JiYm/S8vL/4KCgr/AQEBkAcH
+        BxAQEBABCgoKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhISEAAAAAAAAAAH4eHh7/3t7e/v//
+        ///////////////////Hx8f+Jycn/hsbG/4jIyP+Gxsb/rS0tP3T09P9IiIi/mRkZPzExMT9zMzM/S4u
+        Lv8AAACgCAgICAgICAYLCwsEEBAQAhYWFgATExMAAAAAAAAAAAAAAAAAAAAAAAgICAAAAAAAAAAAlzEx
+        Mf/v7+//////////////////9fX1/0pKSv4rKyv+z8/P/d7e3v5BQUH9Ly8v/ujo6P6YmJj+ZGRk/EJC
+        Qv0oKCj+DAwM/wAAAO0BAQHEAQEBvAEBAbUBAQGvAgICewkJCQoAAAAAAAAAAAAAAAAAAAAACwsLAAAA
+        AAAAAACYMjIy//Dw8P/////////////////m5ub/IiIi/lRUVP3FxcX+x8fH/29vb/0RERH+z8/P/v//
+        ///v7+/+oqKi/oSEhP4nJyf/AAAA4QICAp0CAgKjAgICrAEBAbYDAwOKCAgICwAAAAAAAAAAAAAAAAAA
+        AAAbGxsAAAAAAAAAAIUjIyP/5OTk/v////////////////n5+f9xcXH9EBAQ/g0NDf4NDQ3+Dg4O/lhY
+        WP3v7+/+/////9/f3/6Hh4f9qamp/jQ0NP8AAACnGBgYAgYGBgAhISEBDw8PBA8PDwMKCgoAAAAAAAAA
+        AAAAAAAAGxsbAAAAAAAMDAwIAQEBeg0NDf/FxcX+//////////////////////X19f/IyMj+ra2t/qur
+        q/7BwcH+8PDw/v//////////0dHR/jk5Of0SEhL+AwMD/wEBAdYCAgJxBAQENgcHBw8ZGRkBERERAAAA
+        AAAAAAAAAAAAABAQEAAAAAAABQUFOAEBAbYAAADsAAAA/4eHh/3/////////////////////////////
+        ////////////////////////////////////////8vLy/oGBgf4AAAD3AQEByAEBAeIBAQHsAQEBzAIC
+        ApAEBAQqAQEBAAAAAAAAAAAABgYGAAYGBhwAAADMKioq/4iIiP44ODj+Ojo6/vHx8f7//////////9ra
+        2v56enr+0NDQ/v//////////39/f/np6ev7IyMj+///////////8/Pz/W1tb/wAAAM4HBwcbBAQEIwMD
+        A1kCAgKaAgICzgQEBFoAAAAAAAAAAAAAAAACAgIAAgICTwgICPqvr6/+/////5qamv4ODg7+vr6+/v//
+        ////////paWl/gQEBP6SkpL9//////////+vr6/+BQUF/oSEhP7//////////9jY2P4cHBz/AAAAhwAA
+        AAALCwsADQ0NAA8PDwIGBgYPCQkJBgcHBwAAAAAAAAAAAAICAgABAQFNCAgI+ba2tv7/////3Nzc/h0d
+        Hf5ycnL+///////////u7u7+t7e3/urq6v7///////////Hx8f63t7f+5eXl/v//////////lZWV/wEB
+        AfADAwM8AwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEAAQEBCAAAADbZmZm//z8
+        /P/9/f3/XFxc/isrK/7p6en+//////////////////////////////////////////////////////b2
+        9v9JSUn/AAAAvwYGBg0GBgYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKCgoAU1NTAAAA
+        AIYTExP/u7u7/f////+srKz+DQ0N/qurq/7/////////////////////////////////////////////
+        ////////x8fH/hMTE/8AAAB0AAAAAA8PDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAFBQUABgYGHwAAAMw3Nzf/4ODg/uzs7P4yMjL+SkpK/vT09P//////////////////////////////
+        //////////////z8/P9qamr/AAAA3wQEBCcDAwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAA8PDwAAAAAABAQESAAAAOlQUFD/6enp/pubm/0NDQ3+np6e/f//////////////////
+        ////////////////////////urq6/hMTE/8BAQGxDAwMBwkJCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4ODgAvLy8BBQUFYQICAu5FRUX/rq6u/Tg4OP0bGxv+s7Oz/f39
+        /f///////////////////////////8fHx/4uLi7+AQEB/wEBAeYFBQUwAwMDAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsLCwASEhIDBAQEVgAAANUODg79Dw8P/wAA
+        APoTExP9a2tr/7e3t/7R0dH+09PT/r6+vv56enr9HR0d/jMzM/5qamr9BAQE/wICAoAAAAAADAwMAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEREQA9PT0ABgYGHwEB
+        AV8BAQF2BAQEUgICAooAAADdCAgI+RISEv8TExP/CgoK+wAAAP0QEBD9ubm5/N7e3v4gICD/AAAAxwYG
+        BhEGBgYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAANDQ0AERERAwUFBSACAgJKAAAAYwAAAGQCAgJQAgICnwEBAf0/Pz/9zs7O/Vxc
+        XP8AAADxBAQEOwMDAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALy8vAAcHBwAJCQkSAwMDlAAA
+        APkyMjL+YWFh+wEBAf8CAgJtAAAAAB8fHwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgI
+        CAAMDAwKBAQEfgEBAfYMDAz9AgIC/wICApIAAAAAFhYWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAgICAAMDAwHAwMDgwAAAPcAAAD/AgICigAAAAAXFxcAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcHBwAKCgoJBAQEXgICAo0EBAQoAgICADY2NgAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAAAAAAAQAAAEngAAQf4AAAH8AAAB/AAAD/wA
+        AAP8AAAA/AAAAPwAABH4AAAD8AAAAeAAAAHgAABx4AAAf+AAAH/wAAD/8AAA//gAAP/4AAD//AAA//8A
+        AH//8AB////Af///4H////B////4f/////8=
+</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1100, 599</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -1,0 +1,15 @@
+Recapth
+
+Webconfig [<appSettings>]
+	<add key="Google.ReCaptcha.Secret" value="6Lc1vvoSAAAAAJ1CLat9hQAeF6yTEARJE9EcScSN"/>
+	<add key="senha" value="aminhasenha"/>
+
+Head da página de registo
+	<script src="https://www.google.com/recaptcha/api.js"></script>
+
+Body da página de registo
+	<div class="g-recaptcha" data-sitekey="6Lc1vvoSAAAAAFjyIsG88_b-SoYcW5n89amtzucB"></div>
+
+No botão de validação
+	var encodedResponse = Request.Form["g-Recaptcha-Response"];
+        var isCaptchaValid = ReCaptcha.Validate(encodedResponse);
